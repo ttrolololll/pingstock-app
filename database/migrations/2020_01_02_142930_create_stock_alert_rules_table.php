@@ -15,7 +15,15 @@ class CreateStockAlertRulesTable extends Migration
     {
         Schema::create('stock_alert_rules', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->unsignedBigInteger('user_id');
+            $table->string('stock_symbol');
+            $table->string('exchange_symbol');
+            $table->unsignedDecimal('target', 9, 4);
+            $table->string('target_type');
+            $table->string('operator');
             $table->timestamps();
+
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 
@@ -26,6 +34,7 @@ class CreateStockAlertRulesTable extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
         Schema::dropIfExists('stock_alert_rules');
     }
 }

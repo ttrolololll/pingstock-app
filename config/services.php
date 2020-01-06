@@ -30,4 +30,8 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'wtd' => [
+        'api_token' => env('WTD_API_TOKEN')
+    ]
+
 ];

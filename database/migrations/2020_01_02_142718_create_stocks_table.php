@@ -15,7 +15,13 @@ class CreateStocksTable extends Migration
     {
         Schema::create('stocks', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('symbol');
+            $table->string('name');
+            $table->string('currency');
+            $table->string('exchange_symbol');
             $table->timestamps();
+
+            $table->unique(['symbol', 'exchange_symbol']);
         });
     }
 
