@@ -22,6 +22,7 @@ class CreateStocksTable extends Migration
             $table->timestamps();
 
             $table->unique(['symbol', 'exchange_symbol']);
+            $table->foreign('exchange_symbol')->references('symbol')->on('stock_exchanges')->onDelete('cascade');
         });
     }
 
@@ -32,6 +33,7 @@ class CreateStocksTable extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
         Schema::dropIfExists('stocks');
     }
 }
