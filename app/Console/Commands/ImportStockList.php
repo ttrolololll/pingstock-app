@@ -20,6 +20,8 @@ class ImportStockList extends Command
      */
     protected $description = 'Imports stocks from a CSV file';
 
+    public static $supportedExchanges = ['SGX', 'HKEX', 'NYSE', 'NASDAQ'];
+
     /**
      * Create a new command instance.
      */
