@@ -1,0 +1,290 @@
+{
+  "AEX":{
+    "stock_exchange_long":"Euronext Amsterdam",
+    "timezone_name":"Europe/Amsterdam"
+  },
+  "ASX":{
+    "stock_exchange_long":"Australian Securities Exchange",
+    "timezone_name":"Australia/Sydney"
+  },
+  "BCBA":{
+    "stock_exchange_long":"Buenos Aires Stock Exchange",
+    "timezone_name":"America/Argentina/Buenos_Aires"
+  },
+  "BIST":{
+    "stock_exchange_long":"Istanbul Stock Exchange",
+    "timezone_name":"Europe/Istanbul"
+  },
+  "BME":{
+    "stock_exchange_long":"Madrid Stock Exchange",
+    "timezone_name":"Europe/Madrid"
+  },
+  "BMV":{
+    "stock_exchange_long":"Mexican Stock Exchange",
+    "timezone_name":"America/Mexico_City"
+  },
+  "BSE":{
+    "stock_exchange_long":"Bombay Stock Exchange",
+    "timezone_name":"Asia/Kolkata"
+  },
+  "CBOE":{
+    "stock_exchange_long":"BATS Global Markets",
+    "timezone_name":"America/New_York"
+  },
+  "CNSX":{
+    "stock_exchange_long":"Canadian Securities Exchange",
+    "timezone_name":"America/Toronto"
+  },
+  "FRX":{
+    "stock_exchange_long":"Frankfurt Stock Exchange",
+    "timezone_name":"Europe/Berlin"
+  },
+  "GER":{
+    "stock_exchange_long":"Deutsche B\u00f6rse XETRA",
+    "timezone_name":"Europe/Berlin"
+  },
+  "GPW":{
+    "stock_exchange_long":"Warsaw Stock Exchange",
+    "timezone_name":"Europe/Warsaw"
+  },
+  "HKEX":{
+    "stock_exchange_long":"Hong Kong Stock Exchange",
+    "timezone_name":"Asia/Hong_Kong"
+  },
+  "ICEX":{
+    "stock_exchange_long":"Iceland Stock Exchange",
+    "timezone_name":"Europe/London"
+  },
+  "IDX":{
+    "stock_exchange_long":"Jakarta Stock Exchange",
+    "timezone_name":"Asia/Jakarta"
+  },
+  "INDEXASX":{
+    "stock_exchange_long":"",
+    "timezone_name":"Australia/Sydney"
+  },
+  "INDEXBIT":{
+    "stock_exchange_long":"",
+    "timezone_name":"Europe/Rome"
+  },
+  "INDEXBME":{
+    "stock_exchange_long":"",
+    "timezone_name":"Europe/Madrid"
+  },
+  "INDEXBOM":{
+    "stock_exchange_long":"",
+    "timezone_name":"Asia/Kolkata"
+  },
+  "INDEXBVMF":{
+    "stock_exchange_long":"",
+    "timezone_name":"America/Sao_Paulo"
+  },
+  "INDEXCBOE":{
+    "stock_exchange_long":"",
+    "timezone_name":"America/New_York"
+  },
+  "INDEXCME":{
+    "stock_exchange_long":"",
+    "timezone_name":"America/New_York"
+  },
+  "INDEXDB":{
+    "stock_exchange_long":"",
+    "timezone_name":"Europe/Berlin"
+  },
+  "INDEXDJX":{
+    "stock_exchange_long":"",
+    "timezone_name":"America/New_York"
+  },
+  "INDEXEURO":{
+    "stock_exchange_long":"",
+    "timezone_name":"Europe/Amsterdam"
+  },
+  "INDEXEUROCORE":{
+    "stock_exchange_long":"",
+    "timezone_name":"Europe/Paris"
+  },
+  "INDEXFTSE":{
+    "stock_exchange_long":"",
+    "timezone_name":"Europe/London"
+  },
+  "INDEXHANGSENG":{
+    "stock_exchange_long":"",
+    "timezone_name":"Asia/Hong_Kong"
+  },
+  "INDEXNASDAQ":{
+    "stock_exchange_long":"",
+    "timezone_name":"America/New_York"
+  },
+  "INDEXNIKKEI":{
+    "stock_exchange_long":"",
+    "timezone_name":"Asia/Tokyo"
+  },
+  "INDEXNYSEGIS":{
+    "stock_exchange_long":"",
+    "timezone_name":"America/New_York"
+  },
+  "INDEXRUSSELL":{
+    "stock_exchange_long":"",
+    "timezone_name":"America/New_York"
+  },
+  "INDEXSHE":{
+    "stock_exchange_long":"",
+    "timezone_name":"Asia/Shanghai"
+  },
+  "INDEXSP":{
+    "stock_exchange_long":"",
+    "timezone_name":"America/New_York"
+  },
+  "INDEXSTOXX":{
+    "stock_exchange_long":"",
+    "timezone_name":"Europe/Berlin"
+  },
+  "INDEXSWX":{
+    "stock_exchange_long":"",
+    "timezone_name":"Europe/Zurich"
+  },
+  "INDEXTSI":{
+    "stock_exchange_long":"",
+    "timezone_name":"America/Toronto"
+  },
+  "INDEXVIE":{
+    "stock_exchange_long":"",
+    "timezone_name":"Europe/Vienna"
+  },
+  "JPX":{
+    "stock_exchange_long":"Tokyo Stock Exchange",
+    "timezone_name":"Asia/Tokyo"
+  },
+  "JSE":{
+    "stock_exchange_long":"Johannesburg Stock Exchange",
+    "timezone_name":"Africa/Johannesburg"
+  },
+  "KRX":{
+    "stock_exchange_long":"Korean Stock Exchange",
+    "timezone_name":"Asia/Seoul"
+  },
+  "LSE":{
+    "stock_exchange_long":"London Stock Exchange",
+    "timezone_name":"Europe/London"
+  },
+  "MOEX":{
+    "stock_exchange_long":"Moscow Stock Exchange",
+    "timezone_name":"Europe/Moscow"
+  },
+  "MTA":{
+    "stock_exchange_long":"Milan Stock Exchange",
+    "timezone_name":"Europe/Rome"
+  },
+  "MUTF":{
+    "stock_exchange_long":"US Mutual Fund",
+    "timezone_name":"America/New_York"
+  },
+  "MYX":{
+    "stock_exchange_long":"Malaysia Stock Exchange",
+    "timezone_name":"Asia/Kuala_Lumpur"
+  },
+  "N/A":{
+    "stock_exchange_long":"N/A",
+    "timezone_name":"Europe/Zurich"
+  },
+  "NASDAQ":{
+    "stock_exchange_long":"NASDAQ Stock Exchange",
+    "timezone_name":"America/New_York"
+  },
+  "NSE":{
+    "stock_exchange_long":"National Stock Exchange of India",
+    "timezone_name":"Asia/Kolkata"
+  },
+  "NYSE":{
+    "stock_exchange_long":"New York Stock Exchange",
+    "timezone_name":"America/New_York"
+  },
+  "NYSEAMERICAN":{
+    "stock_exchange_long":"NYSE American Stock Exchange",
+    "timezone_name":"America/New_York"
+  },
+  "NYSEARCA":{
+    "stock_exchange_long":"NYSE Arca (Archipelago Exchange)",
+    "timezone_name":"America/New_York"
+  },
+  "NZX":{
+    "stock_exchange_long":"New Zealand Stock Exchange",
+    "timezone_name":"Pacific/Auckland"
+  },
+  "OMX":{
+    "stock_exchange_long":"Stockholm Stock Exchange",
+    "timezone_name":"Europe/Stockholm"
+  },
+  "OMXC":{
+    "stock_exchange_long":"Copenhagen Stock Exchange",
+    "timezone_name":"Europe/Copenhagen"
+  },
+  "OMXH":{
+    "stock_exchange_long":"Helsinki Stock Exchange",
+    "timezone_name":"Europe/Helsinki"
+  },
+  "OMXT":{
+    "stock_exchange_long":"Tallinn Stock Exchange",
+    "timezone_name":"Europe/Tallinn"
+  },
+  "OTC":{
+    "stock_exchange_long":"OTC Markets Group",
+    "timezone_name":"America/New_York"
+  },
+  "PAR":{
+    "stock_exchange_long":"Euronext Paris",
+    "timezone_name":"Europe/Paris"
+  },
+  "QE":{
+    "stock_exchange_long":"Qatar",
+    "timezone_name":"Asia/Qatar"
+  },
+  "SAO":{
+    "stock_exchange_long":"Sao Paolo Stock Exchange",
+    "timezone_name":"America/Sao_Paulo"
+  },
+  "SET":{
+    "stock_exchange_long":"Stock Exchange of Thailand",
+    "timezone_name":"Asia/Bangkok"
+  },
+  "SGX":{
+    "stock_exchange_long":"Singapore Stock Exchange",
+    "timezone_name":"Asia/Singapore"
+  },
+  "SIX":{
+    "stock_exchange_long":"SIX Swiss Exchange",
+    "timezone_name":"Europe/Zurich"
+  },
+  "SZSE":{
+    "stock_exchange_long":"Shenzhen Stock Exchange",
+    "timezone_name":"Asia/Shanghai"
+  },
+  "TADAWUL":{
+    "stock_exchange_long":"Saudi Stock Exchange",
+    "timezone_name":"Asia/Riyadh"
+  },
+  "TASE":{
+    "stock_exchange_long":"Tel Aviv Stock Exchange",
+    "timezone_name":"Asia/Jerusalem"
+  },
+  "TSX":{
+    "stock_exchange_long":"Toronto Stock Exchange",
+    "timezone_name":"America/Toronto"
+  },
+  "TWSE":{
+    "stock_exchange_long":"Taiwan Stock Exchange",
+    "timezone_name":"Asia/Taipei"
+  },
+  "VSE":{
+    "stock_exchange_long":"Vienna Stock Exchange",
+    "timezone_name":"Europe/Vienna"
+  },
+  "XBRS":{
+    "stock_exchange_long":"Brussels Stock Exchange",
+    "timezone_name":"Europe/Brussels"
+  },
+  "XTSX":{
+    "stock_exchange_long":"TSX Venture Exchange",
+    "timezone_name":"America/Toronto"
+  }
+}

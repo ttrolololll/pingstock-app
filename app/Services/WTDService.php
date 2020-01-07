@@ -24,20 +24,19 @@ class WTDService
         $this->apiToken = config('services.wtd.api_token');
     }
 
-    public function getStockQuote($stockSymbols, $options)
+    public function getStockQuote($stockSymbols, $options = ['output' => 'json'])
     {
+        $symbolQueryVal = implode(',', $stockSymbols);
         $opt = [];
-        $symbolQueryVal = '';
 
         if (is_array($options) && count($options) > 0) {
             $opt = $options;
         }
 
         $opt['symbol'] = $symbolQueryVal;
-        $opt['output'] = 'json';
         $opt['api_token'] = $this->apiToken;
 
-        return $this->http->get('/stock', [
+        return $this->http->get($this->baseUrl . '/stock', [
             'query' => $opt
         ]);
     }

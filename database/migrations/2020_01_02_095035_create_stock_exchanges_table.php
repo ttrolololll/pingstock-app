@@ -18,21 +18,48 @@ class CreateStockExchangesTable extends Migration
             $table->string('symbol');
             $table->string('name');
             $table->string('timezone');
-            $table->json('trading_times');
+            $table->json('trading_daytimes');
             $table->timestamps();
 
             $table->primary(['symbol']);
         });
 
-        DB::table('stock_exchanges')->insert(
+        $now = now()->format('Y-m-d H:i:s');
+
+        DB::table('stock_exchanges')->insert([
             [
                 'symbol' => 'SGX',
-                'name' => 'Singapore Stocks Exchange',
+                'name' => 'Singapore Stock Exchange',
                 'timezone' => 'Asia/Singapore',
-                'trading_times' => '{"mon":{"start":"08:30","end":"17:06"},"tue":{"start":"08:30","end":"17:06"},"wed":{"start":"08:30","end":"17:06"},"thu":{"start":"08:30","end":"17:06"},"fri":{"start":"08:30","end":"17:06"}}',
-                'created_at' => now()->format('Y-m-d H:i:s')
+                'trading_daytimes' => '{"mon":{"start":"09:00","end":"17:00"},"tue":{"start":"09:00","end":"17:00"},"wed":{"start":"09:00","end":"17:00"},"thu":{"start":"09:00","end":"17:00"},"fri":{"start":"09:00","end":"17:00"}}',
+                'created_at' => $now,
+                'updated_at' => $now,
+            ],
+            [
+                'symbol' => 'HKEX',
+                'name' => 'Hong Kong Stock Exchange',
+                'timezone' => 'Asia/Hong_Kong',
+                'trading_daytimes' => '{"mon":{"start":"09:30","end":"16:00"},"tue":{"start":"09:30","end":"16:00"},"wed":{"start":"09:30","end":"16:00"},"thu":{"start":"09:30","end":"16:00"},"fri":{"start":"09:30","end":"16:00"}}',
+                'created_at' => $now,
+                'updated_at' => $now,
+            ],
+            [
+                'symbol' => 'NYSE',
+                'name' => 'New York Stock Exchange',
+                'timezone' => 'America/New_York',
+                'trading_daytimes' => '{"mon":{"start":"09:30","end":"16:00"},"tue":{"start":"09:30","end":"16:00"},"wed":{"start":"09:30","end":"16:00"},"thu":{"start":"09:30","end":"16:00"},"fri":{"start":"09:30","end":"16:00"}}',
+                'created_at' => $now,
+                'updated_at' => $now,
+            ],
+            [
+                'symbol' => 'NASDAQ',
+                'name' => 'NASDAQ Stock Exchange',
+                'timezone' => 'America/New_York',
+                'trading_daytimes' => '{"mon":{"start":"09:30","end":"16:00"},"tue":{"start":"09:30","end":"16:00"},"wed":{"start":"09:30","end":"16:00"},"thu":{"start":"09:30","end":"16:00"},"fri":{"start":"09:30","end":"16:00"}}',
+                'created_at' => $now,
+                'updated_at' => $now,
             ]
-        );
+        ]);
     }
 
     /**

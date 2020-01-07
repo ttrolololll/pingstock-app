@@ -18,12 +18,10 @@ class ImportStockList extends Command
      *
      * @var string
      */
-    protected $description = 'Imports stocks from a JSON file';
+    protected $description = 'Imports stocks from a CSV file';
 
     /**
      * Create a new command instance.
-     *
-     * @return void
      */
     public function __construct()
     {
@@ -39,5 +37,27 @@ class ImportStockList extends Command
     {
         $filepath = $this->argument('filepath');
 
+        // check if file exists
+        if (!file_exists($filepath)) {
+            $this->error('File does not not exists!');
+            return;
+        }
+
+        $csvLines = $this->readCSVFile($filepath);
+
+        foreach ($csvLines as $line) {
+            $this->info(implode(',', $line));
+        }
+
+        return;
+    }
+
+    protected function readCSVFile($filepath)
+    {
+        $file = fopen($filepath, 'r');
+        while (($line = fgetcsv($file)) !== false) {
+            yield $line;
+        }
+        fclose($file);
     }
 }

@@ -13,4 +13,6 @@
 
 Route::get('/', function () {
     return view('welcome');
+//    $svc = new \App\Services\WTDService();
+//    return $svc->getStockQuote(['D05.SI'])->getBody();
 });
