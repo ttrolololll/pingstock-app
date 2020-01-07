@@ -11,7 +11,6 @@ class Stock extends Model
         'name',
         'currency',
         'exchange_symbol',
-    
     ];
     
     
@@ -23,10 +22,13 @@ class Stock extends Model
     
     protected $appends = ['resource_url'];
 
-    /* ************************ ACCESSOR ************************* */
-
     public function getResourceUrlAttribute()
     {
         return url('/admin/stocks/'.$this->getKey());
+    }
+
+    public function exchange()
+    {
+        return $this->belongsTo('stock_exchanges', 'exchange_symbol', 'symbol');
     }
 }

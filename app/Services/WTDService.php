@@ -24,7 +24,7 @@ class WTDService
         $this->apiToken = config('services.wtd.api_token');
     }
 
-    public function getStockQuote($stockSymbols, $options = ['output' => 'json'])
+    public function getStockQuote($stockSymbols, $isAsync = false, $options = ['output' => 'json'])
     {
         $symbolQueryVal = implode(',', $stockSymbols);
         $opt = [];
@@ -35,6 +35,12 @@ class WTDService
 
         $opt['symbol'] = $symbolQueryVal;
         $opt['api_token'] = $this->apiToken;
+
+        if ($isAsync) {
+            return $this->http->getAsync($this->baseUrl . '/stock', [
+                'query' => $opt
+            ]);
+        }
 
         return $this->http->get($this->baseUrl . '/stock', [
             'query' => $opt

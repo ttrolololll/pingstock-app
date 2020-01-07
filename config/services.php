@@ -31,7 +31,12 @@ return [
     ],
 
     'wtd' => [
-        'api_token' => env('WTD_API_TOKEN')
-    ]
+        'api_token' => env('WTD_API_TOKEN'),
+        'symbols_per_request' => env('WTD_SYMBOLS_PER_REQUEST'),
+    ],
+
+    'alphavantage' => [
+        'api_token' => env('AV_API_TOKEN'),
+    ],
 
 ];
