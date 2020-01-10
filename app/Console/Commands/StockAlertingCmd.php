@@ -54,22 +54,5 @@ class StockAlertingCmd extends Command
         foreach ($symbolSets as $set) {
             GetStockUpdateJob::dispatch($set)->onQueue('get_stock_update');
         }
-
-
-//        $stockService = new AlphaVantageService();
-//        $promises = [];
-//        $stockData = [];
-//
-//        foreach ($symbolSets as $set) {
-//            foreach ($set as $symbol) {
-//                $promises[] = $stockService->globalQuote($symbol, true);
-//            }
-//        }
-//
-//        $responses = Promise\unwrap($promises);
-//
-//        foreach ($responses as $response) {
-//            $this->info($response->getBody());
-//        }
     }
 }
