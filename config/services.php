@@ -37,6 +37,7 @@ return [
 
     'alphavantage' => [
         'api_token' => env('AV_API_TOKEN'),
+        'api_rate_per_minute' => env('AV_API_RATE_PER_MINUTE', 5)
     ],
 
 ];

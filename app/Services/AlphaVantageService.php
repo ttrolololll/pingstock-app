@@ -34,7 +34,7 @@ class AlphaVantageService
      * @param array $options
      * @return \GuzzleHttp\Promise\PromiseInterface|\Psr\Http\Message\ResponseInterface
      */
-    public function globalQuote($stockSymbol, $isAsync = false, $options = ['datatype' => 'csv'])
+    public function globalQuote($stockSymbol, $isAsync = false, $options = ['datatype' => 'json'])
     {
         $opt = [];
 

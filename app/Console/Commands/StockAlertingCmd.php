@@ -2,11 +2,13 @@
 
 namespace App\Console\Commands;
 
+use App\Jobs\GetStockUpdateJob;
 use App\Models\StockAlertRule;
 use App\Services\AlphaVantageService;
 use App\Services\WTDService;
 use GuzzleHttp\Promise;
 use Illuminate\Console\Command;
+use Illuminate\Queue\Jobs\Job;
 
 class StockAlertingCmd extends Command
 {
@@ -43,24 +45,31 @@ class StockAlertingCmd extends Command
         $alertRules = StockAlertRule::cursor();
 
         // get unique symbols
-        $uniqueSymbols = $alertRules->unique('stock_symbol')
+        $symbolSets = $alertRules->unique('stock_symbol')
             ->pluck('stock_symbol')
+            ->chunk(config('services.alphavantage.api_rate_per_minute'))
             ->toArray();
 
-        //
-
-        $stockService = new AlphaVantageService();
-        $promises = [];
-        $stockData = [];
-
-        foreach ($uniqueSymbols as $symbol) {
-            $promises[] = $stockService->globalQuote($symbol, true);
+        // send chunks of symbols into queue
+        foreach ($symbolSets as $set) {
+            GetStockUpdateJob::dispatch($set)->onQueue('get_stock_update');
         }
 
-        $responses = Promise\unwrap($promises);
 
-        foreach ($responses as $response) {
-            $this->info($response->getBody());
-        }
+//        $stockService = new AlphaVantageService();
+//        $promises = [];
+//        $stockData = [];
+//
+//        foreach ($symbolSets as $set) {
+//            foreach ($set as $symbol) {
+//                $promises[] = $stockService->globalQuote($symbol, true);
+//            }
+//        }
+//
+//        $responses = Promise\unwrap($promises);
+//
+//        foreach ($responses as $response) {
+//            $this->info($response->getBody());
+//        }
     }
 }
