@@ -50,6 +50,8 @@ class StockAlertingCmd extends Command
             ->chunk(config('services.alphavantage.api_rate_per_minute'))
             ->toArray();
 
+        // filter out symbols outside of trading hours
+
         // send chunks of symbols into queue
         foreach ($symbolSets as $set) {
             GetStockUpdateJob::dispatch($set)->onQueue('get_stock_update');

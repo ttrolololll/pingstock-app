@@ -78,6 +78,8 @@ class GetStockUpdateJob implements ShouldQueue
 
         try {
 
+            // handle api rate limit violation
+
             $jsonBody = json_decode($response->getBody(), true);
             $symbolData['symbol'] = $jsonBody['Global Quote']['01. symbol'];
             $symbolData['open'] = $jsonBody['Global Quote']['02. open'];
