@@ -19,6 +19,7 @@ class CreateStocksTable extends Migration
             $table->string('name');
             $table->string('currency');
             $table->string('exchange_symbol');
+            $table->string('timezone');
             $table->timestamps();
 
             $table->unique(['symbol', 'exchange_symbol']);
