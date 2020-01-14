@@ -50,8 +50,7 @@ class StockListClean extends Command
     protected function processEoddataFile($filepath)
     {
         $file = fopen($filepath, 'r');
-        $outputFile = fopen(Str::random() . '.txt', "w");
-
+        $outputFile = fopen('stocklist-clean-' . Str::random() . '.txt', "w");
         $lines = $this->fileLineIterator($file);
 
         foreach ($lines as $line) {
