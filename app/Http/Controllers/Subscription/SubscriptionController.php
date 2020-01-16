@@ -15,8 +15,9 @@ class SubscriptionController extends Controller
         $pm = $user->paymentMethods();
 //        $user->updateDefaultPaymentMethodFromStripe();
 
-        $user->newSubscription('default', 'plan_GYL5br2Pw6NUol')->create('pm_1G1FUCEv9JgIFS5nUF27LjjS');
+//        $user->newSubscription('default', 'plan_GYL5br2Pw6NUol')->create('pm_1G1FUCEv9JgIFS5nUF27LjjS');
 
-        return $pm;
+
+        return $pm[0]->asStripePaymentMethod();
     }
 }
