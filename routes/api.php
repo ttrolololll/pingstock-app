@@ -19,11 +19,21 @@ Route::group(['prefix' => 'v1'], function () {
     // Users
     Route::group(['prefix' => 'users'], function () {
         Route::post('/register', 'User\Auth\RegisterController@register');
-//        Route::post('/login', 'User\Auth\AuthController@login');
         Route::post('/verify/email/resend', 'User\Auth\VerificationController@resend');
         Route::get('/verify/email/{code}', 'User\Auth\VerificationController@verify')->name('verify.email');
         Route::post('/auth/pwresetreq', 'User\Auth\ForgotPasswordController@forgotPasswordRequest');
         Route::post('/auth/pwreset', 'User\Auth\ForgotPasswordController@forgotPasswordReset');
+        Route::post('/auth/login', 'User\Auth\AuthController@login');
+
+        Route::group(['middleware' => ['auth:jwt']], function () {
+            // Users - Auth
+            Route::post('/auth/logout', 'User\Auth\AuthController@logout');
+            Route::post('/auth/tokens/refresh', 'User\Auth\AuthController@refresh');
+            Route::post('/auth/pw', 'User\Auth\AuthController@resetPassword');
+            // Users - Profile
+            Route::get('/profile', 'User\ProfileController@me');
+            Route::patch('/profile', 'User\ProfileController@update');
+        });
     });
 
     // Subscriptions

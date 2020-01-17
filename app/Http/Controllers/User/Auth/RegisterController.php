@@ -72,9 +72,4 @@ class RegisterController extends Controller
 
         return $user;
     }
-
-    protected function sendVerificationEmail(User $user)
-    {
-
-    }
 }

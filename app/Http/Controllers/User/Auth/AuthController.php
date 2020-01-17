@@ -2,178 +2,91 @@
 
 namespace App\Http\Controllers\User\Auth;
 
+use App\Helpers\JsonResponseHelper;
 use App\Http\Controllers\Controller;
-use App\Mail\ForgotPasswordMail;
-use Illuminate\Auth\Passwords\DatabaseTokenRepository;
-use Illuminate\Contracts\Auth\PasswordBroker;
+use App\Models\User;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Mail;
-use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Facades\Validator;
 
 class AuthController extends Controller
 {
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function login(Request $request)
     {
-        $credentials = $request->all(['email', 'password']);
+        $credentials = $request->post();
 
-        if (!$token = auth()->attempt($credentials)) {
-            return response()->json([
-                'success' => false,
-                'message' => 'Unauthorized'
-            ], 401);
+        if (! $token = auth()->attempt($credentials)) {
+            return JsonResponseHelper::response(401, false, 'Unauthorized');
+        }
+
+        if (empty(auth()->user()->email_verified_at)) {
+            return JsonResponseHelper::response(403, false, 'User email unverified');
         }
 
         return $this->respondWithToken($token);
     }
 
+    /**
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function logout()
     {
         auth()->logout();
-        return response()->json([
-            'success' => true,
-            'message' => 'Successfully logged out'
-        ]);
+        return JsonResponseHelper::response(200, true, 'Successfully logged out');
     }
 
+    /**
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function refresh()
     {
         return $this->respondWithToken(auth()->refresh());
     }
 
-    public function me(Request $request)
-    {
-        return response()->json(auth()->user());
-    }
-
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function resetPassword(Request $request) {
-        $data = $request->all();
-        $validator = Validator::make($data, [
+        $validator = Validator::make($request->post(), [
             'current_password' => 'required|string|max:255',
             'password' => 'required|string|min:8|max:255|confirmed',
             'password_confirmation' => 'required|string|max:255',
         ]);
 
+        $newPw = $request->post('password');
+
         if ($validator->fails()) {
-            return response()->json([
-                "success" => false,
-                "errors" => $validator->errors()
-            ], 400);
+            return JsonResponseHelper::response(400, false, '', $validator->errors());
+        }
+
+        if (! User::validatePassword($newPw)) {
+            return JsonResponseHelper::response(400, false, 'Password must consists of at least one uppercase, lowercase, numeric and special character');
         }
 
         $user = auth()->user();
 
-        if (!Hash::check($data['current_password'], $user->password)) {
-            return response()->json([
-                "success" => false,
-                "message" => 'Incorrect password'
-            ], 400);
+        if (! Hash::check($request->post('current_password'), $user->password)) {
+            return JsonResponseHelper::response(401, false, 'The email or password is invalid');
         }
 
-        $user->password = Hash::make($data['password']);
-
-        if ($user->is_first_login) {
-            $user->is_first_login = 0;
-        }
-
+        $user->password = Hash::make($newPw);
         $user->save();
 
-        return response()->json([
-            "success" => true,
-        ]);
+        return JsonResponseHelper::response(200, true, 'Password reset successful');
     }
 
-    public function processForgotPasswordRequest(Request $request)
-    {
-        $data = $request->all();
-        $validator = Validator::make($data, [
-            'email' => ['required', 'string', 'email', 'max:255'],
-        ]);
-
-        if ($validator->fails()) {
-            return response()->json([
-                "success" => false,
-                "errors" => $validator->errors()
-            ], 400);
-        }
-
-        $broker = $this->broker();
-        $user = $broker->getUser($request->only('email'));
-
-        if (is_null($user)) {
-            return response()->json([
-                "success" => true,
-                "message" => 'If the email exists, you will receive a password reset link in your email'
-            ], 200);
-        }
-
-        $tokenRepo = $broker->getRepository();
-
-        if (method_exists($tokenRepo, 'recentlyCreatedToken') &&
-            $tokenRepo->recentlyCreatedToken($user)) {
-            return response()->json([
-                "success" => false,
-                "message" => 'Too many request'
-            ], 429);
-        }
-
-        $resetToken = $tokenRepo->create($user);
-
-        Mail::to($user->email)->send(new ForgotPasswordMail($resetToken, $user));
-
-        return response()->json([
-            "success" => true,
-            "message" => 'If the email exists, you will receive a password reset link in your email'
-        ], 200);
-    }
-
-    public function processForgotPasswordReset(Request $request)
-    {
-        $data = $request->all();
-        $validator = Validator::make($data, [
-            'token' => 'required',
-            'email' => 'required|email',
-            'password' => 'required|string|min:8|max:255|confirmed',
-
-        ]);
-
-        if ($validator->fails()) {
-            return response()->json([
-                "success" => false,
-                "errors" => $validator->errors()
-            ], 400);
-        }
-
-        $broker = $this->broker();
-        $respStr = $broker->reset($request->only('email', 'password', 'password_confirmation', 'token'), function ($user, $password) {
-            $user->password = Hash::make($password);
-            $user->save();
-        });
-
-        if ($respStr != PasswordBroker::PASSWORD_RESET) {
-            return response()->json([
-                "success" => false,
-                "message" => 'Reset token is invalid or expired'
-            ], 400);
-        }
-
-        return response()->json([
-            "success" => true,
-            "message" => 'Password has been reset successfully'
-        ], 200);
-    }
-
-    protected function broker()
-    {
-        return Password::broker();
-    }
-
+    /**
+     * @param $token
+     * @return \Illuminate\Http\JsonResponse
+     */
     protected function respondWithToken($token)
     {
-        return response()->json([
-            'success' => true,
+        return JsonResponseHelper::response(200, true, 'Login success', [], [
             'access_token' => $token,
             'token_type' => 'bearer',
             'expires_in' => auth()->factory()->getTTL() * 60
