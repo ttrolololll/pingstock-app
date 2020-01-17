@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\User\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Mail\ForgotPasswordTokenMail;
+use App\Mail\ForgotPasswordMail;
 use Illuminate\Auth\Passwords\DatabaseTokenRepository;
 use Illuminate\Contracts\Auth\PasswordBroker;
 use Illuminate\Http\Request;
@@ -121,7 +121,7 @@ class AuthController extends Controller
 
         $resetToken = $tokenRepo->create($user);
 
-        Mail::to($user->email)->send(new ForgotPasswordTokenMail($resetToken, $user));
+        Mail::to($user->email)->send(new ForgotPasswordMail($resetToken, $user));
 
         return response()->json([
             "success" => true,

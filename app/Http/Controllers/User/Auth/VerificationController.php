@@ -4,7 +4,7 @@ namespace App\Http\Controllers\User\Auth;
 
 use App\Helpers\JsonResponseHelper;
 use App\Http\Controllers\Controller;
-use App\Mail\EmailVerification;
+use App\Mail\EmailVerificationMail;
 use App\Models\User;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -62,7 +62,7 @@ class VerificationController extends Controller
         $user->save();
 
         // queued mailable
-        Mail::send(new EmailVerification($user));
+        Mail::send(new EmailVerificationMail($user));
 
         return JsonResponseHelper::response(200, true, 'Verification email resent');
     }

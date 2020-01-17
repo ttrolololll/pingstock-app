@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\User\Auth;
 
 use App\Helpers\JsonResponseHelper;
-use App\Mail\EmailVerification;
+use App\Mail\EmailVerificationMail;
 use App\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Auth\Events\Registered;
@@ -35,7 +35,7 @@ class RegisterController extends Controller
         $user = $this->create($data);
 
         // Send queued verification mailable
-        Mail::send(new EmailVerification($user));
+        Mail::send(new EmailVerificationMail($user));
 
         event(new Registered($user));
 

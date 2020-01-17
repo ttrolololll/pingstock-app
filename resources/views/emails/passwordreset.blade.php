@@ -333,7 +333,7 @@
     </style>
 </head>
 <body class="">
-<span class="preheader">Thank you for registering with PingStock.io</span>
+<span class="preheader">You have requested to reset your PingStock.io account password</span>
 <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
     <tr>
         <td>&nbsp;</td>
@@ -350,7 +350,7 @@
                                 <tr>
                                     <td>
                                         <p>Dear {{ $name }},</p>
-                                        <p>Thank you for registering with PingStock.io. To start enjoying the features, please click the on the verification link below to verify your email.</p>
+                                        <p>You have requested to reset your PingStock.io account password. Please click on the link below to continue to reset your password.</p>
                                         <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
                                             <tbody>
                                             <tr>
@@ -358,7 +358,7 @@
                                                     <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                                                         <tbody>
                                                         <tr>
-                                                            <td> <a href="{{ $verification_link }}" target="_blank">Verify Email</a> </td>
+                                                            <td> <a href="{{ $reset_link }}" target="_blank">Reset Password</a> </td>
                                                         </tr>
                                                         </tbody>
                                                     </table>

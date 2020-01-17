@@ -48,6 +48,15 @@ class User extends Authenticatable implements JWTSubject
     }
 
     /**
+     * @param string $token
+     * @return string
+     */
+    public function resetPasswordLink($token = '')
+    {
+        return config('app.front_url') . '/auth/resetpw/' . $token;
+    }
+
+    /**
      * Validates password to ensure at least one uppercase, lowercase, numeric, special character
      *
      * @param $password

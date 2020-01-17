@@ -19,11 +19,11 @@ Route::group(['prefix' => 'v1'], function () {
     // Users
     Route::group(['prefix' => 'users'], function () {
         Route::post('/register', 'User\Auth\RegisterController@register');
+//        Route::post('/login', 'User\Auth\AuthController@login');
         Route::post('/verify/email/resend', 'User\Auth\VerificationController@resend');
         Route::get('/verify/email/{code}', 'User\Auth\VerificationController@verify')->name('verify.email');
-//        Route::post('/login', 'User\Auth\AuthController@login');
-//        Route::post('/forgotpassword', 'User\Auth\AuthController@processForgotPasswordRequest');
-//        Route::post('/forgotpassword/reset', 'User\Auth\AuthController@processForgotPasswordReset');
+        Route::post('/auth/pwresetreq', 'User\Auth\ForgotPasswordController@forgotPasswordRequest');
+        Route::post('/auth/pwreset', 'User\Auth\ForgotPasswordController@forgotPasswordReset');
     });
 
     // Subscriptions
