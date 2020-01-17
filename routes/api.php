@@ -36,6 +36,11 @@ Route::group(['prefix' => 'v1'], function () {
         });
     });
 
+    // Stripe - Products
+    Route::group(['prefix' => 'products'], function () {
+        Route::get('/', 'Stripe\ProductController@products');
+    });
+
     // Subscriptions
     Route::group(['prefix' => 'subscriptions'], function () {
         Route::get('/subscribe', 'Subscription\SubscriptionController@subscribe');
