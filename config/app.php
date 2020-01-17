@@ -228,4 +228,7 @@ return [
 
     ],
 
+    // Frontend URL
+    'front_url' => env('FRONT_URL')
+
 ];

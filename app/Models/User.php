@@ -40,6 +40,14 @@ class User extends Authenticatable implements JWTSubject
     }
 
     /**
+     * @return string
+     */
+    public function verificationLink()
+    {
+        return config('app.front_url') . '/verify/email/' . $this->email_verification_code;
+    }
+
+    /**
      * Validates password to ensure at least one uppercase, lowercase, numeric, special character
      *
      * @param $password

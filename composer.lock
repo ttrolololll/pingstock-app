@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "9b116f243d8b4931b60dd1390f43d2d3",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.132.5",
+            "version": "3.133.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "276241cf558f883b639ecdefd0e9912f0df20b8e"
+                "reference": "27b4f0fbdf34a88df6788ffdefc3620511894676"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/276241cf558f883b639ecdefd0e9912f0df20b8e",
-                "reference": "276241cf558f883b639ecdefd0e9912f0df20b8e",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/27b4f0fbdf34a88df6788ffdefc3620511894676",
+                "reference": "27b4f0fbdf34a88df6788ffdefc3620511894676",
                 "shasum": ""
             },
             "require": {
@@ -88,7 +88,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-01-14T19:16:27+00:00"
+            "time": "2020-01-16T21:19:17+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1101,16 +1101,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "74e08793c41c72c8ed7a22df803f2ffcaf77efb7"
+                "reference": "34cf4ddb3892c715ae785c880e6691d839cff88d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/74e08793c41c72c8ed7a22df803f2ffcaf77efb7",
-                "reference": "74e08793c41c72c8ed7a22df803f2ffcaf77efb7",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/34cf4ddb3892c715ae785c880e6691d839cff88d",
+                "reference": "34cf4ddb3892c715ae785c880e6691d839cff88d",
                 "shasum": ""
             },
             "require": {
@@ -1168,7 +1168,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2020-01-15T03:32:39+00:00"
+            "time": "2020-01-16T01:18:13+00:00"
         },
         {
             "name": "league/commonmark-ext-table",

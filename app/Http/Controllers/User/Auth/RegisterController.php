@@ -3,11 +3,13 @@
 namespace App\Http\Controllers\User\Auth;
 
 use App\Helpers\JsonResponseHelper;
+use App\Mail\EmailVerification;
 use App\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 use Ramsey\Uuid\Uuid;
 
@@ -31,6 +33,9 @@ class RegisterController extends Controller
         }
 
         $user = $this->create($data);
+
+        // Send queued verification mailable
+        Mail::send(new EmailVerification($user));
 
         event(new Registered($user));
 
