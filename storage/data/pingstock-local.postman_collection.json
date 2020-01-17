@@ -1,0 +1,620 @@
+{
+	"info": {
+		"_postman_id": "530abbaa-ba14-45e9-9c69-db855f570acd",
+		"name": "PS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Auth",
+					"item": [
+						{
+							"name": "Logout",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT_TOKEN}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/x-www-form-urlencoded"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "email",
+											"value": "scordaive@gmail.com",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "Workq1w2e3r4@",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{API_URL}}/users/auth/logout",
+									"host": [
+										"{{API_URL}}"
+									],
+									"path": [
+										"users",
+										"auth",
+										"logout"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Refresh Token",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT_TOKEN}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/x-www-form-urlencoded"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "email",
+											"value": "scordaive@gmail.com",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "Workq1w2e3r4@",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{API_URL}}/users/auth/tokens/refresh",
+									"host": [
+										"{{API_URL}}"
+									],
+									"path": [
+										"users",
+										"auth",
+										"tokens",
+										"refresh"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Reset Password",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT_TOKEN}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/x-www-form-urlencoded"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "current_password",
+											"value": "Workq1w2e3r4@",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "Sco8417263@",
+											"type": "text"
+										},
+										{
+											"key": "password_confirmation",
+											"value": "Sco8417263@",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{API_URL}}/users/auth/pw",
+									"host": [
+										"{{API_URL}}"
+									],
+									"path": [
+										"users",
+										"auth",
+										"pw"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Profile",
+					"item": [
+						{
+							"name": "Profile",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT_TOKEN}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/x-www-form-urlencoded"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "email",
+											"value": "scordaive@gmail.com",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "Workq1w2e3r4@",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{API_URL}}/users/profile",
+									"host": [
+										"{{API_URL}}"
+									],
+									"path": [
+										"users",
+										"profile"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Profile",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{JWT_TOKEN}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/x-www-form-urlencoded"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "email",
+											"value": "jonathan.yxy@outlook.com",
+											"type": "text"
+										},
+										{
+											"key": "first_name",
+											"value": "Jonathan",
+											"type": "text"
+										},
+										{
+											"key": "last_name",
+											"value": "Yang",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{API_URL}}/users/profile",
+									"host": [
+										"{{API_URL}}"
+									],
+									"path": [
+										"users",
+										"profile"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "first_name",
+									"value": "Jonathan",
+									"type": "text"
+								},
+								{
+									"key": "last_name",
+									"value": "Yang",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "jonathan.yxy@outlook.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Workq1w2e3r4@",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{API_URL}}/users/register",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"users",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "scordaive@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Workq1w2e3r4@",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{API_URL}}/users/auth/login",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"users",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Verify Email",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "first_name",
+									"value": "Jonathan",
+									"type": "text"
+								},
+								{
+									"key": "last_name",
+									"value": "Yang",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "scordaive@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Workq1w2e3r4@",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{API_URL}}/users/verify/email/e8f0cb1d-dbda-48c6-9881-bc6aef698533",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"users",
+								"verify",
+								"email",
+								"e8f0cb1d-dbda-48c6-9881-bc6aef698533"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Resend Verification Email",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "scordaive@gmail.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{API_URL}}/users/verify/email/resend",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"users",
+								"verify",
+								"email",
+								"resend"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Password Reset Request",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "scordaive@gmail.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{API_URL}}/users/auth/pwresetreq",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"users",
+								"auth",
+								"pwresetreq"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Password Reset",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "scordaive@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Workq1w2e3r4@",
+									"type": "text"
+								},
+								{
+									"key": "password_confirmation",
+									"value": "Workq1w2e3r4@",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "6f118a77499460465c76c5c72a75d2ee40416c38a9f5db22c6682e5bff0dd9b0",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{API_URL}}/users/auth/pwreset",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"users",
+								"auth",
+								"pwreset"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Health Check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{API_URL}}/health",
+					"host": [
+						"{{API_URL}}"
+					],
+					"path": [
+						"health"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "13bf1238-90fe-4dc1-9aef-d9893fe3f7d6",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "eae12546-2144-444a-b6ab-fb1ad4ee4ada",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "8f0c8ce4-a2f1-4ce4-860e-bee7b0f52d23",
+			"key": "API_URL",
+			"value": "http://pingstock.local.com/api/v1",
+			"type": "string"
+		},
+		{
+			"id": "babe1aa5-7562-4ff4-a824-74308bc076ee",
+			"key": "JWT_TOKEN",
+			"value": "",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
