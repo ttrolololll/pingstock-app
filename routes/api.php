@@ -18,6 +18,7 @@ Route::group(['prefix' => 'v1'], function () {
 
     // Users
     Route::group(['prefix' => 'users'], function () {
+        // Users - On-boarding
         Route::post('/register', 'User\Auth\RegisterController@register');
         Route::post('/verify/email/resend', 'User\Auth\VerificationController@resend');
         Route::get('/verify/email/{code}', 'User\Auth\VerificationController@verify')->name('verify.email');
@@ -33,16 +34,20 @@ Route::group(['prefix' => 'v1'], function () {
             // Users - Profile
             Route::get('/profile', 'User\ProfileController@me');
             Route::patch('/profile', 'User\ProfileController@update');
+            // Users - Payment
+            Route::post('/payment/setup-intent', 'User\Payment\PaymentController@newSetupIntent');
+            Route::get('/payment/cards', 'User\Payment\PaymentController@paymentMethods');
+            Route::post('/payment/cards', 'User\Payment\PaymentController@addPaymentMethod');
+            // Users - Subscription
+            Route::get('/subscriptions', 'User\Subscription\SubscriptionController@currentSubscription');
+            Route::post('/subscriptions', 'User\Subscription\SubscriptionController@subscribe');
+            Route::post('/subscriptions/upgrade', 'User\Subscription\SubscriptionController@upgradeSubscription');
+            Route::post('/subscriptions/cancel', 'User\Subscription\SubscriptionController@cancelSubscription');
         });
     });
 
     // Stripe - Products
     Route::group(['prefix' => 'products'], function () {
         Route::get('/', 'Stripe\ProductController@products');
-    });
-
-    // Subscriptions
-    Route::group(['prefix' => 'subscriptions'], function () {
-        Route::get('/subscribe', 'Subscription\SubscriptionController@subscribe');
     });
 });
