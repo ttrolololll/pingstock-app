@@ -41,8 +41,9 @@ Route::group(['prefix' => 'v1'], function () {
             // Users - Subscription
             Route::get('/subscriptions', 'User\Subscription\SubscriptionController@currentSubscription');
             Route::post('/subscriptions', 'User\Subscription\SubscriptionController@subscribe');
-            Route::post('/subscriptions/upgrade', 'User\Subscription\SubscriptionController@upgradeSubscription');
             Route::post('/subscriptions/cancel', 'User\Subscription\SubscriptionController@cancelSubscription');
+            Route::post('/subscriptions/resume', 'User\Subscription\SubscriptionController@resumeSubscription');
+//            Route::post('/subscriptions/upgrade', 'User\Subscription\SubscriptionController@upgradeSubscription');
         });
     });
 

@@ -66,8 +66,15 @@ class PaymentController extends Controller
             return JsonResponseHelper::response(400, false, 'Invalid payment method');
         }
 
+        /** @var User $user */
         $user = auth()->user();
-        $pm = $user->updateDefaultPaymentMethod($request->post('payment_method'));
+
+        // create stripe customer if not already one
+        if (! $user->stripe_id) {
+            $user->createAsStripeCustomer();
+        }
+
+        $user->updateDefaultPaymentMethod($request->post('payment_method'));
 
         return JsonResponseHelper::response(200, true, 'Payment method added successfully');
     }
