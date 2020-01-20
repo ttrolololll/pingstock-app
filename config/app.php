@@ -229,6 +229,10 @@ return [
     ],
 
     // Frontend URL
-    'front_url' => env('FRONT_URL')
+    'front_url' => env('FRONT_URL'),
+
+    // Default monthly stock alerts
+    'free_stock_alerts_per_month' => env('FREE_STOCK_ALERTS_PER_MONTH'),
+    'subscriber_stock_alerts_per_month' => env('SUBSCRIBER_STOCK_ALERTS_PER_MONTH'),
 
 ];

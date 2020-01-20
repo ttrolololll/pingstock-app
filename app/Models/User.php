@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Http\Controllers\Subscription\SubscriptionBuilder;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Cashier\Billable;
@@ -71,5 +72,17 @@ class User extends Authenticatable implements JWTSubject
         }
 
         return false;
+    }
+
+    /**
+     * Overload function in Billable trait
+     *
+     * @param $subscription
+     * @param $plan
+     * @return SubscriptionBuilder
+     */
+    public function newSubscription($subscription, $plan)
+    {
+        return new SubscriptionBuilder($this, $subscription, $plan);
     }
 }
