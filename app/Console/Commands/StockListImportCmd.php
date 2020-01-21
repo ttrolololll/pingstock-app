@@ -91,18 +91,23 @@ class StockListImportCmd extends Command
                 $exchanges[] = strtoupper(trim($e, ' '));
             }
 
-            if (!in_array($exc, $exchanges)) {
+            if (!in_array($exc, $exchanges) || empty($currency) || $name == 'N/A') {
                 continue;
             }
+
+            $now = now()->format('Y-m-d H:i:s');
 
             DB::table('stocks')->updateOrInsert(
                 ['symbol' => $symbol],
                 [
                     'symbol' => $symbol,
                     'name' => $name,
+                    'source' => 'wtd',
                     'currency' => $currency,
                     'exchange_symbol' => $exc,
-                    'timezone' => $timezone
+                    'timezone' => $timezone,
+                    'created_at' => $now,
+                    'updated_at' => $now,
                 ]
             );
         }

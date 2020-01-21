@@ -6,9 +6,11 @@ use App\Jobs\GetStockUpdateJob;
 use App\Models\StockAlertRule;
 use App\Services\AlphaVantageService;
 use App\Services\WTDService;
+use App\Services\YahooFinanceService;
 use GuzzleHttp\Promise;
 use Illuminate\Console\Command;
 use Illuminate\Queue\Jobs\Job;
+use Illuminate\Support\Facades\Log;
 
 class StockAlertingCmd extends Command
 {
@@ -41,6 +43,10 @@ class StockAlertingCmd extends Command
      */
     public function handle()
     {
+        $yahooService = new YahooFinanceService();
+        $data = $yahooService->quoteType('HMN.SI');
+        Log::debug('asd', json_decode($data->getBody(), true));
+        return $data;
         // get all stock alert rules
         $alertRules = StockAlertRule::cursor();
 
