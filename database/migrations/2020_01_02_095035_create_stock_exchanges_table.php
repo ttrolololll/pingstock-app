@@ -18,7 +18,8 @@ class CreateStockExchangesTable extends Migration
             $table->string('symbol');
             $table->string('name');
             $table->string('timezone');
-            $table->json('trading_daytimes');
+            $table->string('trading_start_utc');
+            $table->string('trading_end_utc');
             $table->timestamps();
 
             $table->primary(['symbol']);
@@ -31,7 +32,8 @@ class CreateStockExchangesTable extends Migration
                 'symbol' => 'SGX',
                 'name' => 'Singapore Stock Exchange',
                 'timezone' => 'Asia/Singapore',
-                'trading_daytimes' => '{"mon":{"start":"09:00","end":"17:00"},"tue":{"start":"09:00","end":"17:00"},"wed":{"start":"09:00","end":"17:00"},"thu":{"start":"09:00","end":"17:00"},"fri":{"start":"09:00","end":"17:00"}}',
+                'trading_start_utc' => '01:00',
+                'trading_end_utc' => '09:00',
                 'created_at' => $now,
                 'updated_at' => $now,
             ],
@@ -39,7 +41,8 @@ class CreateStockExchangesTable extends Migration
                 'symbol' => 'HKEX',
                 'name' => 'Hong Kong Stock Exchange',
                 'timezone' => 'Asia/Hong_Kong',
-                'trading_daytimes' => '{"mon":{"start":"09:30","end":"16:00"},"tue":{"start":"09:30","end":"16:00"},"wed":{"start":"09:30","end":"16:00"},"thu":{"start":"09:30","end":"16:00"},"fri":{"start":"09:30","end":"16:00"}}',
+                'trading_start_utc' => '01:30',
+                'trading_end_utc' => '08:00',
                 'created_at' => $now,
                 'updated_at' => $now,
             ],
@@ -47,7 +50,8 @@ class CreateStockExchangesTable extends Migration
                 'symbol' => 'NYSE',
                 'name' => 'New York Stock Exchange',
                 'timezone' => 'America/New_York',
-                'trading_daytimes' => '{"mon":{"start":"09:30","end":"16:00"},"tue":{"start":"09:30","end":"16:00"},"wed":{"start":"09:30","end":"16:00"},"thu":{"start":"09:30","end":"16:00"},"fri":{"start":"09:30","end":"16:00"}}',
+                'trading_start_utc' => '14:30',
+                'trading_end_utc' => '21:00',
                 'created_at' => $now,
                 'updated_at' => $now,
             ],
@@ -55,7 +59,8 @@ class CreateStockExchangesTable extends Migration
                 'symbol' => 'NASDAQ',
                 'name' => 'NASDAQ Stock Exchange',
                 'timezone' => 'America/New_York',
-                'trading_daytimes' => '{"mon":{"start":"09:30","end":"16:00"},"tue":{"start":"09:30","end":"16:00"},"wed":{"start":"09:30","end":"16:00"},"thu":{"start":"09:30","end":"16:00"},"fri":{"start":"09:30","end":"16:00"}}',
+                'trading_start_utc' => '14:30',
+                'trading_end_utc' => '21:00',
                 'created_at' => $now,
                 'updated_at' => $now,
             ]

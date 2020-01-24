@@ -4,6 +4,7 @@ namespace App\Jobs;
 
 use App\Models\StockAlertRule;
 use App\Services\AlphaVantageService;
+use Illuminate\Support\LazyCollection;
 use function Aws\filter;
 use GuzzleHttp\Promise;
 use Illuminate\Bus\Queueable;
@@ -20,7 +21,7 @@ class GetStockUpdateJob implements ShouldQueue
     protected $stockSymbols;
     protected $logTag = 'GetStockUpdateJob';
 
-    public function __construct(Array $stockSymbols)
+    public function __construct(LazyCollection $stockSymbols)
     {
         $this->stockSymbols = $stockSymbols;
     }

@@ -4,13 +4,11 @@ namespace App\Console\Commands;
 
 use App\Jobs\GetStockUpdateJob;
 use App\Models\StockAlertRule;
-use App\Services\AlphaVantageService;
-use App\Services\WTDService;
-use App\Services\YahooFinanceService;
-use GuzzleHttp\Promise;
+use App\Models\StockExchange;
+use Carbon\Carbon;
 use Illuminate\Console\Command;
-use Illuminate\Queue\Jobs\Job;
 use Illuminate\Support\Facades\Log;
+
 
 class StockAlertingCmd extends Command
 {
@@ -28,6 +26,8 @@ class StockAlertingCmd extends Command
      */
     protected $description = 'Initiate stock alert rule examinations and alert users if condition meets';
 
+    protected static $cmdNameTag = '[Stock Alerting]';
+
     /**
      * Create a new command instance.
      */
@@ -43,24 +43,48 @@ class StockAlertingCmd extends Command
      */
     public function handle()
     {
-        $yahooService = new YahooFinanceService();
-        $data = $yahooService->quoteType('HMN.SI');
-        Log::debug('asd', json_decode($data->getBody(), true));
-        return $data;
+        Log::info(self::$cmdNameTag . ' Initiated at UTC ' . Carbon::now()->utc()->format('Y-m-d H:i:s'));
+
+        // get all exchange symbols within trading hours
+        $now = Carbon::now()->utc();
+        $nowTime = $now->format('H:i');
+        $exchanges = StockExchange::select(['symbol'])
+            ->where('trading_start_utc', '<=', $nowTime)
+            ->where('trading_end_utc', '>=', $nowTime)
+            ->get();
+        $exchangeCount = $exchanges->count();
+
+        if ($exchangeCount == 0) {
+            Log::info(self::$cmdNameTag . 'No exchange within trading hours, abort operation');
+            return;
+        }
+
+        $exchangeSymbols = [];
+
+        foreach ($exchanges as $exchange) {
+            $exchangeSymbols[] = $exchange->symbol;
+        }
+
+        Log::info(self::$cmdNameTag . ' Total exchanges within trading hours: ' . $exchangeCount, $exchangeSymbols);
+
         // get all stock alert rules
-        $alertRules = StockAlertRule::cursor();
+        $alertRules = StockAlertRule::cursor()->filter(function ($value, $key) use ($exchangeSymbols) {
+            return in_array($value->exchange_symbol, $exchangeSymbols);
+        });
 
         // get unique symbols
         $symbolSets = $alertRules->unique('stock_symbol')
             ->pluck('stock_symbol')
-            ->chunk(config('services.alphavantage.api_rate_per_minute'))
-            ->toArray();
-
-        // filter out symbols outside of trading hours
+            ->chunk(config('services.alphavantage.api_rate_per_minute'));
 
         // send chunks of symbols into queue
         foreach ($symbolSets as $set) {
             GetStockUpdateJob::dispatch($set)->onQueue('get_stock_update');
         }
+
+        Log::info(self::$cmdNameTag . ' Stock info. update jobs dispatched');
+        Log::info(self::$cmdNameTag . ' End');
+
+        return;
     }
 }
