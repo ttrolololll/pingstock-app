@@ -21,6 +21,7 @@ class CreateStockAlertRulesTable extends Migration
             $table->unsignedDecimal('target', 9, 4);
             $table->string('target_type');
             $table->string('operator');
+            $table->string('source');
             $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');

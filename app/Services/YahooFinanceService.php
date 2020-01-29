@@ -4,21 +4,19 @@ namespace App\Services;
 
 use GuzzleHttp\Client;
 
-class YahooFinanceService
+class YahooFinanceService extends StockInfoServiceProvider
 {
+    public static $sourceName = 'yahoo';
+
     protected $baseUrl = 'https://query1.finance.yahoo.com';
-    protected $http;
 
     public function __construct($baseUrl = '')
     {
+        parent::__construct($baseUrl);
+
         if ($baseUrl != '') {
             $this->baseUrl = $baseUrl;
         }
-
-        $this->http = new Client([
-            'base_uri' => $this->baseUrl,
-            'timeout' => 10
-        ]);
     }
 
     /**
