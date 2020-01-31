@@ -95,7 +95,7 @@ class StockAlertingCmd extends Command
             GetStockUpdateJob::dispatch($set, WTDService::$sourceName)->onQueue('get_stock_update');
         }
         foreach ($avSymbolSets as $set) {
-//            GetStockUpdateJob::dispatch($set)->onQueue('get_stock_update');
+            GetStockUpdateJob::dispatch($set, AlphaVantageService::$sourceName)->onQueue('get_stock_update');
         }
 
         Log::info(self::$cmdNameTag . ' Stock info. update jobs dispatched');

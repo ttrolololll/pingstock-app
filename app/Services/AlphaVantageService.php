@@ -9,6 +9,8 @@ class AlphaVantageService extends StockInfoServiceProvider
     public static $sourceName = 'av';
 
     protected $baseUrl = 'https://www.alphavantage.co/query';
+    protected $http;
+    protected $apiToken;
 
     public function __construct($baseUrl = '')
     {
@@ -17,6 +19,11 @@ class AlphaVantageService extends StockInfoServiceProvider
         if ($baseUrl != '') {
             $this->baseUrl = $baseUrl;
         }
+
+        $this->http = new Client([
+            'base_uri' => $this->baseUrl,
+            'timeout' => 10
+        ]);
 
         $this->apiToken = config('services.alphavantage.api_token');
     }

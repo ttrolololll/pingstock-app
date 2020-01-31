@@ -4,11 +4,9 @@ namespace App\Jobs;
 
 use App\Models\StockAlertRule;
 use App\Services\AlphaVantageService;
-use App\Services\StockInfoServiceProvider;
 use App\Services\WTDService;
 use Illuminate\Support\Collection;
 use Illuminate\Support\LazyCollection;
-use function Aws\filter;
 use GuzzleHttp\Promise;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -40,52 +38,6 @@ class GetStockUpdateJob implements ShouldQueue
             default:
                 $this->handleDefaultSource($this->stockSymbols);
         }
-
-//        $wtd
-
-//        $stockService = new AlphaVantageService();
-//        $promises = [];
-//        $alerts = [];
-//
-//        // make async HTTP calls to stock data provider
-//        foreach ($this->stockSymbols as $symbol) {
-//            $promises[] = $stockService->globalQuote($symbol, true);
-//        }
-//
-//        // gather all responses
-//        $asyncResponses = Promise\settle($promises)->wait(true);
-//
-//        for ($i = 0; $i < count($asyncResponses); $i++) {
-//            // skip if promise cannot be fulfilled
-//            if ($asyncResponses[$i]['state'] != 'fulfilled') {
-//                Log::warning("[$this->logTag.handle] HTTP call to AlphaVantage failed for symbol " . $this->stockSymbols[$i]);
-//                continue;
-//            }
-//
-//            $response = $asyncResponses[$i]['value'];
-//
-//            // skip if response status is not 200
-//            if ($response->getStatusCode() != 200) {
-//                Log::warning("[$this->logTag.handle] response code " . $response->getStatusCode() . " from AlphaVantage for symbol " . $this->stockSymbols[$i]);
-//                continue;
-//            }
-//
-//            $data = $this->resolveResponse($response);
-//
-//            // get all activated rule into chunks
-//            $ruleChunks = StockAlertRule::cursor()
-//                ->filter(function ($alertRule) use ($data) {
-//                    return $alertRule->stock_symbol == $data['symbol'] &&
-//                        ($alertRule->operator == 'greater' && $data['price'] > $alertRule->target ||
-//                            $alertRule->operator == 'lesser' && $data['price'] < $alertRule->target);
-//                })
-//                ->chunk(1000);
-//
-//            // push each chunk as notification job
-//            foreach ($ruleChunks as $chunk) {
-//                EmailStockAlertJob::dispatch($chunk, $data['price'])->onQueue('stock_alerts');
-//            }
-//        }
     }
 
     protected function handleWTDSource(LazyCollection $stockSymbols)
@@ -143,7 +95,53 @@ class GetStockUpdateJob implements ShouldQueue
 
     protected function handleDefaultSource(LazyCollection $stockSymbols)
     {
+        $stockService = new AlphaVantageService();
+        $promises = [];
 
+        // make async HTTP calls to stock data provider
+        foreach ($stockSymbols as $symbol) {
+            $promises[] = $stockService->globalQuote($symbol, true);
+        }
+
+        // gather all responses
+        $asyncResponses = Promise\settle($promises)->wait(true);
+
+        for ($i = 0; $i < count($asyncResponses); $i++) {
+            // skip if promise cannot be fulfilled
+            if ($asyncResponses[$i]['state'] != 'fulfilled') {
+                Log::warning("[$this->logTag.handle] HTTP call to AlphaVantage failed for symbol " . $this->stockSymbols[$i]);
+                continue;
+            }
+
+            $response = $asyncResponses[$i]['value'];
+
+            // skip if response status is not 200
+            if ($response->getStatusCode() != 200) {
+                Log::warning("[$this->logTag.handle] response code " . $response->getStatusCode() . " from AlphaVantage for symbol " . $this->stockSymbols[$i]);
+                continue;
+            }
+
+            $data = $this->resolveResponse($response);
+
+            if (! $data) {
+                Log::warning("[$this->logTag.handle] unable to resolve AlphaVantage response for " . $this->stockSymbols[$i]);
+                continue;
+            }
+
+            // get all activated rule into chunks
+            $ruleChunks = StockAlertRule::cursor()
+                ->filter(function ($alertRule) use ($data) {
+                    return $alertRule->stock_symbol == $data['symbol'] &&
+                        ($alertRule->operator == 'greater' && $data['price'] > $alertRule->target ||
+                            $alertRule->operator == 'lesser' && $data['price'] < $alertRule->target);
+                })
+                ->chunk(1000);
+
+            // push each chunk as notification job
+            foreach ($ruleChunks as $chunk) {
+                EmailStockAlertJob::dispatch($chunk->collect(), $data['price'])->onQueue('stock_alerts');
+            }
+        }
     }
 
     protected function resolveResponse($response)
@@ -170,7 +168,7 @@ class GetStockUpdateJob implements ShouldQueue
 
         } catch (\Exception $e) {
             Log::warning("[$this->logTag.resolveResponse] " . $e->getMessage());
-            return null;
+            return false;
         }
     }
 }
