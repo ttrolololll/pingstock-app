@@ -12,10 +12,12 @@ class StockAlertRulesTableSeeder extends Seeder
     public function run()
     {
         $now = now()->format('Y-m-d H:i:s');
+        $faker = Faker\Factory::create();
 
         \Illuminate\Support\Facades\DB::table('stock_alert_rules')->insert([
             [
                 'user_id' => 1,
+                'alert_email' => $faker->email,
                 'stock_symbol' => 'D05.SI',
                 'exchange_symbol' => 'SGX',
                 'target' => 26,
@@ -27,6 +29,7 @@ class StockAlertRulesTableSeeder extends Seeder
             ],
             [
                 'user_id' => 1,
+                'alert_email' => $faker->email,
                 'stock_symbol' => 'F17.SI',
                 'exchange_symbol' => 'SGX',
                 'target' => 1.389,
@@ -38,6 +41,7 @@ class StockAlertRulesTableSeeder extends Seeder
             ],
             [
                 'user_id' => 1,
+                'alert_email' => $faker->email,
                 'stock_symbol' => '5MZ.SI',
                 'exchange_symbol' => 'SGX',
                 'target' => 0.5,
@@ -49,6 +53,7 @@ class StockAlertRulesTableSeeder extends Seeder
             ],
             [
                 'user_id' => 2,
+                'alert_email' => $faker->email,
                 'stock_symbol' => 'F17.SI',
                 'exchange_symbol' => 'SGX',
                 'target' => 1.389,
@@ -60,6 +65,7 @@ class StockAlertRulesTableSeeder extends Seeder
             ],
             [
                 'user_id' => 2,
+                'alert_email' => $faker->email,
                 'stock_symbol' => '5MZ.SI',
                 'exchange_symbol' => 'SGX',
                 'target' => 0.5,

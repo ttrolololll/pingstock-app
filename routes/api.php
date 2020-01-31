@@ -44,6 +44,11 @@ Route::group(['prefix' => 'v1'], function () {
             Route::post('/subscriptions/cancel', 'User\Subscription\SubscriptionController@cancelSubscription');
             Route::post('/subscriptions/resume', 'User\Subscription\SubscriptionController@resumeSubscription');
 //            Route::post('/subscriptions/upgrade', 'User\Subscription\SubscriptionController@upgradeSubscription');
+            // Users - Stock Alerts
+            Route::get('/stock-alerts', 'User\StockAlert\StockAlertController@list');
+            Route::post('/stock-alerts', 'User\StockAlert\StockAlertController@new');
+            Route::patch('/stock-alerts/{stockAlertID}', 'User\StockAlert\StockAlertController@update');
+            Route::delete('/stock-alerts/{stockAlertID}', 'User\StockAlert\StockAlertController@delete');
         });
     });
 

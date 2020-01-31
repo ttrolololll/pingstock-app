@@ -75,7 +75,7 @@ class GetStockUpdateJob implements ShouldQueue
 
         $rules = StockAlertRule::cursor()
             ->filter(function ($alertRule) use ($symbolsCollection) {
-                return in_array($alertRule->stock_symbol, $symbolsCollection->toArray());
+                return ! $alertRule->triggered && in_array($alertRule->stock_symbol, $symbolsCollection->toArray());
             })
             ->each(function ($alertRule) use ($symbols, $triggered) {
                 if ( ($alertRule->operator == 'greater' && $symbols[$alertRule->stock_symbol]['price'] > $alertRule->target ||
@@ -131,7 +131,8 @@ class GetStockUpdateJob implements ShouldQueue
             // get all activated rule into chunks
             $ruleChunks = StockAlertRule::cursor()
                 ->filter(function ($alertRule) use ($data) {
-                    return $alertRule->stock_symbol == $data['symbol'] &&
+                    return ! $alertRule->triggered &&
+                        $alertRule->stock_symbol == $data['symbol'] &&
                         ($alertRule->operator == 'greater' && $data['price'] > $alertRule->target ||
                             $alertRule->operator == 'lesser' && $data['price'] < $alertRule->target);
                 })

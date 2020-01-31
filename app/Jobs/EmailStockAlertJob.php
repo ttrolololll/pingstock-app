@@ -8,6 +8,7 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 
 class EmailStockAlertJob implements ShouldQueue
@@ -35,19 +36,19 @@ class EmailStockAlertJob implements ShouldQueue
             Log::info('Stock ' . $alert->stock_symbol . ' is ' . $alert->operator . ' than set target ' . $alert->target . ' at ' . $price);
         }
 
-        // then delete stock alerts
+        // then set stock alerts as triggered
         $ruleChunks = $this->rules->chunk(200)->toArray();
         $deleteGroups = [];
 
         foreach ($ruleChunks as $key => $chunk) {
-            $delConds = [];
+            $conds = [];
 
             foreach ($chunk as $rule) {
-                $delConds[] = ['id', '=', $rule['id']];
+                $conds[] = ['id', '=', $rule['id']];
             }
 
-            if (count($delConds) > 0) {
-//                DB::table('stock_alert_rules')->where($delConds)->delete();
+            if (count($conds) > 0) {
+                DB::table('stock_alert_rules')->where($conds)->update(['triggered' => 1]);
             }
         }
     }
