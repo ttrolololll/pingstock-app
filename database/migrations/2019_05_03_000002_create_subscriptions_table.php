@@ -23,7 +23,7 @@ class CreateSubscriptionsTable extends Migration
             $table->integer('quantity');
             $table->timestamp('trial_ends_at')->nullable();
             $table->timestamp('ends_at')->nullable();
-            $table->integer('stock_alerts_per_mth');
+            $table->integer('stock_alerts');
             $table->timestamps();
 
             $table->index(['user_id', 'stripe_status']);

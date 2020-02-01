@@ -30,6 +30,6 @@ class Stock extends Model
 
     public function exchange()
     {
-        return $this->belongsTo('stock_exchanges', 'exchange_symbol', 'symbol');
+        return $this->belongsTo(StockExchange::class, 'exchange_symbol', 'symbol');
     }
 }

@@ -38,7 +38,7 @@ class SubscriptionBuilder extends \Laravel\Cashier\SubscriptionBuilder
             'quantity' => $this->quantity,
             'trial_ends_at' => $trialEndsAt,
             'ends_at' => null,
-            'stock_alerts_per_mth' => config('subscriber_stock_alerts_per_month', 20),
+            'stock_alerts' => config('subscriber_stock_alerts', 20),
         ]);
 
         if ($subscription->incomplete()) {

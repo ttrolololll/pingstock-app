@@ -75,7 +75,7 @@ class SubscriptionController extends Controller
 
         try {
             $subscription = $user->newSubscription(self::$defaultSubscriptionName, $plan)
-                ->withMetadata(['stock_alerts_per_month' => config('subscriber_stock_alerts_per_month', 20)])
+                ->withMetadata(['stock_alerts' => config('subscriber_stock_alerts', 20)])
                 ->create($pm->id);
         } catch (InvalidRequestException $e) {
             return JsonResponseHelper::response(400, false, $e->getMessage(), [], []);
