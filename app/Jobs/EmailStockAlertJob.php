@@ -2,6 +2,7 @@
 
 namespace App\Jobs;
 
+use App\Mail\StockAlertEmail;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
@@ -10,6 +11,8 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Mail;
+use Mailgun\Mailgun;
 
 class EmailStockAlertJob implements ShouldQueue
 {
@@ -26,6 +29,10 @@ class EmailStockAlertJob implements ShouldQueue
 
     public function handle()
     {
+        $to = ['jonathan.yxy@outlook.com', 'scordaive@gmail.com'];
+
+        Mail::to($to)->send(new StockAlertEmail());
+
         foreach ($this->rules as $alert) {
             $price = $this->price;
 
