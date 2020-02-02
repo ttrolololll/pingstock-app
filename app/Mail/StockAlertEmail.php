@@ -28,7 +28,10 @@ class StockAlertEmail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Stock Alert PingStock.io')
+        return $this->withSwiftMessage(function ($message) {
+            $message->getHeaders()->addTextHeader('X-Custom-Header', 'A Value For It');
+        })
+            ->$this->subject('Stock Alert PingStock.io')
             ->view('emails.stockalert');
     }
 }
