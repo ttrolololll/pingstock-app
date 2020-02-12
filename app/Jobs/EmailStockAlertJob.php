@@ -2,7 +2,6 @@
 
 namespace App\Jobs;
 
-use App\Mail\StockAlertEmail;
 use App\Services\MailgunService;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -12,7 +11,6 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Facades\Mail;
 
 class EmailStockAlertJob implements ShouldQueue
 {
@@ -64,7 +62,7 @@ class EmailStockAlertJob implements ShouldQueue
             }
 
             if (count($conds) > 0) {
-//                DB::table('stock_alert_rules')->where($conds)->update(['triggered' => 1]);
+                DB::table('stock_alert_rules')->where($conds)->update(['triggered' => 1]);
             }
         }
     }
