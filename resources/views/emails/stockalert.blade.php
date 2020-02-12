@@ -333,7 +333,7 @@
     </style>
 </head>
 <body class="">
-<span class="preheader">You have requested to reset your PingStock.io account password</span>
+<span class="preheader">Stock alert rule triggered</span>
 <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
     <tr>
         <td>&nbsp;</td>
@@ -349,8 +349,8 @@
                             <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                                 <tr>
                                     <td>
-                                        <p>Dear User,</p>
-                                        <p>Stock Alert</p>
+                                        <p>Dear %recipient.first%,</p>
+                                        <p>Stock %recipient.stock_symbol% is %recipient.operator% than set target %recipient.target% at %recipient.current%</p>
                                         <p>Cheers,<br/>PingStock.io Team</p>
                                     </td>
                                 </tr>

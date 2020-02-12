@@ -28,10 +28,13 @@ class StockAlertEmail extends Mailable
      */
     public function build()
     {
-        return $this->withSwiftMessage(function ($message) {
-            $message->getHeaders()->addTextHeader('X-Custom-Header', 'A Value For It');
+        $to = ['jonathan.yxy@outlook.com', 'scordaive@gmail.com'];
+
+        return $this->to($to)->withSwiftMessage(function (\Swift_Message $message) {
+            $message->getHeaders()->addTextHeader('X-Mailgun-Recipient-Variables', '{"jonathan.yxy@outlook.com": {"first":"Bob", "id":1},
+            "scordaive@gmail.com": {"first":"Alice", "id": 2}}');
         })
-            ->$this->subject('Stock Alert PingStock.io')
+            ->subject('Stock Alert PingStock.io')
             ->view('emails.stockalert');
     }
 }
