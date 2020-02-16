@@ -89,7 +89,8 @@ class AuthController extends Controller
         return JsonResponseHelper::response(200, true, 'Login success', [], [
             'access_token' => $token,
             'token_type' => 'bearer',
-            'expires_in' => auth()->factory()->getTTL() * 60
+            'expires_in' => auth()->factory()->getTTL() * 60,
+            'expires_at' => now()->addMinute(auth()->factory()->getTTL())->timestamp
         ]);
     }
 }
