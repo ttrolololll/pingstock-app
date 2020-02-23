@@ -24,13 +24,26 @@ class SubscriptionController extends Controller
      */
     public function currentSubscription(Request $request)
     {
-        $subscription = Subscription::where('user_id', auth()->user()->id)->first();
+        /** @var User $user */
+        $user = auth()->user();
+        $subscription = $user->asStripeCustomer()->subscriptions;
 
-        if (! $subscription) {
-            return JsonResponseHelper::response(404, false, 'User does not have a subscription yet');
+        if (! $subscription || count($subscription->data) == 0) {
+            return JsonResponseHelper::notFound('User does not have a subscription yet');
         }
 
-        return JsonResponseHelper::response(200, true, '', [], $subscription);
+        $dbData = Subscription::where([
+            ['user_id', $user->id],
+            ['stripe_id', $subscription->data[0]->id]
+        ])->first();
+
+        if (! $dbData) {
+            return JsonResponseHelper::notFound('User does not have a subscription yet');
+        }
+
+        $subscription->data[0]->db_data = $dbData;
+
+        return JsonResponseHelper::response(200, true, '', [], $subscription->data[0]);
     }
 
     /**

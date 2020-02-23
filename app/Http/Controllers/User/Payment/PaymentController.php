@@ -7,6 +7,8 @@ use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
+use Stripe\PaymentMethod;
+use Stripe\Stripe;
 
 class PaymentController extends Controller
 {
@@ -50,11 +52,23 @@ class PaymentController extends Controller
     {
         $user = auth()->user();
 
-        if ($user->hasPaymentMethod()) {
-            return JsonResponseHelper::response(200, true, '', [], $user->paymentMethods());
+        // use Stripe directly, because Laravel $user->paymentMethods() returns empty
+        Stripe::setApiKey(config('cashier.secret'));
+
+        try {
+            $paymentMethods = PaymentMethod::all([
+                'customer' =>  $user->stripe_id,
+                'type' => 'card',
+            ]);
+        } catch (\Exception $e) {
+            return JsonResponseHelper::internal('Payment API key not found');
         }
 
-        return JsonResponseHelper::response(200, true, '', [], []);
+        if ($user->hasPaymentMethod()) {
+            return JsonResponseHelper::ok('', [], $paymentMethods->data);
+        }
+
+        return JsonResponseHelper::ok();
     }
 
     /**
