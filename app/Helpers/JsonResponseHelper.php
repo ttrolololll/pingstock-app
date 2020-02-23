@@ -32,4 +32,9 @@ class JsonResponseHelper {
     {
         return self::response(404, false, $message, $errors, $data);
     }
+
+    public static function internal($message = 'Internal', $errors = [], $data = [])
+    {
+        return self::response(500, false, $message, $errors, $data);
+    }
 }

@@ -18,19 +18,26 @@ class PaymentController extends Controller
      */
     public function newSetupIntent(Request $request)
     {
-        $si = auth()->user()->createSetupIntent();
+        /** @var User $user */
+        $user = auth()->user();
 
-        if (isset($si['client_secret'])) {
-            return JsonResponseHelper::response(
-                200,
-                'success',
-                '',
-                [],
-                [ 'client_secret' => $si['client_secret'] ]
-            );
+        // create as Stripe customer if not already is
+        if (! $user->stripe_id) {
+            $user->createAsStripeCustomer();
+
+            // check if is successful by checking if user stripe_id is set
+            if (! $user->stripe_id) {
+                return JsonResponseHelper::internal("Unable to assert valid payment customer");
+            }
         }
 
-        return JsonResponseHelper::response(500, false, 'Fail to initiate setup, please try again');
+        $si = $user->createSetupIntent();
+
+        if (isset($si['client_secret'])) {
+            return JsonResponseHelper::ok('', [], [ 'client_secret' => $si['client_secret'] ]);
+        }
+
+        return JsonResponseHelper::internal('Fail to initiate setup, please try again');
     }
 
     /**
@@ -77,5 +84,21 @@ class PaymentController extends Controller
         $user->updateDefaultPaymentMethod($request->post('payment_method'));
 
         return JsonResponseHelper::response(200, true, 'Payment method added successfully');
+    }
+
+    /**
+     * Delete All Payment Methods
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function deleteAllPaymentMethods(Request $request)
+    {
+        /** @var User $user */
+        $user = auth()->user();
+
+        $user->deletePaymentMethods();
+
+        return JsonResponseHelper::response(200, true, 'Payment method removed successfully');
     }
 }

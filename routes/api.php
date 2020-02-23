@@ -38,6 +38,7 @@ Route::group(['prefix' => 'v1'], function () {
             Route::post('/payment/setup-intent', 'User\Payment\PaymentController@newSetupIntent');
             Route::get('/payment/cards', 'User\Payment\PaymentController@paymentMethods');
             Route::post('/payment/cards', 'User\Payment\PaymentController@addPaymentMethod');
+            Route::delete('/payment/cards/all', 'User\Payment\PaymentController@deleteAllPaymentMethods');
             // Users - Subscription
             Route::get('/subscriptions', 'User\Subscription\SubscriptionController@currentSubscription');
             Route::post('/subscriptions', 'User\Subscription\SubscriptionController@subscribe');
