@@ -4,12 +4,14 @@ namespace App\Http\Controllers\User\Subscription;
 
 use App\Helpers\JsonResponseHelper;
 use App\Http\Controllers\Controller;
+use App\Models\StockAlertRule;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
 use Laravel\Cashier\Subscription;
 use Stripe\Exception\InvalidRequestException;
+use Stripe\Stripe;
 
 class SubscriptionController extends Controller
 {
@@ -26,24 +28,37 @@ class SubscriptionController extends Controller
     {
         /** @var User $user */
         $user = auth()->user();
-        $subscription = $user->asStripeCustomer()->subscriptions;
 
-        if (! $subscription || count($subscription->data) == 0) {
-            return JsonResponseHelper::notFound('User does not have a subscription yet');
-        }
-
+        // get subscription from db
         $dbData = Subscription::where([
             ['user_id', $user->id],
-            ['stripe_id', $subscription->data[0]->id]
+            ['stripe_status', 'active'],
         ])->first();
 
         if (! $dbData) {
             return JsonResponseHelper::notFound('User does not have a subscription yet');
         }
 
-        $subscription->data[0]->db_data = $dbData;
+        // get stripe subscription
+        Stripe::setApiKey(config('cashier.secret'));
+        $stripeData = \Stripe\Subscription::retrieve($dbData->stripe_id);
 
-        return JsonResponseHelper::response(200, true, '', [], $subscription->data[0]);
+        // update db subscription status if differs
+        if ($dbData->stripe_status != $stripeData->status) {
+            $dbData->stripe_status = $stripeData->status;
+            $dbData->save();
+        }
+
+        // get total active stock alert rules
+        $rules = StockAlertRule::where([
+            ['user_id', $user->id],
+            ['triggered', 0]
+        ])->count();
+
+        $stripeData->db_data = $dbData;
+        $stripeData->usage = $rules;
+
+        return JsonResponseHelper::response(200, true, '', [], $stripeData);
     }
 
     /**
