@@ -113,6 +113,10 @@ class StockAlertController extends Controller
             return JsonResponseHelper::notFound('Invalid stock alert');
         }
 
+        if ($alertRule->triggered) {
+            return JsonResponseHelper::badRequest('Stock alert rule already triggered');
+        }
+
         $user = auth()->user();
 
         // check permission
@@ -161,7 +165,11 @@ class StockAlertController extends Controller
         $alertRule = StockAlertRule::find($stockAlertID);
 
         if (! $alertRule) {
-            return JsonResponseHelper::notFound('Invalid stock alert');
+            return JsonResponseHelper::notFound('Invalid stock alert rule');
+        }
+
+        if ($alertRule->triggered) {
+            return JsonResponseHelper::badRequest('Stock alert rule already triggered');
         }
 
         $user = auth()->user();
