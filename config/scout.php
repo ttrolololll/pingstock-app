@@ -96,7 +96,7 @@ return [
             'max_expansions' => env('TNTSEARCH_FUZZINESS', 50),
             'distance' => env('TNTSEARCH_FUZZINESS', 2)
         ],
-        'asYouType' => false,
+        'asYouType' => true,
         'searchBoolean' => env('TNTSEARCH_BOOLEAN', false),
     ],
 

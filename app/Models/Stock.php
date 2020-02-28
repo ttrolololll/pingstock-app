@@ -17,14 +17,12 @@ class Stock extends Model
         'timezone'
     ];
 
-
     protected $dates = [
         'created_at',
         'updated_at',
-
     ];
 
-    protected $appends = ['resource_url'];
+    protected $appends = ['resource_url', 'display_title'];
 
     public function toSearchableArray()
     {
@@ -40,6 +38,11 @@ class Stock extends Model
     public function getResourceUrlAttribute()
     {
         return url('/admin/stocks/'.$this->getKey());
+    }
+
+    public function getDisplayTitleAttribute()
+    {
+        return "{$this->exchange_symbol}:{$this->symbol} {$this->name}";
     }
 
     public function exchange()

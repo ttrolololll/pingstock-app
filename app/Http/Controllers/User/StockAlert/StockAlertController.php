@@ -13,6 +13,16 @@ class StockAlertController extends Controller
 {
 
     /**
+     * Fulltext search for stocks based on symbols and names
+     * @param Request $request
+     * @return \Illuminate\Database\Eloquent\Collection
+     */
+    public function searchStock(Request $request)
+    {
+        return Stock::search($request->get('s'))->get();
+    }
+
+    /**
      * Get user's un-triggered Stock Alert Rules
      *
      * @param Request $request

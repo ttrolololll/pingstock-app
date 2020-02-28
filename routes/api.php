@@ -46,6 +46,9 @@ Route::group(['prefix' => 'v1'], function () {
             Route::post('/subscriptions/resume', 'User\Subscription\SubscriptionController@resumeSubscription');
 //            Route::post('/subscriptions/upgrade', 'User\Subscription\SubscriptionController@upgradeSubscription');
             // Users - Stock Alerts
+            // [TODO] stock endpoint should not be under stock alerts
+            Route::get('/stocks/search', 'User\StockAlert\StockAlertController@searchStock');
+            Route::get('/stock-alerts', 'User\StockAlert\StockAlertController@getList');
             Route::get('/stock-alerts', 'User\StockAlert\StockAlertController@getList');
             Route::post('/stock-alerts', 'User\StockAlert\StockAlertController@newStockAlert');
             Route::patch('/stock-alerts/{stockAlertID}', 'User\StockAlert\StockAlertController@update');
