@@ -6,6 +6,7 @@ use App\Helpers\JsonResponseHelper;
 use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
 use Stripe\PaymentMethod;
 use Stripe\Stripe;
@@ -61,6 +62,7 @@ class PaymentController extends Controller
                 'type' => 'card',
             ]);
         } catch (\Exception $e) {
+            Log::debug('[PaymentController.paymentMethods] ' . $e->getMessage(), $e->getTrace());
             return JsonResponseHelper::internal('Payment API key not found');
         }
 
