@@ -41,10 +41,8 @@ Symbol	Description
 1J3.SI	Asian Healthcare Specialists
 1J4.SI	Jep Holdings Ltd.
 1J5.SI	Hyphens Pharma Intl Limited
-1J6W.SI	Jep Holdings Ltd.w191220
 1J7.SI	Jawala Inc.
-1V2W.SI	Hsi28400mbecw200130
-1YUW.SI	Sti 3300mbepw191231
+1S4W.SI	S&p 3000mbepw200918
 3UJS.SI	Ny09100h 240901
 40B.SI	Smj International Holdingsltd.
 40D.SI	Starburst Holdings Limited
@@ -122,7 +120,6 @@ Symbol	Description
 584.SI	Oakwell Engineering Limited
 585.SI	Asian Micro Holdings Ltd
 586.SI	Tmc Education Corporation Ltd
-588.SI	Health Management Intl Ltd
 594.SI	Loyz Energy Limited
 595.SI	Van Der Horst Energy Limited
 596.SI	Thai Village Holdings Ltd
@@ -171,7 +168,6 @@ Symbol	Description
 5G3.SI	Talkmed Group Limited
 5G4.SI	Infinio Group Limited
 5G9.SI	Tritech Group Limited
-5GC.SI	Cna Group Ltd.
 5GD.SI	Sunpower Group Ltd.
 5GF.SI	Nico Steel Holdings Limited
 5GI.SI	Interra Resources Limited
@@ -258,18 +254,18 @@ Symbol	Description
 5WH.SI	Rex International Holding Ltd
 5WJ.SI	Moneymax Financial Servicesltd
 5WV.SI	Asiaphos Limited
+5Y1W.SI	Tencentmbecw200703
 5YTW.SI	Uob Mb Epw201230
 600.SI	Hyflux Ltd
-6HZW.SI	Hsi31200mbecw191230
 6SUS.SI	Ny05100n 200901
 7PMS.SI	Ny07100x 220901
 7QQS.SI	Nz07100s 270301
 8I9W.SI	Arion Entertainment Sinw200505
+8YLS.SI	Nz19100s 390701
 8YY.SI	Biolidics Limited
-8ZCW.SI	Hsi28000mbecw191230
+94IW.SI	Sti 3100mbepw200831
 9HSW.SI	Dlc Socgen7xlonghsc 210723
-9IRW.SI	Hsi26000mbepw191230
-9K9W.SI	Dbs Mb Ecw200102
+9LPW.SI	Hsi26400mbecw200227
 9Y4W.SI	Dbs Mb Ecw200601
 A04.SI	Asl Marine Holdings Ltd
 A05.SI	Avjennings Limited
@@ -285,11 +281,11 @@ A35.SI	Abf Spore Bond Index Fund Etf
 A50.SI	Rowsley Ltd.
 A52.SI	Annaik Limited
 A55.SI	Asia Enterprises Holding Ltd
-A68U.SI	Ascott Residence Trust
 A75.SI	Ace Achieve Infocom Limited
 A78.SI	Liongold Corp Ltd
 A7RU.SI	Cityspring Infrastruct Trust
 A7S.SI	Sunvic Chemical Holdings Ltd
+A91W.SI	Sti 3250mbepw200630
 AAJ.SI	Sunmoon Food Company Limited
 ACV.SI	Frasers Hospitality Trust
 AD8.SI	Sino Techfibre Limited
@@ -304,7 +300,6 @@ AGS.SI	The Hour Glass Limited
 AIY.SI	Ifast Corporation Ltd.
 AJ2.SI	Ouhua Energy Holdings Limited
 AJBU.SI	Keppel Dc Reit
-AJHW.SI	Shs Holdings W191216
 AOF.SI	Amplefield Limited
 AP4.SI	Riverstone Holdings Limited
 AU8U.SI	Capitaretail China Trust
@@ -336,7 +331,6 @@ AZR.SI	United Food Holdings Limited
 AZT.SI	Lottvision Limited
 AZW.SI	China Taisan Tech Grp Hldgsltd
 AZY.SI	Pan Ocean Co., Ltd.
-AZZ.SI	China Gaoxian Fibrefab Hldgltd
 B07.SI	Next-gen Satellite Comm Ltd
 B0Z.SI	China Fishery Group Limited
 B16.SI	Guocoleisure Limited
@@ -482,10 +476,8 @@ C92.SI	China Haida Ltd.
 C9Q.SI	Sinostar Pec Holdings Limited
 CC3.SI	Starhub Ltd
 CDVZ.SI	Krisenergy S$139.464mz240131
-CDWW.SI	Second Chance Prop W200123
 CDXW.SI	Krisenergy Ltd. W240131
 CEDU.SI	Dasin Retail Trust
-CEE.SI	Citic Envirotech Ltd.
 CEGW.SI	Upp Holdings Limited W200212
 CFA.SI	Nikkoam-stc Asia_xj Reit Etf
 CFN.SI	Onestoxxasean Fund
@@ -532,6 +524,7 @@ CTMW.SI	Tee Intl Limited W201030
 CTN.SI	Breadtalk Group Limited
 CTO.SI	Hong Lai Huat Group Limited
 CTPW.SI	Aei Corporation Ltd W210527
+CUVW.SI	Nky 22500mbepw200911
 CXFW.SI	Haidilao Mbecw200703
 CY6U.SI	Ascendas India Trust
 CYW.SI	Tricklestar
@@ -545,7 +538,6 @@ D2U.SI	Cacola Furniture Intl Limited
 D50.SI	China Great Land Holdings Ltd.
 D5IU.SI	Lippo Malls Indo Retail Trust
 D6U.SI	Dynamic Colours Limited
-D79.SI	C&g Env Protect Hldgs Ltd
 D8DU.SI	First Ship Lease Trust
 DAAW.SI	Dlc Socgen5xshort Aia
 DABW.SI	Dlc Socgen5xshort Venture A
@@ -564,16 +556,14 @@ DCSW.SI	Dlc Sg5xshort Citydev
 DDBW.SI	Dlc Sg5xshortwilmar A
 DDIW.SI	Dlc Socgen5xshort Singtel
 DDJW.SI	Dlc Socgen5xshort Tencent A
-DDMW.SI	S&p 2800mbepw191220
-DDQW.SI	Dbs Mb Ecw200106
 DDWW.SI	Dlc Socgen5xlong Uob
 DEKW.SI	Dlc Socgen5xlong Kepcorp
 DEZW.SI	Dlc Sg5xshortuob A
 DFFW.SI	Dlc Socgen5xshort Dbs
 DFHW.SI	Dlc Socgen5xlong Wilmar
 DFJW.SI	Dlc Sg5xshortocbc A
-DFOW.SI	Hsi27400mbepw200130
 DGAW.SI	Dlc Sg5xlonggeely A
+DGBW.SI	Dlc Sg5xshort Areit
 DGOW.SI	Dlc Socgen5xshort Venture
 DGRW.SI	Dlc Sg5xlong Sgx
 DGSW.SI	Dlc Sg5xshort Sgx
@@ -584,6 +574,7 @@ DJAW.SI	Dlc Sg5xlong Cmob
 DJWW.SI	Dlc Socgen5xshort Ocbc
 DKFW.SI	Dlc Socgen5xshort Capland
 DKUW.SI	Dlc Socgen5xshort Cnooc
+DKYW.SI	Hsi25600mbepw200330
 DLAW.SI	Dlc Socgen5xlong Venture
 DLQW.SI	Dlc Socgen5xlong Capland
 DM0.SI	Psc Corporation Ltd
@@ -601,6 +592,7 @@ DPWW.SI	Dlc Socgen5xlong Aia
 DQBW.SI	Dlc Sg5xshort Cmob
 DQDW.SI	Dlc Socgen5xshort Geely
 DQTW.SI	Dlc Socgen5xshort Tencent
+DRGW.SI	Dlc Sg5xlong Shkp
 DRWW.SI	Dlc Socgen5xlong Geely
 DRX.SI	St Group Food
 DSAW.SI	Dlc Sg5xlong Sands
@@ -641,12 +633,12 @@ E9L.SI	Joyas International Hldgs Ltd
 EB5.SI	First Resources Limited
 EB7.SI	Ktl Global Limited
 ECDW.SI	Dbs Mb Epw200602
+EEAW.SI	Sti 3000mbepw200630
 EG0.SI	Jes International Holdings Ltd
 EH5.SI	United Overseas Australia Ltd
 EOYW.SI	Uob Mb Epw200601
 ER0.SI	Ksh Holdings Limited
 ES3.SI	Sti Etf
-EUQW.SI	Hsi25400mbepw191230
 F03.SI	Food Empire Holdings Limited
 F10.SI	F J Benjamin Holdings Ltd
 F13.SI	Fu Yu Corporation Ltd
@@ -660,10 +652,11 @@ F86.SI	Cougar Logistics Corpn Ltd
 F99.SI	Fraser And Neave Limited
 F9D.SI	Boustead Singapore Limited
 FAXW.SI	Hsi29000mbecw200330
-FGNW.SI	Hsi27200mbecw191230
 FIAW.SI	China Real Estate W230726
+FIPW.SI	Hsi29800mbecw200330
 FQ7.SI	Jasper Investments Limited
 FQ8.SI	China Sports Intl Limited
+FSRW.SI	Hsi27400mbecw200330
 G07.SI	Great Eastern Hldgs Ltd
 G0I.SI	Nam Lee Pressed Metal Inds Ltd
 G11.SI	Global Tech (hldgs) Limited
@@ -676,9 +669,11 @@ G50.SI	Grand Banks Yachts Limited
 G54.SI	China Essence Group Ltd.
 G92.SI	China Aviation Oil(s) Corp Ltd
 GDEW.SI	Dlc Socgen7xlongmsg 220225
+GDNW.SI	Tencentmbepw200703
 GNAW.SI	Ocbc Bk Mb Ecw201229
 GNLW.SI	Thomson Med Grp Ltdw220424
 GOKW.SI	Budweisermbepw200602
+GRQ.SI	Don Agro
 GU5.SI	China Kunda Tech Holdings Ltd
 GWDW.SI	Uob Mb Ecw201228
 GXYW.SI	Ezion Holdings Limitedw200412
@@ -698,16 +693,13 @@ H22.SI	Hong Leong Asia Ltd.
 H30.SI	Hong Fok Corporation Ltd
 H78.SI	Hongkong Land Holdings Limited
 HAGW.SI	Ocbc Bk Mb Epw201231
-HBXW.SI	Uob Mb Ecw200107
 HD6.SI	Dbxt S&p 500 Short Etf 10
 HD7.SI	Dbxt Msci Taiwan Etf 10
 HD8.SI	Dbxt Ft China 25 Etf 10
 HD9.SI	Dbxt Ftse Vietnam Etf 10
 HE0.SI	Dbxt S&p Cnx Nifty Etf 10
 HMN.SI	Ascott Trust
-HNTW.SI	Simsci 340mbepw191231
 HUBW.SI	Singtelmbecw201102
-HYZR.SI	Trendlines R
 i06.SI	Intraco Limited
 i07.SI	Isdn Holdings Limited
 i11.SI	Ipco Int'l Limited
@@ -724,7 +716,7 @@ IH2.SI	Dbxt Msci Korea Etf 10
 IH3.SI	Dbxt Msci Europe Etf 10
 INXW.SI	Uob Mb Epw201228
 INYW.SI	Dbs Mb Ecw201228
-IPKW.SI	S&p500 2600 Mb Epw191220
+IPZW.SI	Hsi24800mbepw200330
 IW5.SI	Seroja Investments Limited
 IWKW.SI	Envictus Intl Holdings W221128
 IX2.SI	Pec Ltd.
@@ -746,13 +738,12 @@ JBOW.SI	Hsi28800mbecw200227
 JK8.SI	United Sse 50 China Etf
 JLB.SI	Grand Venture Technology Ltd
 JPBW.SI	Kepcorp Mbecw201102
-JPCW.SI	S&p 3100mbecw191220
 JRCB.SI	Firstsponsor3.98%s2pccs#
+JVYW.SI	Sti 3400mbecw200831
 JYEU.SI	Lendlease Reit
 JYIW.SI	Dlc Socgen7xlonghsi 210723
 K03.SI	Khong Guan Flour Milling Ltd
 K1Q.SI	Ttj Holdings Limited
-K22.SI	Kian Ho Bearings Ltd
 K29.SI	Karin Technology Hldgs Limited
 K2LU.SI	Cache Logistics Trust
 K3CD.SI	China Eastern Air Adr 10
@@ -786,6 +777,7 @@ KUH.SI	Tsh Corporation Ltd
 KUO.SI	International Cement Groupltd.
 KUX.SI	Dlf Holdings Limited
 KV4.SI	Dbxt Iboxx Singapore Etf 5
+KVBW.SI	Nky 23500mbecw200911
 KVWW.SI	Tencentmbecw200602
 L02.SI	Manhattan Resources Limited
 L03.SI	Lian Beng Group Ltd
@@ -802,18 +794,16 @@ LG6.SI	Dbxt Msci Malaysia Trn Etf 10
 LG7.SI	Dbxt Msci Thailand Trn Etf 10
 LG8.SI	Dbxt Msci India Trn Etf 10
 LG9.SI	Dbxt Msci China Trn Etf 10
-LGMW.SI	Hsi27600mbepw191230
 LIW.SI	Eagle Hospitality Trust
 LJ3.SI	Overseas Union Enterprise Ltd
-LKAW.SI	Hsi31000ubecw191230
+LLHW.SI	Hsi 28600mbecw200428
 LS9.SI	Leader Environmental Tech Ltd
 LSHS.SI	N519100a 240201
 LSOW.SI	Venture Mb Ecw200302
 LSVW.SI	Hsi27200mbepw200330
+LUMW.SI	Nky 26000mbecw200911
 LUY.SI	Raffles Infrastructurehldgsltd
-LVGR.SI	Vibropower R^
 LYOW.SI	Hsi27000mbepw200227
-LYVW.SI	Ocbc Bk Mb Ecw200102
 M01.SI	Metro Holdings Limited
 M03.SI	Miyoshi Precision Limited
 M04.SI	Mandarin Oriental Intl Ltd
@@ -829,17 +819,15 @@ M62.SI	Cimb Ftse Asean40 100
 MADW.SI	Uob Mb Ecw201229
 MBH.SI	Nikkoam Sgd Ig Corp Bond Etf
 ME8U.SI	Mapletree Industrial Trust
-MECW.SI	Hsi24600mbepw191230
 MF6.SI	Mun Siong Engineering Limited
 MIJ.SI	Alliance Healthcare Group Ltd
 MKEW.SI	Hsi28200mbecw200330
-MMQW.SI	Hsi23600mbepw191230
 MR7.SI	Nordic Group Limited
 MR8.SI	Novo Group Ltd.
 MT1.SI	Dragon Group Intl Limited
 MU7.SI	Dbs S$800m 4.7% Ncps
 MV4.SI	Mewah International Inc.
-MWOW.SI	Dbs Mb Ecw191230
+MXNU.SI	Elitecomreit Gbp
 N01.SI	Neratelecommunications Ltd
 N02.SI	Nsl Ltd.
 N08.SI	New Toyo Int Hldgs Ltd
@@ -866,7 +854,6 @@ NPW.SI	Malaysia Smelting Corp Bhd
 NR7.SI	Raffles Education Corp Ltd
 NS8U.SI	Hutchison Port Holdings Trust
 NYHW.SI	Yangzijimbecw200302
-NYXW.SI	Dbs Mb Epw200109
 NZAW.SI	Nky 19500mbepw200911
 O08.SI	Ossia International Ltd
 O10.SI	Orchard Parade Holdings Ltd
@@ -884,8 +871,8 @@ O9P.SI	Ishares Usd Asia Hy Bond Etf
 OAJ.SI	Fortress Minerals Limited
 OL9S.SI	Nz10100f 300901
 OM0S.SI	Nx11100x 210601
+OMDW.SI	Hsi26600mbecw200330
 OMK.SI	Vividthree Holdings Ltd.
-OQOW.SI	Sti 3400 Mb Ecw191231
 OTX.SI	Medinex Limited
 OU8.SI	Centurion Corporation Limited
 OV8.SI	Sheng Siong Group Ltd
@@ -907,9 +894,8 @@ P8A.SI	Cordlife Group Limited
 P8Z.SI	Bumitama Agri Ltd.
 P9D.SI	Civmec Limited
 PA3.SI	Ta Corporation Ltd
+PBSW.SI	Vibropower W250116^
 PDRW.SI	Sti 3000mbepw200228
-PDSW.SI	Hsi28000ubepw191230
-PFYW.SI	Vallianz W191226
 PH0.SI	Hatten Land
 PH1S.SI	Na12100n 420202
 PQPW.SI	Tencentmbepw200602
@@ -918,7 +904,6 @@ PUPW.SI	Budweisermbecw200902
 Q01.SI	Qaf Ltd
 Q0F.SI	Ihh Healthcare Berhad
 Q0X.SI	Ultro Technologies Limited
-Q1P.SI	Ascendas Hospitality Trust
 Q5T.SI	Far East Hospitality Trust
 QC7.SI	Q & M Dental Group (s) Limited
 QES.SI	Chinasunsine
@@ -933,7 +918,7 @@ QR9.SI	Cimb S&p Asia Pac Dividend S$
 QS0.SI	Cimb Ft Asean 40 100 S$
 QS9.SI	Radiance Group Limited
 QSCW.SI	Xiaomi Mbecw200703
-QSXW.SI	Uob Mb Ecw200102
+QSD.SI	Resources Gbl
 QTWW.SI	Hsi26400mbepw200330
 QZG.SI	Accrelist Ltd
 R14.SI	Ramba Energy Limited
@@ -951,9 +936,9 @@ RHMW.SI	Uob Mb Ecw201230
 RIAW.SI	Dbs Mb Ecw201229
 RKWW.SI	Dbs Mb Ecw200602
 RMRB.SI	Astrea Iv S$242m4.35%b280614
-ROKW.SI	Xiaomi Mb Ecw200103
 RQ1.SI	Overseas Education Limited
 RS1.SI	China Environmental Res Gp Ltd
+RSXW.SI	Sti 3400mbecw200430
 RW0U.SI	Mapletree Greater Chinacomm Tr
 S07.SI	Shangri-la Asia Limited
 S08.SI	Singapore Post Limited
@@ -968,7 +953,6 @@ S3N.SI	Okh Global Ltd.
 S41.SI	Hong Leong Finance Limited
 S44.SI	Engro Corporation Limited
 S45U.SI	Singapore Index Fund
-S46.SI	San Teh Limited
 S49.SI	Singapore Reinsurance Cor Ltd
 S51.SI	Sembcorp Marine Ltd
 S56.SI	Samudera Shipping Line Ltd
@@ -984,8 +968,6 @@ S7P.SI	Soilbuild Construction Grp Ltd
 S85.SI	Straco Corporation Limited
 S91.SI	Chinavision Media Grp Limited
 S9B.SI	Tee Land Limited
-SCFW.SI	Capitaland Mb Ecw200106
-SCOW.SI	Hsi27600mbecw200130
 SHGW.SI	Singtel Mb Ecw200406
 SJY.SI	Megroup Ltd.
 SK3.SI	Krisenergy Ltd.
@@ -993,7 +975,6 @@ SK6U.SI	Sph Reit
 SO7.SI	Yangzijiang Shipbldg Hldgs Rmb
 SPGW.SI	Sti 3300mbecw200630
 SQ1B.SI	Sia S$750m 3.03% B 240328
-SQSR.SI	Synagie R1
 SSDW.SI	Hsi26200mbepw200227
 STP.SI	Silkroad Nickel Ltd.
 SV3U.SI	Soilbuild Business Space Reit
@@ -1013,8 +994,8 @@ T6I.SI	Valuemax Group Limited
 T82U.SI	Suntec Real Estate Inv Trust
 T8FS.SI	Ny14100e 290701
 T8V.SI	Pacific Radiance Ltd.
-TAHW.SI	Hsi26600mbepw200130
 TEKB.SI	Temasek S$500m 2.7% B 231025
+TGAW.SI	Xiaomi Mbecw200902
 TID.SI	Xt Mschina S$
 TIKW.SI	Hsi27200mbecw200227
 TKYW.SI	Nky 19000mbepw200313
@@ -1022,7 +1003,7 @@ TOKW.SI	Hsi25400mbepw200227
 TOQW.SI	Jubilee W200301
 TQ5.SI	Frasers Centrepoint Limited
 TS0U.SI	Oue Commercial Reit
-TSSW.SI	Uob Mb Epw200107
+TTDW.SI	Venture Mb Ecw200630
 TY6Z.SI	Capitamalltrs$350m3.08%b210220
 U04.SI	United Engineers Ltd Ord
 U05.SI	United Engineers 7.5% Cum Pref
@@ -1036,11 +1017,9 @@ U6C.SI	Pacc Offshore Svcs Hldg Ltd.
 U77.SI	Sarin Technologies Ltd
 U96.SI	Sembcorp Industries Ltd
 U9E.SI	Hankore Environment Tec Grpltd
-UBWW.SI	Uob Mb Ecw200120
 UD1U.SI	Ireit Global
 UD2.SI	Japfa Ltd.
-UEAW.SI	Xiaomi Mb Epw200103
-UNAW.SI	Sti 3100 Mb Epw191231
+UITW.SI	Hsi25200mbepw200428
 UPQW.SI	Kepcorp Mbecw200601
 UQ4.SI	Emas Offshore Limited
 UQXW.SI	Ocbc Bk Mb Epw200302
@@ -1056,45 +1035,43 @@ VFP.SI	China Medical (intl) Gp Ltd
 VK7W.SI	Uob Mb Ecw 200601
 VL6.SI	Koufu Group Limited
 VM8W.SI	Nky 21500mbepw200313
-VRHW.SI	Hsi25000mbepw200130
-VX2W.SI	Uob Mb Ecw200106
 W05.SI	Wing Tai Hldgs Ltd
 W4AW.SI	Incredible W210311
-W4JW.SI	Hsi30000ubecw191230
 W4QW.SI	Jcg W201029
+W6CW.SI	Hsi 26800mbepw200428
 W8BW.SI	Ocbc Bk Mb Epw200701
-WB1W.SI	Hsi26800mbecw200130
+W8XW.SI	Hsi27800mbecw200428
+WBFW.SI	Hsi28000mbepw200330
 WG2W.SI	Asl M W240723
 WJOW.SI	Sembmar Mbecw200601
+WKIW.SI	Hsi24400mbepw200428
 WOYW.SI	Ocbc Bk Mb Ecw200806
 WPC.SI	Vallianz Holdings Ltd
 WQCW.SI	Ocbc Bk Mb Ecw200302
 WVZW.SI	Sti 3100mbepw200430
 X06.SI	Sinopipe Holdings Limited
-X2WW.SI	S&p 3000mbecw191220
+X7YW.SI	Xiaomi Mbepw200902
 XCF.SI	Ktmg Limited
-XIEW.SI	Hsi26400mbecw191230
 XKLW.SI	Dbs Mb Ecw200302
-XLVW.SI	Dbs Mb Ecw200109
 XZL.SI	Ara Us Hospitality Trust
 Y03.SI	Yeo Hiap Seng Ltd
 Y06.SI	Youcan Foods International Ltd
 Y0JW.SI	Nky 25000mbecw200313
+Y0MW.SI	Hsi28600mbepw200227
 Y35.SI	Sun East Group Limited
 Y45.SI	Singapore Windsor Holdings Ltd
+Y7LW.SI	Hsi29600mbecw200227
 Y92.SI	Thai Beverage Public Co Ltd
 YBNW.SI	Singtelmbecw210331
-YDHR.SI	Synagie R
-YFEW.SI	Hsi26800mbepw191230
 YHUW.SI	Ocbc Bk Mb Ecw201228
-YJFW.SI	Hsi29000ubecw191230
 YM7W.SI	S&p 2900mbepw200320
 YPFW.SI	Capitalambecw201102
-YQ1W.SI	Hsi25800mbepw200130
+YSYW.SI	Hsi27000mbecw200428
 YYB.SI	Arion Entertainment Spore Ltd
 Z25.SI	Yanlord Land Group Limited
 Z59.SI	Yoma Strategic Holdings Ltd
 Z74.SI	Singtel
 Z77.SI	Singtel 10
 ZAVW.SI	S&p 3100mbepw200320
-ZXJW.SI	Mdr Limited W191217
+ZFSW.SI	2ndchance W230307
+ZTOW.SI	Dbs Mb Epw201231

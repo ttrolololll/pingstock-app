@@ -14,7 +14,8 @@ class Stock extends Model
         'name',
         'currency',
         'exchange_symbol',
-        'timezone'
+        'timezone',
+        'source',
     ];
 
     protected $dates = [

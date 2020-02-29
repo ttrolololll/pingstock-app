@@ -105,7 +105,6 @@ Symbol,Description
 584.SI,Oakwell Engineering Limited
 585.SI,Asian Micro Holdings Ltd
 586.SI,Tmc Education Corporation Ltd
-588.SI,Health Management Intl Ltd
 594.SI,Loyz Energy Limited
 595.SI,Van Der Horst Energy Limited
 596.SI,Thai Village Holdings Ltd
@@ -154,7 +153,6 @@ Symbol,Description
 5G3.SI,Talkmed Group Limited
 5G4.SI,Infinio Group Limited
 5G9.SI,Tritech Group Limited
-5GC.SI,Cna Group Ltd.
 5GD.SI,Sunpower Group Ltd.
 5GF.SI,Nico Steel Holdings Limited
 5GI.SI,Interra Resources Limited
@@ -245,6 +243,7 @@ Symbol,Description
 6SUS.SI,Ny05100n 200901
 7PMS.SI,Ny07100x 220901
 7QQS.SI,Nz07100s 270301
+8YLS.SI,Nz19100s 390701
 8YY.SI,Biolidics Limited
 9HSW.SI,Dlc Socgen7xlonghsc 210723
 A04.SI,Asl Marine Holdings Ltd
@@ -261,7 +260,6 @@ A35.SI,Abf Spore Bond Index Fund Etf
 A50.SI,Rowsley Ltd.
 A52.SI,Annaik Limited
 A55.SI,Asia Enterprises Holding Ltd
-A68U.SI,Ascott Residence Trust
 A75.SI,Ace Achieve Infocom Limited
 A78.SI,Liongold Corp Ltd
 A7RU.SI,Cityspring Infrastruct Trust
@@ -311,7 +309,6 @@ AZR.SI,United Food Holdings Limited
 AZT.SI,Lottvision Limited
 AZW.SI,China Taisan Tech Grp Hldgsltd
 AZY.SI,Pan Ocean Co., Ltd.
-AZZ.SI,China Gaoxian Fibrefab Hldgltd
 B07.SI,Next-gen Satellite Comm Ltd
 B0Z.SI,China Fishery Group Limited
 B16.SI,Guocoleisure Limited
@@ -454,7 +451,6 @@ C9Q.SI,Sinostar Pec Holdings Limited
 CC3.SI,Starhub Ltd
 CDVZ.SI,Krisenergy S$139.464mz240131
 CEDU.SI,Dasin Retail Trust
-CEE.SI,Citic Envirotech Ltd.
 CFA.SI,Nikkoam-stc Asia_xj Reit Etf
 CFN.SI,Onestoxxasean Fund
 CGN.SI,Best World International Ltd
@@ -504,7 +500,6 @@ D2U.SI,Cacola Furniture Intl Limited
 D50.SI,China Great Land Holdings Ltd.
 D5IU.SI,Lippo Malls Indo Retail Trust
 D6U.SI,Dynamic Colours Limited
-D79.SI,C&g Env Protect Hldgs Ltd
 D8DU.SI,First Ship Lease Trust
 DAAW.SI,Dlc Socgen5xshort Aia
 DABW.SI,Dlc Socgen5xshort Venture A
@@ -530,6 +525,7 @@ DFFW.SI,Dlc Socgen5xshort Dbs
 DFHW.SI,Dlc Socgen5xlong Wilmar
 DFJW.SI,Dlc Sg5xshortocbc A
 DGAW.SI,Dlc Sg5xlonggeely A
+DGBW.SI,Dlc Sg5xshort Areit
 DGOW.SI,Dlc Socgen5xshort Venture
 DGRW.SI,Dlc Sg5xlong Sgx
 DGSW.SI,Dlc Sg5xshort Sgx
@@ -556,6 +552,7 @@ DPWW.SI,Dlc Socgen5xlong Aia
 DQBW.SI,Dlc Sg5xshort Cmob
 DQDW.SI,Dlc Socgen5xshort Geely
 DQTW.SI,Dlc Socgen5xshort Tencent
+DRGW.SI,Dlc Sg5xlong Shkp
 DRWW.SI,Dlc Socgen5xlong Geely
 DRX.SI,St Group Food
 DSAW.SI,Dlc Sg5xlong Sands
@@ -625,6 +622,7 @@ G50.SI,Grand Banks Yachts Limited
 G54.SI,China Essence Group Ltd.
 G92.SI,China Aviation Oil(s) Corp Ltd
 GDEW.SI,Dlc Socgen7xlongmsg 220225
+GRQ.SI,Don Agro
 GU5.SI,China Kunda Tech Holdings Ltd
 H02.SI,Haw Par Corp Ltd
 H07.SI,Stamford Land Corporation Ltd
@@ -646,7 +644,6 @@ HD8.SI,Dbxt Ft China 25 Etf 10
 HD9.SI,Dbxt Ftse Vietnam Etf 10
 HE0.SI,Dbxt S&p Cnx Nifty Etf 10
 HMN.SI,Ascott Trust
-HYZR.SI,Trendlines R
 i06.SI,Intraco Limited
 i07.SI,Isdn Holdings Limited
 i11.SI,Ipco Int'l Limited
@@ -682,7 +679,6 @@ JYEU.SI,Lendlease Reit
 JYIW.SI,Dlc Socgen7xlonghsi 210723
 K03.SI,Khong Guan Flour Milling Ltd
 K1Q.SI,Ttj Holdings Limited
-K22.SI,Kian Ho Bearings Ltd
 K29.SI,Karin Technology Hldgs Limited
 K2LU.SI,Cache Logistics Trust
 K3CD.SI,China Eastern Air Adr 10
@@ -732,7 +728,6 @@ LJ3.SI,Overseas Union Enterprise Ltd
 LS9.SI,Leader Environmental Tech Ltd
 LSHS.SI,N519100a 240201
 LUY.SI,Raffles Infrastructurehldgsltd
-LVGR.SI,Vibropower R^
 M01.SI,Metro Holdings Limited
 M03.SI,Miyoshi Precision Limited
 M04.SI,Mandarin Oriental Intl Ltd
@@ -754,6 +749,7 @@ MR8.SI,Novo Group Ltd.
 MT1.SI,Dragon Group Intl Limited
 MU7.SI,Dbs S$800m 4.7% Ncps
 MV4.SI,Mewah International Inc.
+MXNU.SI,Elitecomreit Gbp
 N01.SI,Neratelecommunications Ltd
 N02.SI,Nsl Ltd.
 N08.SI,New Toyo Int Hldgs Ltd
@@ -821,7 +817,6 @@ PU6D.SI,Hsbc Adr 10
 Q01.SI,Qaf Ltd
 Q0F.SI,Ihh Healthcare Berhad
 Q0X.SI,Ultro Technologies Limited
-Q1P.SI,Ascendas Hospitality Trust
 Q5T.SI,Far East Hospitality Trust
 QC7.SI,Q & M Dental Group (s) Limited
 QES.SI,Chinasunsine
@@ -832,6 +827,7 @@ QL3.SI,Ishares Usd Asia Hy Bond Etfs$
 QR9.SI,Cimb S&p Asia Pac Dividend S$
 QS0.SI,Cimb Ft Asean 40 100 S$
 QS9.SI,Radiance Group Limited
+QSD.SI,Resources Gbl
 QZG.SI,Accrelist Ltd
 R14.SI,Ramba Energy Limited
 R1MS.SI,Nx13100h 230701
@@ -859,7 +855,6 @@ S3N.SI,Okh Global Ltd.
 S41.SI,Hong Leong Finance Limited
 S44.SI,Engro Corporation Limited
 S45U.SI,Singapore Index Fund
-S46.SI,San Teh Limited
 S49.SI,Singapore Reinsurance Cor Ltd
 S51.SI,Sembcorp Marine Ltd
 S56.SI,Samudera Shipping Line Ltd
@@ -880,7 +875,6 @@ SK3.SI,Krisenergy Ltd.
 SK6U.SI,Sph Reit
 SO7.SI,Yangzijiang Shipbldg Hldgs Rmb
 SQ1B.SI,Sia S$750m 3.03% B 240328
-SQSR.SI,Synagie R1
 STP.SI,Silkroad Nickel Ltd.
 SV3U.SI,Soilbuild Business Space Reit
 T09.SI,Tt International Limited
@@ -938,7 +932,6 @@ Y06.SI,Youcan Foods International Ltd
 Y35.SI,Sun East Group Limited
 Y45.SI,Singapore Windsor Holdings Ltd
 Y92.SI,Thai Beverage Public Co Ltd
-YDHR.SI,Synagie R
 YYB.SI,Arion Entertainment Spore Ltd
 Z25.SI,Yanlord Land Group Limited
 Z59.SI,Yoma Strategic Holdings Ltd

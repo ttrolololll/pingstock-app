@@ -41,7 +41,7 @@ class StockListClean extends Command
         $this->validateParams();
 
         switch ($this->argument('source')) {
-            case 'eoddata':
+            case 'eod':
                 $this->processEoddataFile($this->argument('filepath'));
                 break;
         }

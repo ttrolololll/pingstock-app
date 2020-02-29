@@ -52,11 +52,20 @@ class StockListImportCmd extends Command
         $source = $this->argument('source');
         $filepath = $this->argument('filepath');
 
+        // add to db
         switch ($source) {
-            case 'worldtradingdata':
+            case 'wtd':
                 $this->processWorldTradingDataCsv($filepath);
                 break;
+            case 'eod':
+                $this->processEODDataCsv($filepath);
+                break;
         }
+
+        // index them
+        $this->call('tntsearch:import', [
+            'model' => Stock::class
+        ]);
 
         return;
     }
@@ -106,6 +115,45 @@ class StockListImportCmd extends Command
                     'currency' => $currency,
                     'exchange_symbol' => $exc,
                     'timezone' => $timezone,
+                    'created_at' => $now,
+                    'updated_at' => $now,
+                ]
+            );
+        }
+    }
+
+    /**
+     * processWorldTradingDataCsv
+     *
+     * Only for SGX
+     * CSV fields:
+     * Symbol, Name
+     *
+     * @param $filepath
+     */
+    protected function processEODDataCsv($filepath)
+    {
+        $file = fopen($filepath, 'r');
+        $lines = FileHelper::csvFileLineIterator($file);
+
+        foreach ($lines as $line) {
+            if (count($line) != 2) {
+                continue;
+            }
+
+            $symbol = $line[0];
+            $name = $line[1];
+            $now = now()->format('Y-m-d H:i:s');
+
+            DB::table('stocks')->updateOrInsert(
+                ['symbol' => $symbol],
+                [
+                    'symbol' => $symbol,
+                    'name' => $name,
+                    'source' => 'av',
+                    'currency' => 'SGD',
+                    'exchange_symbol' => 'SGX',
+                    'timezone' => 'Asia/Singapore',
                     'created_at' => $now,
                     'updated_at' => $now,
                 ]
