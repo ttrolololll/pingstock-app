@@ -62,7 +62,7 @@ class PaymentController extends Controller
                 'type' => 'card',
             ]);
         } catch (\Exception $e) {
-            Log::debug('[PaymentController.paymentMethods] ' . $e->getMessage(), $e->getTrace());
+            Log::error('[PaymentController.paymentMethods] ' . $e->getMessage(), $e->getTrace());
             return JsonResponseHelper::internal('Payment API key not found');
         }
 
