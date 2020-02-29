@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\DB;
 
 class StockListImportCmd extends Command
 {
+
     /**
      * The name and signature of the console command.
      *
