@@ -46,20 +46,28 @@ class StockAlertingCmd extends Command
      */
     public function handle()
     {
-        Log::info(self::$cmdNameTag . ' Initiated at UTC ' . Carbon::now()->utc()->format('Y-m-d H:i:s'));
+        $now = Carbon::now()->utc();
+        Log::info(self::$cmdNameTag . ' Initiated at UTC ' . $now->format('Y-m-d H:i:s'));
 
         // get all exchange symbols within trading hours
-        $exchanges = StockExchange::select(['symbol']);
+        $exchanges = StockExchange::select(['symbol', 'timezone']);
 
         if (config('app.env') == 'staging' || config('app.env') == 'production') {
-            $now = Carbon::now()->utc();
             $nowTime = $now->format('H:i');
-            $exchanges = StockExchange::select(['symbol'])
+            $exchanges = $exchanges
                 ->where('trading_start_utc', '<=', $nowTime)
                 ->where('trading_end_utc', '>=', $nowTime);
         }
 
         $exchanges = $exchanges->get();
+
+        // check if is weekend (there should be no trade and alerts on weekends)
+        if (config('app.env') == 'staging' || config('app.env') == 'production') {
+            $exchanges = $exchanges->filter(function ($val, $key) use ($now) {
+                return ! $now->setTimezone($val->timezone)->isWeekend();
+            });
+        }
+
         $exchangeCount = $exchanges->count();
 
         if ($exchangeCount == 0) {
