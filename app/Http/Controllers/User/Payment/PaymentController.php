@@ -53,8 +53,14 @@ class PaymentController extends Controller
     {
         $user = auth()->user();
 
+        if (! $user->stripe_id) {
+            return JsonResponseHelper::ok('', [], []);
+        }
+
         // use Stripe directly, because Laravel $user->paymentMethods() returns empty
         Stripe::setApiKey(config('cashier.secret'));
+
+        Log::debug('customer is ' . $user->stripe_id);
 
         try {
             $paymentMethods = PaymentMethod::all([
