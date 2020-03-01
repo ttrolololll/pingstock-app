@@ -16,7 +16,7 @@ use Stripe\Stripe;
 class SubscriptionController extends Controller
 {
     protected static $logTag = 'User\Subscription\SubscriptionController';
-    protected static $defaultSubscriptionName = 'default';
+    protected static $defaultSubscriptionName = 'PingStock Invest';
 
     /**
      * Get current subscription
