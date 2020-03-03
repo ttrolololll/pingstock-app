@@ -102,8 +102,11 @@ class StockAlertingCmd extends Command
         foreach ($wtdSymbolSets as $set) {
             GetStockUpdateJob::dispatch($set, WTDService::$sourceName)->onQueue('get_stock_update');
         }
+        // av has api rate limit of 5 calls / min under free plan
+        $avDelay = now();
         foreach ($avSymbolSets as $set) {
-            GetStockUpdateJob::dispatch($set, AlphaVantageService::$sourceName)->onQueue('get_stock_update');
+            GetStockUpdateJob::dispatch($set, AlphaVantageService::$sourceName)->onQueue('get_stock_update')->delay($avDelay);
+            $avDelay = $avDelay->addSeconds(65);
         }
 
         Log::info(self::$cmdNameTag . ' Stock info. update jobs dispatched');
