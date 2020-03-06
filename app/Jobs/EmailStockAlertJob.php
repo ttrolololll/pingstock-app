@@ -3,6 +3,7 @@
 namespace App\Jobs;
 
 use App\Services\MailgunService;
+use Carbon\Carbon;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
@@ -53,6 +54,7 @@ class EmailStockAlertJob implements ShouldQueue
 
         // then set stock alerts as triggered
         $ruleChunks = $this->rules->chunk(200)->toArray();
+        $now = Carbon::now();
 
         foreach ($ruleChunks as $key => $chunk) {
             $conds = [];
@@ -62,7 +64,7 @@ class EmailStockAlertJob implements ShouldQueue
             }
 
             if (count($conds) > 0) {
-                DB::table('stock_alert_rules')->where($conds)->update(['triggered' => 1]);
+                DB::table('stock_alert_rules')->where($conds)->update(['triggered_at' => $now, 'updated_at' => $now]);
             }
         }
     }

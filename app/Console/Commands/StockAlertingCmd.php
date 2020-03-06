@@ -86,7 +86,7 @@ class StockAlertingCmd extends Command
         // get all stock alert rules distinct by unique symbols
         $alertRules = StockAlertRule::cursor()
             ->filter(function ($value, $key) use ($exchangeSymbols) {
-                return ! $value->triggered && in_array($value->exchange_symbol, $exchangeSymbols);
+                return ! $value->triggered_at && in_array($value->exchange_symbol, $exchangeSymbols);
             })
             ->unique('stock_symbol');
 

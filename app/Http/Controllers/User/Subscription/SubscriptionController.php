@@ -50,10 +50,9 @@ class SubscriptionController extends Controller
         }
 
         // get total active stock alert rules
-        $rules = StockAlertRule::where([
-            ['user_id', $user->id],
-            ['triggered', 0]
-        ])->count();
+        $rules = StockAlertRule::where('user_id', $user->id)
+            ->whereNull('triggered_at')
+            ->count();
 
         $stripeData->db_data = $dbData;
         $stripeData->usage = $rules;

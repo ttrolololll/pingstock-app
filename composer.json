@@ -10,6 +10,7 @@
     "require": {
         "php": "^7.2",
         "aws/aws-sdk-php": "^3.132",
+        "doctrine/dbal": "^2.10",
         "fideloper/proxy": "^4.0",
         "guzzlehttp/guzzle": "~6.0",
         "laravel/cashier": "^10.5",

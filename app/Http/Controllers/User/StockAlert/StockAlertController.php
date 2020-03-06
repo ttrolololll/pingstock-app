@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Stock;
 use App\Models\StockAlertRule;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
 
 class StockAlertController extends Controller
@@ -31,21 +32,16 @@ class StockAlertController extends Controller
     public function getList(Request $request)
     {
         $user = auth()->user();
-        $triggeredCond = 0;
-        $triggered = $request->get('triggered');
+        $triggered = intval($request->get('triggered'));
+        $alerts = StockAlertRule::where('user_id', $user->id);
 
-        if (! empty($triggered)) {
-            $triggeredCond = intval($triggered);
+        if ($triggered) {
+            $alerts = $alerts->whereNotNull('triggered_at');
+        } else {
+            $alerts = $alerts->whereNull('triggered_at');
         }
 
-        $where = [
-            ['user_id', $user->id],
-            ['triggered', $triggeredCond]
-        ];
-
-        $alerts = StockAlertRule::where($where)->get();
-
-        return $alerts;
+        return $alerts->get();
     }
 
     /**

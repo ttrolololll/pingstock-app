@@ -22,13 +22,13 @@ class StockAlertRulePolicy
         $allowedCount = config('app.free_stock_alerts', 10);
         $subscription = Subscription::where('user_id', $user->id)->first();
 
-        if ($subscription && $subscription->stock_alerts_per_mth > $allowedCount) {
-            $allowedCount = $subscription->stock_alerts_per_mth;
+        if ($subscription && $subscription->stock_alerts != $allowedCount) {
+            $allowedCount = $subscription->stock_alerts;
         }
 
         $currentCount = StockAlertRule::where([
             ['user_id', $user->id],
-            ['triggered', 0],
+            ['triggered_at', null],
         ])->count();
 
         if ($currentCount < $allowedCount) {
