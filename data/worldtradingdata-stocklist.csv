@@ -100,7 +100,7 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 0102.HK,"Summit Ascent Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0103.HK,"Shougang Concord Century Holdings Ltd.",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0104.HK,"Asia Commercial Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
-0105.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
+0105.HK,"Associated International Hotels Limited",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0106.HK,"Landsea Green Group Co Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0107.HK,"SICHUAN EXPWY/Shs H Vtg 1.00",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0108.HK,"GR Properties Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
@@ -242,7 +242,7 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 0248.HK,"HKC International Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0250.HK,"Sino-I Technology Limited",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0251.HK,"S E A Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
-0252.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
+0252.HK,"Southeast Asia Properties & Finance Ltd.",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0253.HK,"Shun Ho Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0254.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
 0255.HK,"Lung Kee (Bermuda) Holdings Limited",HKD,"Hong Kong Stock Exchange",HKEX,HKT
@@ -339,7 +339,7 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 0353.HK,"Energy International Investment Hld Ltd.",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0354.HK,"Chinasoft International Limited",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0355.HK,"Century City International Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
-0356.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
+0356.HK,"DT Capital Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0357.HK,"Hainan Meilan Intrntnl Arprt C Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0358.HK,"JIANGXI COPPER/Shs H Vtg 1.00",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0359.HK,"China Haisheng Juice Holdings Co Ltd.",HKD,"Hong Kong Stock Exchange",HKEX,HKT
@@ -486,7 +486,7 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 0536.HK,"Tradelink Electronic Commerce Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0538.HK,"Ajisen (China) Holdings Ltd.",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0539.HK,"Victory City International Holdings Ltd.",HKD,"Hong Kong Stock Exchange",HKEX,HKT
-0540.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
+0540.HK,"Speedy Global Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0542.HK,"TFG International Group Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0543.HK,"Pacific Online Limited",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0544.HK,"Daido Group Ltd.",HKD,"Hong Kong Stock Exchange",HKEX,HKT
@@ -812,7 +812,7 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 0910.HK,"China Sandi Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0911.HK,"Qianhai Health Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0912.HK,"Suga International Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
-0913.HK,N/A,HKD,"Hong Kong Stock Exchange",HKEX,HKT
+0913.HK,"Unity Investments Holdings Limited",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0914.HK,"ANHUI CONCH CEM/Shs H Vtg 1.00",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0915.HK,"Daohe Global Group Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0916.HK,"China Longyuan Power Group Corp Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
@@ -859,7 +859,7 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 0969.HK,"Hua Lien International (Holding) Co. Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0970.HK,"Sparkle Roll Group Ltd.",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0973.HK,"L'Occitane International S.A.",HKD,"Hong Kong Stock Exchange",HKEX,HKT
-0974.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
+0974.HK,"China Shun Ke Long Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0975.HK,"Mongolian Mining Corporation",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0976.HK,"Chiho Environmental Group Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 0978.HK,"China Merchants Land Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
@@ -1642,6 +1642,39 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 1997.HK,"Wharf Real Estate Investment Company Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 1998.HK,"Flyke International Holdings Limited",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 1999.HK,"Man Wah Holdings Limited",HKD,"Hong Kong Stock Exchange",HKEX,HKT
+1A0.SI,"Katrina Group Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+1A1.SI,"Wong Fong Industries Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1A4.SI,"AGV Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1B0.SI,"mm2 Asia Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+1B1.SI,"HC Surgical Specialists Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1B6.SI,"Ocean Sky International Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1C0.SI,"Emerging Towns & Cities Singapore Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+1C3.SI,"Samurai 2K Aerosol Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1C5.SI,"Pacific Star Development Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1D0.SI,"Kimly Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1D1.SI,"UnUsUaL Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1D3.SI,"LifeBrandz Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+1D4.SI,"Aoxin Q & M Dental Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1D5.SI,"Capital World Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1D8.SI,"Singapore O&G Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+1E3.SI,"Sanli Environmental Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1E6.SI,"World Class Global Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1F0.SI,"shopper360 Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1F1.SI,"Y Ventures Group Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+1F2.SI,"Union Gas Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1F3.SI,"Aspen (Group) Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1G1.SI,"RE&S Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1G6.SI,"No Signboard Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+1H2.SI,"Olive Tree Estates Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1H3.SI,"Clearbridge Health Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1H4.SI,"Memories Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1H8.SI,"LY Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1I5.SI,"ayondo Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+1J0.SI,"SLB Development Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+1J3.SI,"Asian Healthcare Specialists Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1J4.SI,"JEP Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+1J5.SI,"Hyphens Pharma International Limited",SGD,"Singapore Stock Exchange",SGX,+08
+1J7.SI,"Jawala Inc.",SGD,"Singapore Stock Exchange",SGX,+08
 2000.HK,"SIM Technology Group Ltd.",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 2001.HK,"China New Higher Education Group Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 2002.HK,"China Sunshine Paper Holdings Co Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
@@ -1653,7 +1686,7 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 2009.HK,"BBMG/Shs H Vtg 1.00",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 2010.HK,"Real Nutriceutical Group Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 2011.HK,"KChina Apex Group Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
-2012.HK,"SUNSHINE OIL ORD",HKD,"Hong Kong Stock Exchange",HKEX,HKT
+2012.HK,"Sunshine Oilsands Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 2013.HK,"Weimob Inc",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 2014.HK,"Ozner Water International Holding Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 2016.HK,"China Zheshang Bank Co Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
@@ -2236,7 +2269,7 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 3939.HK,"Wanguo International Mining Group Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 3948.HK,"Inner Mongolia Yitai Coal Company Ltd.",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 3958.HK,"Orient Securities Co Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
-3963.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
+3963.HK,"China Rongzhong Financial Holdings CoLtd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 3966.HK,"China Baofeng (International) Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 3968.HK,"CHINA MERCHANTS/Shs H Vtg 1.00",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 3969.HK,"China Railway Signl & Cmmunctn Crp Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
@@ -2251,6 +2284,7 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 3997.HK,"Telecom Service One Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 3998.HK,"Bosideng International Holdings limited",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 3999.HK,"Dachan Food (Asia) Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
+3UJS.SI,"Singapore 3% BDS 01/09/2024 SGD1000",SGD,"Singapore Stock Exchange",SGX,+08
 40B.SI,"HealthBank Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 40D.SI,"Starburst Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 40E.SI,"Spackman Entertainment Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
@@ -2278,6 +2312,7 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 42S.SI,"Astaka Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 42T.SI,"The Trendlines Group Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 42U.SI,"Axcelasia Inc.",SGD,"Singapore Stock Exchange",SGX,+08
+42W.SI,"China Star Food Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
 42Z.SI,"Eindec Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
 4332.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
 4333.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
@@ -2287,6 +2322,10 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 4338.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
 43A.SI,"GS Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 43B.SI,"Secura Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
+43E.SI,"Anchor Resources Limited",SGD,"Singapore Stock Exchange",SGX,+08
+43F.SI,"Acromec Limited",SGD,"Singapore Stock Exchange",SGX,+08
+43P.SI,"United Global Limited",SGD,"Singapore Stock Exchange",SGX,+08
+43Q.SI,"Advancer Global Limited",SGD,"Singapore Stock Exchange",SGX,+08
 4601.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
 4603.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
 4605.HK,"Bank of Communications Co., Ltd. Preference Shares",USD,"Hong Kong Stock Exchange",HKEX,HKT
@@ -2338,6 +2377,7 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 5AB.SI,"Trek 2000 International Ltd",SGD,"Singapore Stock Exchange",SGX,+08
 5AE.SI,"Pollux Properties Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 5AI.SI,"P5 Capital Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+5AL.SI,"Annica Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5AU.SI,"AP Oil International Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5BI.SI,"Polaris Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 5BS.SI,"Sen Yue Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
@@ -2357,17 +2397,20 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 5EC.SI,"Reenova Investment Holding Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5EF.SI,"Adventus Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5EG.SI,"Zhongxin Fruit and Juice Limited",SGD,"Singapore Stock Exchange",SGX,+08
+5EK.SI,"SinoCloud Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5EL.SI,"Lasseters International Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5EV.SI,"Hosen Group Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 5EW.SI,"Pan Asian Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5F4.SI,"Figtree Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5F7.SI,"Wilton Resources Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
+5FH.SI,"Citicode Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 5FL.SI,"Falcon Energy Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5FW.SI,"Acesian Partners Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5FX.SI,"New Wave Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 5G1.SI,"EuroSports Global Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5G2.SI,"Kim Heng Offshore & Marine Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5G3.SI,"TalkMed Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
+5G4.SI,"Rich Capital Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5G9.SI,"Tritech Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5GD.SI,"Sunpower Group Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 5GF.SI,"Nico Steel Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
@@ -2431,6 +2474,7 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 5TR.SI,"Libra Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5TS.SI,"Alpha Energy Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5TT.SI,"Keong Hong Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
+5TY.SI,"Advanced Systems Automation Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5UA.SI,"Starland Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 5UF.SI,"Maxi-Cash Financial Services Corporation Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 5UJ.SI,"Neo Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
@@ -2554,6 +2598,7 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 6919.HK,"Renrui Human Resources Tech Hol Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 6928.HK,"TOMO Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 6966.HK,"China Wan Tong Yuan (Holdings) Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
+6SUS.SI,"Singapore 3.25% BDS 01/09/20 SGD1000",SGD,"Singapore Stock Exchange",SGX,+08
 7200.HK,"CLAIS-CHSIDLP/UT HKD",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 7205.HK,"SLAIIPS-SHSIDLP/UT HKD",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 7210.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
@@ -2577,6 +2622,8 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 7362.HK,"GXHSCEID(-1X)IP/UT HKD",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 7388.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
 7500.HK,"FI2 CSOP HSI ETF",HKD,"Hong Kong Stock Exchange",HKEX,HKT
+7PMS.SI,"Singapore 3.125% BDS 01/09/22 SGD1000",SGD,"Singapore Stock Exchange",SGX,+08
+7QQS.SI,"Singapore 3.5% SNR BDS 01/03/2027 SGD1000",SGD,"Singapore Stock Exchange",SGX,+08
 8001.HK,"Orient Securities Intl Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 8003.HK,"Great World Company Holdings Limited",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 8005.HK,"Yuxing InfoTech Investment Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
@@ -2615,7 +2662,7 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 8047.HK,"China Ocean Fishing Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 8048.HK,"Yu Tak International Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 8049.HK,"Jilin Provnc Hnn Chnglng Bio-pharm CoLtd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
-8050.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
+8050.HK,"Quantum Thinking Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 8051.HK,"CircuTech International Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 8052.HK,"Luk Hing Entertainment Group HoldingsLtd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 8053.HK,"Pizu Group Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
@@ -2681,10 +2728,10 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 8128.HK,"China Geothermal Industry Dev Grp Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 8129.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
 8130.HK,"Dadi International Group Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
-8131.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
+8131.HK,"abc Multiactive Limited",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 8132.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
 8133.HK,"Jete Power Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
-8135.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
+8135.HK,"ZMFY Automobile Glass Services Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 8136.HK,"IMS Group Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 8137.HK,"Honbridge Holdings Limited",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 8138.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
@@ -2945,7 +2992,7 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 8469.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
 8470.HK,"Lumina Group Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 8471.HK,"Reach New Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
-8472.HK,N/A,,"Hong Kong Stock Exchange",HKEX,HKT
+8472.HK,"Lapco Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 8473.HK,"MI Ming Mart Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 8475.HK,"K Group Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 8476.HK,"Ocean One Holding Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
@@ -3005,6 +3052,7 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 8645.HK,"Nomad Technologies Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 8668.HK,"Ying Hai Group Holdings Co Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 87001.HK,"Hui Xian Real Estate Investment Trust",CNY,"Hong Kong Stock Exchange",HKEX,HKT
+8YY.SI,"Biolidics Limited",SGD,"Singapore Stock Exchange",SGX,+08
 9010.HK,"ISHARESMSCI ACAEJI ETF/UT USD",USD,"Hong Kong Stock Exchange",HKEX,HKT
 9074.HK,"ISHARESMSCI TWI ETF/UT USD",USD,"Hong Kong Stock Exchange",HKEX,HKT
 9081.HK,"VALUE GOLD ETF/UT USD",USD,"Hong Kong Stock Exchange",HKEX,HKT
@@ -3040,6 +3088,7 @@ Symbol,Name,Currency,"Stock Exchange Long","Stock Exchange Short","Timezone Name
 9968.HK,"Huijing Holdings Co Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 9988.HK,"ALIBABA GRP HLD/SH SH",HKD,"Hong Kong Stock Exchange",HKEX,HKT
 9998.HK,"Kwan Yong Holdings Ltd",HKD,"Hong Kong Stock Exchange",HKEX,HKT
+9HSW.SI,"DLC SG7xLongHSC210723",SGD,"Singapore Stock Exchange",SGX,+08
 A,"Agilent Technologies, Inc.",USD,"New York Stock Exchange",NYSE,EST
 A04.SI,"ASL Marine Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 A05.SI,"AVJennings Limited",AUD,"Singapore Stock Exchange",SGX,+08
@@ -3047,8 +3096,10 @@ A0W.SI,"Lyxor UCITS ETF Commodities Thomson Reuters/CoreCommodity CRB TR",USD,"S
 A13.SI,"Allied Technologies Limited",SGD,"Singapore Stock Exchange",SGX,+08
 A17U.SI,"Ascendas Real Estate Investment Trust",SGD,"Singapore Stock Exchange",SGX,+08
 A26.SI,"Sinarmas Land Limited",SGD,"Singapore Stock Exchange",SGX,+08
+A27.SI,"mDR Limited",SGD,"Singapore Stock Exchange",SGX,+08
 A30.SI,"Aspial Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
 A31.SI,"Addvalue Technologies Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+A33.SI,"Blumont Group Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 A34.SI,"Amara Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 A35.SI,"ABF Singapore Bond Index Fd",SGD,"Singapore Stock Exchange",SGX,+08
 A50.SI,"Thomson Medical Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
@@ -3214,6 +3265,8 @@ AFSI,N/A,,"NASDAQ Stock Exchange",NASDAQ,EST
 AFSS,N/A,,"New York Stock Exchange",NYSE,EST
 AFST,N/A,,"New York Stock Exchange",NYSE,EST
 AFT,"Apollo Senior Floating Rate Fund Inc.",USD,"New York Stock Exchange",NYSE,EST
+AFUS.SI,"s NX15100Z 250601",SGD,"Singapore Stock Exchange",SGX,+08
+AFVS.SI,"s N515100S 200701",SGD,"Singapore Stock Exchange",SGX,+08
 AFYA,"Afya Limited",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 AG,"First Majestic Silver Corp.",USD,"New York Stock Exchange",NYSE,EST
 AGBA,"AGBA Acquisition Limited",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -3420,7 +3473,7 @@ AMPH,"Amphastar Pharmaceuticals, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 AMPY,"Amplify Energy Corp.",USD,"New York Stock Exchange",NYSE,EST
 AMR,"Alta Mesa Resources, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 AMRB,"American River Bankshares",USD,"NASDAQ Stock Exchange",NASDAQ,EST
-AMRC,"Ameresco, Inc.",USD,"New York Stock Exchange",NYSE,EST
+AMRC,"Ameresco Inc.",USD,"New York Stock Exchange",NYSE,EST
 AMRH,"AMERI Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 AMRK,"A-Mark Precious Metals, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 AMRN,"Amarin Corporation plc",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -3443,7 +3496,7 @@ ANAT,"American National Insurance Company",USD,"NASDAQ Stock Exchange",NASDAQ,ES
 ANCB,N/A,,"NASDAQ Stock Exchange",NASDAQ,EST
 ANCN,"Anchiano Therapeutics Ltd",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 ANCX,N/A,,"NASDAQ Stock Exchange",NASDAQ,EST
-ANDA,"Andina Acquisition Corp III",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+ANDA,"Andina Acquisition Corp. III",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 ANDE,"The Andersons, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 ANDV,N/A,,"New York Stock Exchange",NYSE,EST
 ANDX,"Andeavor Logistics LP",USD,"New York Stock Exchange",NYSE,EDT
@@ -3727,6 +3780,7 @@ AXS-E,"AXIS CAP 100 DS REP 1 SRS E PRF",USD,"New York Stock Exchange",NYSE,EST
 AXSM,"Axsome Therapeutics, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 AXTA,"Axalta Coating Systems Ltd.",USD,"New York Stock Exchange",NYSE,EST
 AXTI,"AXT, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+AXXZ.SI,"Frasers Property Treasury Pte. Ltd. 3.65% GTD SNR BDS 22/05/22 SGD1000'REGS'",SGD,"Singapore Stock Exchange",SGX,+08
 AY,"Atlantica Yield plc",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 AYB.SI,"Lafe Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
 AYD.SI,"Plastoform Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
@@ -3751,6 +3805,7 @@ AZY.SI,"Pan Ocean Co., Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 AZZ,"AZZ Inc.",USD,"New York Stock Exchange",NYSE,EST
 AZZ.SI,"China Gaoxian Fibre Fabric Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 B,"Barnes Group Inc.",USD,"New York Stock Exchange",NYSE,EST
+B07.SI,"NGSC Limited",SGD,"Singapore Stock Exchange",SGX,+08
 B16.SI,"GL Limited",SGD,"Singapore Stock Exchange",SGX,+08
 B26.SI,"Ban Leong Technologies Limited",SGD,"Singapore Stock Exchange",SGX,+08
 B28.SI,"Bonvests Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
@@ -3893,6 +3948,7 @@ BEP,"Brookfield Renewable Partners L.P.",USD,"New York Stock Exchange",NYSE,EST
 BERY,"Berry Global Group, Inc.",USD,"New York Stock Exchange",NYSE,EST
 BEST,"BEST Inc.",USD,"New York Stock Exchange",NYSE,EST
 BEW.SI,"JB Foods Limited",SGD,"Singapore Stock Exchange",SGX,+08
+BEYZ.SI,"Aspial Treasury Pte. Ltd. 5.25% BDS 28/08/2020 SGD1000",SGD,"Singapore Stock Exchange",SGX,+08
 BEZ.SI,"Beng Kuang Marine Limited",SGD,"Singapore Stock Exchange",SGX,+08
 BF.A,"Brown-Forman Corporation Class A",USD,"New York Stock Exchange",NYSE,EST
 BF.B,"Brown-Forman Corporation",USD,"New York Stock Exchange",NYSE,EST
@@ -3980,6 +4036,10 @@ BITA,"Bitauto Holdings Limited",USD,"New York Stock Exchange",NYSE,EST
 BIX.SI,"Ellipsiz Ltd",SGD,"Singapore Stock Exchange",SGX,+08
 BJ,"BJ's Wholesale Club Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
 BJD.SI,"VibroPower Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
+BJGS.SI,"Singapore 2.75% SNR BDS 01/03/2046 SGD1000",SGD,"Singapore Stock Exchange",SGX,+08
+BJHS.SI,"Singapore 2.125% BDS 01/06/2026 SGD1000",SGD,"Singapore Stock Exchange",SGX,+08
+BJIS.SI,"Singapore 2.25% BDS 01/08/2036 SGD1000",SGD,"Singapore Stock Exchange",SGX,+08
+BJJS.SI,"Singapore 1.25% BDS 01/10/2021 SGD1000",SGD,"Singapore Stock Exchange",SGX,+08
 BJK,"VanEck Vectors Gaming ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BJL.SI,"LCT Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 BJRI,"BJ's Restaurants, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -4098,7 +4158,7 @@ BOTZ,"Global X Robotics & Artificial Intelligence ETF",USD,"NASDAQ Stock Exchang
 BOU.SI,"Informatics Education Ltd",SGD,"Singapore Stock Exchange",SGX,+08
 BOX,"Box, Inc.",USD,"New York Stock Exchange",NYSE,EST
 BOXL,"Boxlight Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
-BP,"BP P.L.C.",USD,"New York Stock Exchange",NYSE,EST
+BP,"BP PLC",USD,"New York Stock Exchange",NYSE,EST
 BPF.SI,"YHI International Limited",SGD,"Singapore Stock Exchange",SGX,+08
 BPFH,"Boston Private Financial Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BPI,"Zovio Inc",USD,"New York Stock Exchange",NYSE,EDT
@@ -4121,6 +4181,7 @@ BQC.SI,"A-Smart Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 BQD.SI,"Envictus International Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 BQF.SI,"XMH Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 BQH,"BlackRock New York Municipal Bond Trust",USD,"New York Stock Exchange",NYSE,EST
+BQM.SI,"Tiong Woon Corporation Holding Ltd",SGD,"Singapore Stock Exchange",SGX,+08
 BQN.SI,"BH Global Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
 BQO.SI,"Delong Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 BQP.SI,"Southern Packaging Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
@@ -4144,7 +4205,9 @@ BRP,"BRP Group, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BRPA,"Big Rock Partners Acquisition Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BRPM,"B. Riley Principal Merger Corp.",USD,"New York Stock Exchange",NYSE,EST
 BRQS,"Borqs Technologies, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+BRQZ.SI,"Aspial Treasury Pte. Ltd. 5.3% SNR NTS 01/04/2020 SGD1000",SGD,"Singapore Stock Exchange",SGX,+08
 BRS,"Bristow Group Inc.",USD,"New York Stock Exchange",NYSE,EDT
+BRS.SI,"USP Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
 BRSS,"Global Brass and Copper Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EDT
 BRT,"BRT Apartments Corp.",USD,"New York Stock Exchange",NYSE,EST
 BRX,"Brixmor Property Group Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -4181,7 +4244,9 @@ BSJO,"Invesco BulletShares 2024 High Yield Corporate Bond ETF",USD,"NASDAQ Stock
 BSJP,"Invesco BulletShares 2025 High Yield Corporate Bond ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BSJQ,"Invesco BulletShares 2026 High Yield Corporate Bond ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BSJR,"Invesco BulletShares 2027 High Yield Corporate Bond ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+BSKZ.SI,"Perennial Real Estate Holdings Limited 4.55% SNR BDS 29/04/2020 SGD1000 'REGS'",SGD,"Singapore Stock Exchange",SGX,+08
 BSL,"Blackstone/GSO Senior Floating Rate Term Fund",USD,"New York Stock Exchange",NYSE,EST
+BSL.SI,"Raffles Medical Group Ltd",SGD,"Singapore Stock Exchange",SGX,+08
 BSM,"Black Stone Minerals, L.P.",USD,"New York Stock Exchange",NYSE,EST
 BSML,"Invesco BulletShares (R) 2021 Municipal Bond ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BSMM,"Invesco BulletShares (R) 2022 Municipal Bond ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -4205,37 +4270,54 @@ BT,"BT Group plc",USD,"New York Stock Exchange",NYSE,EST
 BTA,"BlackRock Long-Term Municipal Advantage Trust",USD,"New York Stock Exchange",NYSE,EST
 BTAI,"BioXcel Therapeutics, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BTE,"Baytex Energy Corp.",USD,"New York Stock Exchange",NYSE,EST
+BTE.SI,"Bund Center Investment Ltd",SGD,"Singapore Stock Exchange",SGX,+08
 BTEC,"Principal Healthcare Innovators Index ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+BTF.SI,"Debao Property Development Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+BTG.SI,"HG Metal Manufacturing Limited",SGD,"Singapore Stock Exchange",SGX,+08
 BTI,"British American Tobacco p.l.c.",USD,"New York Stock Exchange",NYSE,EST
+BTJ.SI,"A-Sonic Aerospace Limited",SGD,"Singapore Stock Exchange",SGX,+08
+BTM.SI,"Penguin International Limited",SGD,"Singapore Stock Exchange",SGX,+08
+BTNZ.SI,"Oxley MTN Pte. Ltd. 5.15% GTD SNR BDS 18/05/2020 SGD1000",SGD,"Singapore Stock Exchange",SGX,+08
 BTO,"John Hancock Financial Opportunities Fund",USD,"New York Stock Exchange",NYSE,EST
+BTOU.SI,"Manulife US Real Estate Investment Trust",USD,"Singapore Stock Exchange",SGX,+08
+BTP.SI,"Baker Technology Limited",SGD,"Singapore Stock Exchange",SGX,+08
 BTT,"Blackrock Municipal 2030 Target Term Trust",USD,"New York Stock Exchange",NYSE,EST
 BTU,"Peabody Energy Corporation",USD,"New York Stock Exchange",NYSE,EST
+BTX.SI,"Anchun International Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 BTZ,"BlackRock Credit Allocation Income Trust",USD,"New York Stock Exchange",NYSE,EST
 BUD,"Anheuser-Busch InBev SA/NV",USD,"New York Stock Exchange",NYSE,EST
 BUG,"Global X Cybersecurity ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BUI,"BlackRock Utilities, Infrastructure & Power Opportunities Trust",USD,"New York Stock Exchange",NYSE,EST
+BUOU.SI,"Frasers Logistics & Industrial Trust",SGD,"Singapore Stock Exchange",SGX,+08
 BURG,"Chanticleer Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BURL,"Burlington Stores, Inc.",USD,"New York Stock Exchange",NYSE,EST
 BUSE,"First Busey Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BV,"BrightView Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
+BVA.SI,"Top Glove Corporation Bhd.",SGD,"Singapore Stock Exchange",SGX,+08
 BVN,"Compania de Minas Buenaventura S.A.A.",USD,"New York Stock Exchange",NYSE,EST
 BVNSC,"Brandes Value NextShares",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+BVP.SI,"AIMS Property",SGD,"Singapore Stock Exchange",SGX,+08
+BVQ.SI,"Procurri Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
 BVSN,"BroadVision, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BVXV,"BiondVax Pharmaceuticals Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BW,"Babcock & Wilcox Enterprises, Inc.",USD,"New York Stock Exchange",NYSE,EST
 BWA,"BorgWarner Inc.",USD,"New York Stock Exchange",NYSE,EST
 BWAY,"Brainsway Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BWB,"Bridgewater Bancshares, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+BWCU.SI,"EC World Real Estate Investment Trust",SGD,"Singapore Stock Exchange",SGX,+08
 BWEN,"Broadwind Energy, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BWFG,"Bankwell Financial Group, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BWG,"Legg Mason BW Global Income Opportunities Fund Inc.",USD,"New York Stock Exchange",NYSE,EST
 BWINA,"Baldwin &amp; Lyons, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EDT
 BWINB,N/A,,"NASDAQ Stock Exchange",NASDAQ,EST
+BWM.SI,"Zheneng Jinjiang Environment Holding Company Limited",SGD,"Singapore Stock Exchange",SGX,+08
 BWMC,"Atlas Technical Consultants, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+BWQU.SI,"Frasers Logistics & Industrial Trust",AUD,"Singapore Stock Exchange",SGX,+08
 BWXT,"BWX Technologies, Inc.",USD,"New York Stock Exchange",NYSE,EST
 BX,"The Blackstone Group Inc.",USD,"New York Stock Exchange",NYSE,EST
 BXC,"BlueLinx Holdings Inc.",USD,"New York Stock Exchange",NYSE,EST
 BXE,N/A,,"New York Stock Exchange",NYSE,EST
+BXE.SI,"CDW Holding Limited",SGD,"Singapore Stock Exchange",SGX,+08
 BXG,"Bluegreen Vacations Corporation",USD,"New York Stock Exchange",NYSE,EST
 BXMT,"Blackstone Mortgage Trust, Inc.",USD,"New York Stock Exchange",NYSE,EST
 BXMX,"Nuveen S&P 500 Buy-Write Income Fund",USD,"New York Stock Exchange",NYSE,EST
@@ -4247,10 +4329,13 @@ BXS-A,N/A,,"New York Stock Exchange",NYSE,EST
 BY,"Byline Bancorp, Inc.",USD,"New York Stock Exchange",NYSE,EST
 BYD,"Boyd Gaming Corporation",USD,"New York Stock Exchange",NYSE,EST
 BYFC,"Broadway Financial Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+BYI.SI,"Phillip SGX APAC Dividend Leaders REIT ETF",USD,"Singapore Stock Exchange",SGX,+08
+BYJ.SI,"Phillip SGX APAC Dividend Leaders REIT ETF",SGD,"Singapore Stock Exchange",SGX,+08
 BYM,"BlackRock Municipal Income Quality Trust",USD,"New York Stock Exchange",NYSE,EST
 BYND,"Beyond Meat, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BYSI,"BeyondSpring Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 BZH,"Beazer Homes USA, Inc.",USD,"New York Stock Exchange",NYSE,EST
+BZKS.SI,"Singapore 0% BDS 01/04/22 SGD 1000",SGD,"Singapore Stock Exchange",SGX,+08
 BZM,"BlackRock Maryland Municipal Bond Trust",USD,"New York Stock Exchange",NYSE,EST
 BZUN,"Baozun Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 C,"Citigroup Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -4418,6 +4503,7 @@ CDR,"Cedar Realty Trust, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CDR-B,"CEDAR REALTY 7.25% SRS B CUM RED PRF",USD,"New York Stock Exchange",NYSE,EST
 CDR-C,"Cedar Realty Trust Inc Preferred Shares Series C",USD,"New York Stock Exchange",NYSE,EST
 CDTX,"Cidara Therapeutics, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+CDVZ.SI,"KrisEnergy Ltd. 0% SNR SEC NTS 31/01/2024 SGD1 'REGS'",SGD,"Singapore Stock Exchange",SGX,+08
 CDW,"CDW Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CDXC,"ChromaDex Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CDXS,"Codexis, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -4426,7 +4512,9 @@ CE,"Celanese Corporation",USD,"New York Stock Exchange",NYSE,EST
 CEA,"China Eastern Airlines Corporation Limited",USD,"New York Stock Exchange",NYSE,EST
 CECE,"CECO Environmental Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CECO,"Perdoceo Education Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+CEDU.SI,"Dasin Retail Trust",SGD,"Singapore Stock Exchange",SGX,+08
 CEE,"The Central and Eastern Europe Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
+CEE.SI,"CITIC Envirotech Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 CEF,"Sprott Physical Gold and Silver Trust",USD,"New York Stock Exchange",NYSE,EST
 CEIX,"CONSOL Energy Inc.",USD,"New York Stock Exchange",NYSE,EST
 CEL,"Cellcom Israel Ltd.",USD,"New York Stock Exchange",NYSE,EST
@@ -4457,6 +4545,7 @@ CEY,"VictoryShares Emerging Market High Div Volatility Wtd ETF",USD,"NASDAQ Stoc
 CEZ,"VictoryShares Emerging Market Volatility Wtd ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CF,"CF Industries Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CFA,"VictoryShares US 500 Volatility Wtd ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+CFA.SI,"NikkoAM-StraitsTrading Asia ex Japan REIT ETF",SGD,"Singapore Stock Exchange",SGX,+08
 CFB,"CrossFirst Bankshares, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CFBI,"Community First Bancshares, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CFBK,"Central Federal Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -4467,6 +4556,7 @@ CFG,"Citizens Financial Group, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CFG-D,"CITIZENS FIN DS REP 1/40 SRS D PRF",USD,"New York Stock Exchange",NYSE,EST
 CFG-E,"CITIZENS FNCL DS REP 1 40 SRS E PRF",USD,"New York Stock Exchange",NYSE,EST
 CFMS,"Conformis, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+CFN.SI,"One Stoxx Asean Select Dividend Index Fund",USD,"Singapore Stock Exchange",SGX,+08
 CFO,"VictoryShares US 500 Enhanced Volatility Wtd ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CFR,"Cullen/Frost Bankers, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CFR-A,"Cullen/Frost Bankers, Inc. Preferred Shares A",USD,"New York Stock Exchange",NYSE,EST
@@ -4479,6 +4569,7 @@ CGC,"Canopy Growth Corporation",USD,"New York Stock Exchange",NYSE,EST
 CGEN,"Compugen Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CGG,CGG,USD,"New York Stock Exchange",NYSE,EDT
 CGIX,"Cancer Genetics, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+CGN.SI,"Best World International Limited",SGD,"Singapore Stock Exchange",SGX,+08
 CGNX,"Cognex Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CGO,"Calamos Global Total Return Fund",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CGVIC,"Causeway Global Value NextShares",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -4499,6 +4590,7 @@ CHFS,"CHF Solutions, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CHGG,"Chegg, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CHH,"Choice Hotels International, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CHI,"Calamos Convertible Opportunities and Income Fund",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+CHJ.SI,"Uni-Asia Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
 CHK,"Chesapeake Energy Corporation",USD,"New York Stock Exchange",NYSE,EST
 CHK-D,"CHESAPEAKE ENER/4.50% PFD SH",USD,"New York Stock Exchange",NYSE,EST
 CHKE,N/A,,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -4532,6 +4624,7 @@ CHUY,"Chuy's Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CHW,"Calamos Global Dynamic Income Fund",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CHWY,"Chewy, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CHY,"Calamos Convertible and High Income Fund",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+CHZ.SI,"HRnetGroup Limited",SGD,"Singapore Stock Exchange",SGX,+08
 CI,"Cigna Corporation",USD,"New York Stock Exchange",NYSE,EST
 CIA,"Citizens, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CIB,"Bancolombia S.A.",USD,"New York Stock Exchange",NYSE,EST
@@ -4554,23 +4647,36 @@ CIM-A,"Chimera Investment Corporation Preferred Shares Series A",USD,"New York S
 CIM-B,"CHIMERA INVESTMENT SRS B CUM RED PRF",USD,"New York Stock Exchange",NYSE,EST
 CIM-C,"Chimera Investment Corporation Preferred Shares Series C",USD,"New York Stock Exchange",NYSE,EST
 CIM-D,"Chimera Investment Corporation Preferred Shares Series D",USD,"New York Stock Exchange",NYSE,EST
+CIN.SI,"Courage Investment Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
 CINF,"Cincinnati Financial Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CINR,"Ciner Resources LP",USD,"New York Stock Exchange",NYSE,EST
 CIO,"City Office REIT, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CIO-A,"City Office REIT Inc Preferred Shares Series A",USD,"New York Stock Exchange",NYSE,EST
+CIOW.SI,"DLC SG5xLongMSG200714",SGD,"Singapore Stock Exchange",SGX,+08
+CIPW.SI,"DLC SG5xShortHSC200714",SGD,"Singapore Stock Exchange",SGX,+08
+CIQW.SI,"DLC SG5xLongHSC200714",SGD,"Singapore Stock Exchange",SGX,+08
 CIR,"CIRCOR International, Inc.",USD,"New York Stock Exchange",NYSE,EST
+CIRW.SI,"DLC SG3xShortHSC200714",SGD,"Singapore Stock Exchange",SGX,+08
 CISN,"Cision Ltd.",USD,"New York Stock Exchange",NYSE,EST
+CISW.SI,"DLC SG3xLongHSC200714",SGD,"Singapore Stock Exchange",SGX,+08
 CIT,"CIT Group Inc.",USD,"New York Stock Exchange",NYSE,EST
 CIT-B,"CIT GROUP 5 625 NON CM PER SRS B PRF",USD,"New York Stock Exchange",NYSE,EST
+CITW.SI,"DLC SG5xShortHSI200714",SGD,"Singapore Stock Exchange",SGX,+08
 CIU,"iShares Intermediate-Term Corp Bd ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+CIUW.SI,"DLC SG5xLongHSI200714",SGD,"Singapore Stock Exchange",SGX,+08
 CIVB,"Civista Bancshares, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CIVBP,"Civista Bancshares, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CIVEC,"Causeway International Value NextShares",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CIVI,"Civitas Solutions, Inc.",USD,"New York Stock Exchange",NYSE,EDT
+CIVW.SI,"DLC SG3xShortHSI200714",SGD,"Singapore Stock Exchange",SGX,+08
+CIWW.SI,"DLC SG3xLongHSI200714",SGD,"Singapore Stock Exchange",SGX,+08
+CIXW.SI,"DLC SG5xShortMSG200714",SGD,"Singapore Stock Exchange",SGX,+08
 CIZ,"VictoryShares Developed Enhanced Volatility Wtd ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CIZN,"Citizens Holding Company",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CJ,"C&J Energy Services, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CJJD,"China Jo-Jo Drugstores, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+CJLU.SI,"NetLink NBN Trust",SGD,"Singapore Stock Exchange",SGX,+08
+CJN.SI,"British and Malayan Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 CKH,"Seacor Holdings Inc.",USD,"New York Stock Exchange",NYSE,EST
 CKPT,"Checkpoint Therapeutics, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CL,"Colgate-Palmolive Company",USD,"New York Stock Exchange",NYSE,EST
@@ -4595,6 +4701,7 @@ CLIR,"ClearSign Technologies Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CLLS,"Cellectis S.A.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CLM,"Cornerstone Strategic Value Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CLMT,"Calumet Specialty Products Partners, L.P.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+CLN.SI,"APAC Realty Limited",SGD,"Singapore Stock Exchange",SGX,+08
 CLNC,"Colony Credit Real Estate, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CLNE,"Clean Energy Fuels Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CLNY,"Colony Capital, Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -4608,6 +4715,7 @@ CLOU,"Global X Cloud Computing ETF Global X Cloud Computing ETF",USD,"NASDAQ Sto
 CLPR,"Clipper Realty Inc.",USD,"New York Stock Exchange",NYSE,EST
 CLPS,"CLPS Incorporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CLR,"Continental Resources, Inc.",USD,"New York Stock Exchange",NYSE,EST
+CLR.SI,"Lion-Phillip S-REIT ETF",SGD,"Singapore Stock Exchange",SGX,+08
 CLRB,"Cellectar Biosciences, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CLRG,"IQ Chaikin U.S. Large Cap ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CLRO,"ClearOne, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -4633,10 +4741,13 @@ CMD,"Cantel Medical Corp.",USD,"New York Stock Exchange",NYSE,EST
 CME,"CME Group Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CMFN,"CM Finance Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CMG,"Chipotle Mexican Grill, Inc.",USD,"New York Stock Exchange",NYSE,EST
+CMGS.SI,"s NX18100A 280501",SGD,"Singapore Stock Exchange",SGX,+08
+CMHS.SI,"s N518100E 230201",SGD,"Singapore Stock Exchange",SGX,+08
 CMI,"Cummins Inc.",USD,"New York Stock Exchange",NYSE,EST
 CMLS,"Cumulus Media Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CMO,"Capstead Mortgage Corporation",USD,"New York Stock Exchange",NYSE,EST
 CMO-E,"CAPSTAD MORT 7.50% SRS E CUM RED PRF",USD,"New York Stock Exchange",NYSE,EST
+CMOU.SI,"Keppel Pacific Oak US REIT",USD,"Singapore Stock Exchange",SGX,+08
 CMP,"Compass Minerals International, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CMPR,"Cimpress plc",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CMRE,"Costamare Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -4662,6 +4773,7 @@ CNC,"Centene Corporation",USD,"New York Stock Exchange",NYSE,EST
 CNCE,"Concert Pharmaceuticals, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CNCR,"Loncar Cancer Immunotherapy ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CNDT,"Conduent Incorporated",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+CNE.SI,"MindChamps PreSchool Limited",SGD,"Singapore Stock Exchange",SGX,+08
 CNET,"ChinaNet Online Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CNF,"CNFinance Holdings Limited",USD,"New York Stock Exchange",NYSE,EST
 CNFR,"Conifer Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -4672,6 +4784,7 @@ CNK,"Cinemark Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CNMD,"CONMED Corporation",USD,"New York Stock Exchange",NYSE,EST
 CNNB,"Cincinnati Bancorp, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CNNE,"Cannae Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
+CNNU.SI,"Cromwell European Real Estate Investment Trust",EUR,"Singapore Stock Exchange",SGX,+08
 CNO,"CNO Financial Group, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CNOB,"ConnectOne Bancorp, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CNP,"CenterPoint Energy, Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -4711,6 +4824,7 @@ COFS,"ChoiceOne Financial Services, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 COG,"Cabot Oil & Gas Corporation",USD,"New York Stock Exchange",NYSE,EST
 COHR,"Coherent, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 COHU,"Cohu, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+COI.SI,"NikkoAM-STC A_REIT US$",USD,"Singapore Stock Exchange",SGX,+08
 COKE,"Coca-Cola Consolidated, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 COL,N/A,,"New York Stock Exchange",NYSE,EST
 COLB,"Columbia Banking System, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -4758,15 +4872,21 @@ CPLG,"CorePoint Lodging Inc.",USD,"New York Stock Exchange",NYSE,EST
 CPLP,"Capital Product Partners L.P.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CPRI,"Capri Holdings Limited",USD,"New York Stock Exchange",NYSE,EST
 CPRT,"Copart, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+CPRW.SI,"DLC SG7xLongHSI210114",SGD,"Singapore Stock Exchange",SGX,+08
 CPRX,"Catalyst Pharmaceuticals, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CPS,"Cooper-Standard Holdings Inc.",USD,"New York Stock Exchange",NYSE,EST
 CPSH,"CPS Technologies Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CPSI,"Computer Programs and Systems, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CPSS,"Consumer Portfolio Services, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CPST,"Capstone Turbine Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+CPSW.SI,"DLC SG7xShortHSI210114",SGD,"Singapore Stock Exchange",SGX,+08
 CPT,"Camden Property Trust",USD,"New York Stock Exchange",NYSE,EST
 CPTA,"Capitala Finance Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CPTI,N/A,,"NASDAQ Stock Exchange",NASDAQ,EST
+CPTW.SI,"DLC SG7xLongHSC210114",SGD,"Singapore Stock Exchange",SGX,+08
+CPUW.SI,"DLC SG7xShortHSC210114",SGD,"Singapore Stock Exchange",SGX,+08
+CPVW.SI,"DLC SG7xLongMSG210114",SGD,"Singapore Stock Exchange",SGX,+08
+CPWW.SI,"DLC SG7xShortMSG210114",SGD,"Singapore Stock Exchange",SGX,+08
 CPZ,"Calamos Long/Short Equity & Dynamic Income Term Trust",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CR,"Crane Co.",USD,"New York Stock Exchange",NYSE,EST
 CRAI,"CRA International, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -4793,6 +4913,7 @@ CRNT,"Ceragon Networks Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CRNX,"Crinetics Pharmaceuticals, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CRON,"Cronos Group Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CROX,"Crocs, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+CRPU.SI,"Sasseur Real Estate Investment Trust",SGD,"Singapore Stock Exchange",SGX,+08
 CRR,"CARBO Ceramics Inc.",USD,"New York Stock Exchange",NYSE,EST
 CRS,"Carpenter Technology Corporation",USD,"New York Stock Exchange",NYSE,EST
 CRSA,"Crescent Acquisition Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -4804,7 +4925,7 @@ CRUS,"Cirrus Logic, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CRUSC,"Calvert Ultra-Short Duration Income NextShares",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CRVL,"CorVel Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CRVS,"Corvus Pharmaceuticals, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
-CRWD,"Crowdstrike Holdings Inc",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+CRWD,"CrowdStrike Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CRWS,"Crown Crafts, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CRY,"CryoLife, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CRZO,"Carrizo Oil & Gas, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -4815,6 +4936,7 @@ CSBR,"Champions Oncology, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CSCO,"Cisco Systems, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CSF,"VictoryShares US Discovery Enhanced Volatility Wtd ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CSFL,"CenterState Bank Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+CSFU.SI,"Cromwell European Real Estate Investment Trust",SGD,"Singapore Stock Exchange",SGX,+08
 CSGP,"CoStar Group, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CSGS,"CSG Systems International, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CSII,"Cardiovascular Systems, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -4856,6 +4978,8 @@ CTK,"CooTek (Cayman) Inc.",USD,"New York Stock Exchange",NYSE,EST
 CTL,"CenturyLink, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CTLT,"Catalent, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CTMX,"CytomX Therapeutics, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+CTN.SI,"BreadTalk Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
+CTO.SI,"Hong Lai Huat Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
 CTR,"ClearBridge MLP and Midstream Total Return Fund Inc",USD,"New York Stock Exchange",NYSE,EST
 CTRA,"Contura Energy, Inc.",USD,"New York Stock Exchange",NYSE,EST
 CTRC,"Centric Brands Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -4956,6 +5080,7 @@ CYS-A,N/A,,"New York Stock Exchange",NYSE,EST
 CYS-B,N/A,,"New York Stock Exchange",NYSE,EST
 CYTK,"Cytokinetics, Incorporated",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 CYTX,"Plus Therapeutics, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EDT
+CYW.SI,"TrickleStar Limited",SGD,"Singapore Stock Exchange",SGX,+08
 CZ4.SI,"Dutech Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 CZFC,"Citizens First Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EDT
 CZNC,"Citizens & Northern Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -4972,12 +5097,14 @@ D5IU.SI,"Lippo Malls Indonesia Retail Trust",SGD,"Singapore Stock Exchange",SGX,
 D6U.SI,"Dynamic Colours Limited",SGD,"Singapore Stock Exchange",SGX,+08
 D79.SI,"C&G Environmental Protection Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 D8DU.SI,"First Ship Lease Trust",SGD,"Singapore Stock Exchange",SGX,+08
+DAAW.SI,N/A,SGD,"Singapore Stock Exchange",SGX,+08
 DAC,"Danaos Corporation",USD,"New York Stock Exchange",NYSE,EST
 DAIO,"Data I/O Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DAKT,"Daktronics, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DAL,"Delta Air Lines, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DALI,"First Trust Dorsey Wright DALI 1 ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DAN,"Dana Incorporated",USD,"New York Stock Exchange",NYSE,EST
+DANW.SI,"DLC SG5xLong Tencent",SGD,"Singapore Stock Exchange",SGX,+08
 DAO,"Youdao, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DAR,"Darling Ingredients Inc.",USD,"New York Stock Exchange",NYSE,EST
 DARE,"Dare Bioscience, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -5001,9 +5128,10 @@ DCP,"DCP Midstream, LP",USD,"New York Stock Exchange",NYSE,EST
 DCP-B,"DCP MIDSTREAM CUM RED PERP SRS B PRF",USD,"New York Stock Exchange",NYSE,EST
 DCP-C,"DCP MDSTR 7 95 CUM RED PER SRS C PRF",USD,"New York Stock Exchange",NYSE,EST
 DCPH,"Deciphera Pharmaceuticals, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+DCPW.SI,"DLC SG5xShort PingAn",SGD,"Singapore Stock Exchange",SGX,+08
 DCT,N/A,,"New York Stock Exchange",NYSE,EST
 DCUD,"Dominion Energy, Inc. UT SER A 081519",USD,"New York Stock Exchange",NYSE,EDT
-DD,"DuPont de Nemours Inc",USD,"New York Stock Exchange",NYSE,EST
+DD,"DuPont de Nemours, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DD-A,N/A,,"New York Stock Exchange",NYSE,EST
 DD-B,N/A,,"New York Stock Exchange",NYSE,EST
 DDBI,"Legg Mason Dev ex-US Divers Cor ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -5011,6 +5139,8 @@ DDD,"3D Systems Corporation",USD,"New York Stock Exchange",NYSE,EST
 DDE,"Dover Downs Gaming & Entertainment, Inc.",USD,"New York Stock Exchange",NYSE,EDT
 DDF,"Delaware Investments Dividend and Income Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DDIV,"First Trust Dorsey Wright Momentum & Dividend ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+DDIW.SI,"DLC SG5xShort SingTel",SGD,"Singapore Stock Exchange",SGX,+08
+DDJW.SI,"DLC SG5xShortTencent A",SGD,"Singapore Stock Exchange",SGX,+08
 DDMX,"DD3 Acquisition Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DDOC,"DERMAdoctor, LLC.",USD,"NASDAQ Stock Exchange",NASDAQ,EDT
 DDOG,"Datadog, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -5020,6 +5150,7 @@ DDR-J,N/A,,"New York Stock Exchange",NYSE,EST
 DDR-K,N/A,,"New York Stock Exchange",NYSE,EST
 DDS,"Dillard's, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DDT,"Dillards Capital Trust I CAP SECS 7.5%",USD,"New York Stock Exchange",NYSE,EST
+DDWW.SI,"DLC SG5xLong UOB",SGD,"Singapore Stock Exchange",SGX,+08
 DE,"Deere & Company",USD,"New York Stock Exchange",NYSE,EST
 DEA,"Easterly Government Properties, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DEAC,"Diamond Eagle Acquisition Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -5038,6 +5169,8 @@ DF,"Dean Foods Company",USD,"New York Stock Exchange",NYSE,EST
 DFBG,N/A,,"NASDAQ Stock Exchange",NASDAQ,EST
 DFBH,"DFB Healthcare Acquisitions Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DFFN,"Diffusion Pharmaceuticals Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+DFFW.SI,"DLC SG5xShort DBS",SGD,"Singapore Stock Exchange",SGX,+08
+DFHW.SI,"DLC SG5xLong Wilmar",SGD,"Singapore Stock Exchange",SGX,+08
 DFIN,"Donnelley Financial Solutions, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DFNL,"Davis Select Financial ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DFP,"Flaherty & Crumrine Dynamic Preferred and Income Fund Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -5049,6 +5182,7 @@ DGICB,"Donegal Group Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DGII,"Digi International Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DGLD,"VelocityShares 3x Inverse Gold ETN Linked to the S&P GSCI Gold Index ER",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DGLY,"Digital Ally, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+DGOW.SI,"DLC SG5xShort Venture",SGD,"Singapore Stock Exchange",SGX,+08
 DGRE,"WisdomTree Emerging Markets Quality Dividend Growth Fund",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DGRS,"WisdomTree U.S. SmallCap Quality Dividend Growth Fund",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DGRW,"WisdomTree U.S. Quality Dividend Growth Fund",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -5066,6 +5200,7 @@ DHT,"DHT Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DHX,"DHI Group, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DHXM,"WildBrain Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DHY,"Credit Suisse High Yield Bond Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
+DHYW.SI,"DLC SG5xLong PingAn",SGD,"Singapore Stock Exchange",SGX,+08
 DIAX,"Nuveen Dow 30 Dynamic Overwrite Fund",USD,"New York Stock Exchange",NYSE,EST
 DIN,"Dine Brands Global, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DINT,"Davis Select International ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -5076,12 +5211,15 @@ DISCB,"Discovery, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DISCK,"Discovery, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DISH,"DISH Network Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DJCO,"Daily Journal Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+DJWW.SI,"DLC SG5xShort OCBC",SGD,"Singapore Stock Exchange",SGX,+08
 DK,"Delek US Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DK2.SI,N/A,SGD,"Singapore Stock Exchange",SGX,+08
 DKL,"Delek Logistics Partners, LP",USD,"New York Stock Exchange",NYSE,EST
 DKS,"DICK'S Sporting Goods, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DKT,"Deutsche Bank Contingent Capital Trust V TR PFD SEC 8.05%",USD,"New York Stock Exchange",NYSE,EST
+DKUW.SI,"DLC SG5xShort CNOOC",SGD,"Singapore Stock Exchange",SGX,+08
 DL,"China Distance Education Holdings Limited",USD,"New York Stock Exchange",NYSE,EST
+DLAW.SI,"DLC SG5xLong Venture",SGD,"Singapore Stock Exchange",SGX,+08
 DLB,"Dolby Laboratories, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DLBL,"iPath US Treasury Long Bond Bull ETN",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DLHC,"DLH Holdings Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -5090,6 +5228,7 @@ DLNG-A,"DYNAGAS LNG PAR/UT LTD PARTN INT S",USD,"New York Stock Exchange",NYSE,E
 DLNG-B,"DYNAGAS LNG PARTNERS SRS B PRF",USD,"New York Stock Exchange",NYSE,EST
 DLPH,"Delphi Technologies PLC",USD,"New York Stock Exchange",NYSE,EST
 DLPN,"Dolphin Entertainment, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+DLQW.SI,"DLC SG5xLong CapLand",SGD,"Singapore Stock Exchange",SGX,+08
 DLR,"Digital Realty Trust, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DLR-C,"Digital Realty Trust, Inc. Preferred Shares Series C",USD,"New York Stock Exchange",NYSE,EST
 DLR-G,"DIGITL RLTY 5.875% SRS G CUM RED PRF",USD,"New York Stock Exchange",NYSE,EST
@@ -5109,10 +5248,13 @@ DMF,"BNY Mellon Municipal Income, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DMLP,"Dorchester Minerals, L.P.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DMO,"Western Asset Mortgage Opportunity Fund Inc.",USD,"New York Stock Exchange",NYSE,EST
 DMPI,"DelMar Pharmaceuticals, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+DMQW.SI,"DLC SG5xLong SingTel",SGD,"Singapore Stock Exchange",SGX,+08
 DMRC,"Digimarc Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DMTK,"DermTech, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DNB,"The Dun &amp; Bradstreet Corporation",USD,"New York Stock Exchange",NYSE,EDT
 DNBF,"DNB Financial Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+DNBW.SI,"DLC SG5xLong CNOOC",SGD,"Singapore Stock Exchange",SGX,+08
+DNEW.SI,"DLC SG5xLong Genting",SGD,"Singapore Stock Exchange",SGX,+08
 DNI,"Dividend and Income Fund",USD,"New York Stock Exchange",NYSE,EST
 DNJR,"Golden Bull Limited",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DNK,"Phoenix Tree Holdings Limited",USD,"New York Stock Exchange",NYSE,EST
@@ -5134,13 +5276,18 @@ DOV,"Dover Corporation",USD,"New York Stock Exchange",NYSE,EST
 DOVA,"Dova Pharmaceuticals, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DOW,"Dow Inc.",USD,"New York Stock Exchange",NYSE,EST
 DOX,"Amdocs Limited",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+DOXW.SI,"DLC SG5xLong DBS",SGD,"Singapore Stock Exchange",SGX,+08
 DOYU,"DouYu International Holdings Limited",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DPG,"Duff & Phelps Utility and Infrastructure Fund Inc.",USD,"New York Stock Exchange",NYSE,EST
 DPHC,"DiamondPeak Holdings Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DPHCW,"DiamondPeak Holdings Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+DPIW.SI,"DLC SG5xShort KepCorp",SGD,"Singapore Stock Exchange",SGX,+08
 DPLO,"Diplomat Pharmacy, Inc.",USD,"New York Stock Exchange",NYSE,EST
+DPWW.SI,"DLC SG5xLong AIA",SGD,"Singapore Stock Exchange",SGX,+08
 DPZ,"Domino's Pizza, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DQ,"Daqo New Energy Corp.",USD,"New York Stock Exchange",NYSE,EST
+DQDW.SI,"DLC SG5xShort Geely",SGD,"Singapore Stock Exchange",SGX,+08
+DQTW.SI,"DLC SG5xShort Tencent",SGD,"Singapore Stock Exchange",SGX,+08
 DRAD,"Digirad Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DRADP,"Digirad Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DRD,"DRDGOLD Limited",USD,"New York Stock Exchange",NYSE,EST
@@ -5155,11 +5302,14 @@ DRQ,"Dril-Quip, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DRRX,"DURECT Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DRTT,"DIRTT Environmental Solutions Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DRUA,"Dominion Energy, Inc. ENHCD SUB NT16 A",USD,"New York Stock Exchange",NYSE,EST
+DRWW.SI,"DLC SG5xLong Geely",SGD,"Singapore Stock Exchange",SGX,+08
+DRX.SI,"ST Group Food Industries Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 DRYS,"DryShips Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DS,"Drive Shack Inc.",USD,"New York Stock Exchange",NYSE,EST
 DS-B,"Drive Shack Inc Preference Shares",USD,"New York Stock Exchange",NYSE,EST
 DS-C,"DRIVE SHACK Inc/8.05% RED PFD sh S",USD,"New York Stock Exchange",NYSE,EST
 DS-D,"DRIVE SHACK 8.375% SRS D CUM RED PRF",USD,"New York Stock Exchange",NYSE,EST
+DSBW.SI,N/A,SGD,"Singapore Stock Exchange",SGX,+08
 DSE,"Duff & Phelps Select MLP and Midstream Energy Fund",USD,"New York Stock Exchange",NYSE,EST
 DSGX,"The Descartes Systems Group Inc",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DSKE,"Daseke, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -5174,13 +5324,16 @@ DSWL,"Deswell Industries, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DSX,"Diana Shipping Inc.",USD,"New York Stock Exchange",NYSE,EST
 DSX-B,"DIANA SHIPPING/8.875% RED PFD sh S",USD,"New York Stock Exchange",NYSE,EST
 DSXN,N/A,,"New York Stock Exchange",NYSE,EST
+DSYW.SI,"DLC SG5xLong PetChina",SGD,"Singapore Stock Exchange",SGX,+08
 DT,"Dynatrace, Inc.",USD,"New York Stock Exchange",NYSE,EST
+DTAW.SI,"DLC SG5xShort PetChina",SGD,"Singapore Stock Exchange",SGX,+08
 DTE,"DTE Energy Company",USD,"New York Stock Exchange",NYSE,EST
 DTEA,"DAVIDsTEA Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DTF,"DTF Tax-Free Income Inc.",USD,"New York Stock Exchange",NYSE,EST
 DTIL,"Precision BioSciences, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DTJ,"DTE Energy Company JR SUB DEB 76",USD,"New York Stock Exchange",NYSE,EST
 DTLA-,"Brookfield DTLA Fund Ofc Trst Invstr Inc",USD,"New York Stock Exchange",NYSE,EST
+DTNW.SI,"DLC SG5xLong Galaxy",SGD,"Singapore Stock Exchange",SGX,+08
 DTQ,"DTE Energy Company SUB DEB 62",USD,"New York Stock Exchange",NYSE,EST
 DTSS,"Datasea Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DTV,"DTE Energy Company CORPORATE UNIT",USD,"New York Stock Exchange",NYSE,EST
@@ -5195,6 +5348,7 @@ DUKH,"Duke Energy Corporation JR SUB DEB 73",USD,"New York Stock Exchange",NYSE,
 DUO,"Fangdd Network Group Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DUOT,"Duos Technologies Group, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DUSA,"Davis Select U.S. Equity ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+DUZW.SI,"DLC SG5xLong OCBC",SGD,"Singapore Stock Exchange",SGX,+08
 DVA,"DaVita Inc.",USD,"New York Stock Exchange",NYSE,EST
 DVAX,"Dynavax Technologies Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DVD,"Dover Motorsports, Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -5202,10 +5356,14 @@ DVLU,"First Trust Dorsey Wright Momentum & Value ETF",USD,"NASDAQ Stock Exchange
 DVMT,N/A,,"New York Stock Exchange",NYSE,EST
 DVN,"Devon Energy Corporation",USD,"New York Stock Exchange",NYSE,EST
 DVOL,"First Trust Dorsey Wright Momentum & Low Volatility ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+DVOW.SI,"DLC SG5xLong HKEx",SGD,"Singapore Stock Exchange",SGX,+08
+DVVW.SI,"DLC SG5xShort HKEx",SGD,"Singapore Stock Exchange",SGX,+08
+DVY,"iShares Select Dividend ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DWAQ,"Invesco DWA NASDAQ Momentum ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DWAS,"Invesco DWA SmallCap Momentum ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DWAT,"Arrow DWA Tactical ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DWAW,"AdvisorShares DWA FSM All Cap World ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+DWBW.SI,"DLC SG5xShort CCB",SGD,"Singapore Stock Exchange",SGX,+08
 DWCH,N/A,,"NASDAQ Stock Exchange",NASDAQ,EST
 DWCR,"Arrow DWA Country Rotation ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DWDP,"DowDuPont Inc.",USD,"New York Stock Exchange",NYSE,EDT
@@ -5229,7 +5387,9 @@ DXCM,"DexCom, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DXGE,"WisdomTree Germany Hedged Equity Fund",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DXJS,"WisdomTree Japan Hedged SmallCap Equity Fund",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DXLG,"Destination XL Group, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+DXMW.SI,N/A,SGD,"Singapore Stock Exchange",SGX,+08
 DXPE,"DXP Enterprises, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+DXUW.SI,"DLC SG5xShort YZJ",SGD,"Singapore Stock Exchange",SGX,+08
 DXYN,"The Dixie Group, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 DY,"Dycom Industries, Inc.",USD,"New York Stock Exchange",NYSE,EST
 DYAI,"Dyadic International, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -5588,6 +5748,18 @@ EZT,"Entergy Texas, Inc.",USD,"New York Stock Exchange",NYSE,EST
 F,"Ford Motor Company",USD,"New York Stock Exchange",NYSE,EST
 F-B,"FORD MOTR COMPANY 6 2 NTS",USD,"New York Stock Exchange",NYSE,EST
 F-C,"FORD MOTOR NTS",USD,"New York Stock Exchange",NYSE,EST
+F03.SI,"Food Empire Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
+F10.SI,"F J Benjamin Holdings Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+F13.SI,"Fu Yu Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
+F17.SI,"GuocoLand Limited",SGD,"Singapore Stock Exchange",SGX,+08
+F1E.SI,"Low Keng Huat (Singapore) Limited",SGD,"Singapore Stock Exchange",SGX,+08
+F31.SI,"Fragrance Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
+F34.SI,"Wilmar International Limited",SGD,"Singapore Stock Exchange",SGX,+08
+F3V.SI,"MMP Resources Limited",SGD,"Singapore Stock Exchange",SGX,+08
+F83.SI,"COSCO Shipping International (Singapore) Co., Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+F86.SI,"MYP Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+F99.SI,"Fraser and Neave, Limited",SGD,"Singapore Stock Exchange",SGX,+08
+F9D.SI,"Boustead Singapore Limited",SGD,"Singapore Stock Exchange",SGX,+08
 FAAR,"First Trust Alternative Absolute Return Strategy ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 FAB,"First Trust Multi Cap Value AlphaDEX Fund",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 FAD,"First Trust Multi Cap Growth AlphaDEX Fund",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -5808,6 +5980,7 @@ FPL,"First Trust New Opportunities MLP & Energy Fund",USD,"New York Stock Exchan
 FPRX,"Five Prime Therapeutics, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 FPXE,"First Trust IPOX Europe Equity Opportunities ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 FPXI,"First Trust International Equity Opportunities ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+FQ7.SI,"Jasper Investments Limited",SGD,"Singapore Stock Exchange",SGX,+08
 FR,"First Industrial Realty Trust, Inc.",USD,"New York Stock Exchange",NYSE,EST
 FRA,"BlackRock Floating Rate Income Strategies Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
 FRAC,"NexTier Oilfield Solutions Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -5916,6 +6089,16 @@ FYC,"First Trust Small Cap Growth AlphaDEX Fund",USD,"NASDAQ Stock Exchange",NAS
 FYT,"First Trust Small Cap Value AlphaDEX Fund",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 FYX,"First Trust Small Cap Core AlphaDEX Fund",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 G,"Genpact Limited",USD,"New York Stock Exchange",NYSE,EST
+G07.SI,"Great Eastern Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
+G0I.SI,"Nam Lee Pressed Metal Industries Limited",SGD,"Singapore Stock Exchange",SGX,+08
+G11.SI,"Guoan International Limited",SGD,"Singapore Stock Exchange",SGX,+08
+G13.SI,"Genting Singapore Limited",SGD,"Singapore Stock Exchange",SGX,+08
+G1N.SI,"Lyxor MSCI India UCITS ETF Acc USD",USD,"Singapore Stock Exchange",SGX,+08
+G20.SI,"GP Industries Limited",SGD,"Singapore Stock Exchange",SGX,+08
+G3B.SI,"Nikko AM Singapore STI ETF",SGD,"Singapore Stock Exchange",SGX,+08
+G41.SI,"G. K. Goh Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
+G50.SI,"Grand Banks Yachts Limited",SGD,"Singapore Stock Exchange",SGX,+08
+G92.SI,"China Aviation Oil (Singapore) Corporation Ltd",SGD,"Singapore Stock Exchange",SGX,+08
 GAB,"The Gabelli Equity Trust Inc.",USD,"New York Stock Exchange",NYSE,EST
 GAB-D,N/A,,"New York Stock Exchange",NYSE,EST
 GAB-G,"GABELLI EQUITY/PFD SH S G",USD,"New York Stock Exchange",NYSE,EST
@@ -5955,6 +6138,7 @@ GCV-B,N/A,,"New York Stock Exchange",NYSE,EST
 GD,"General Dynamics Corporation",USD,"New York Stock Exchange",NYSE,EST
 GDDY,"GoDaddy Inc.",USD,"New York Stock Exchange",NYSE,EST
 GDEN,"Golden Entertainment, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+GDEW.SI,"DLC SG7xLongMSG220225",SGD,"Singapore Stock Exchange",SGX,+08
 GDI,"Gardner Denver Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
 GDL,"The GDL Fund",USD,"New York Stock Exchange",NYSE,EST
 GDL-C,"GDL CUM PUTT AND CALL SRS C PRF",USD,"New York Stock Exchange",NYSE,EST
@@ -6211,6 +6395,7 @@ GTX,"Garrett Motion Inc.",USD,"New York Stock Exchange",NYSE,EST
 GTXI,"GTx, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EDT
 GTY,"Getty Realty Corp.",USD,"New York Stock Exchange",NYSE,EST
 GTYH,"GTY Technology Holdings Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+GU5.SI,"China Kunda Technology Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 GULF,"WisdomTree Middle East Dividend Fund",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 GURE,"Gulf Resources, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 GUT,"The Gabelli Utility Trust",USD,"New York Stock Exchange",NYSE,EST
@@ -6232,7 +6417,19 @@ GYC,"Cabco Series 2004-102 Trust (sbc Communications Inc.) CTF FLT RATE",USD,"Ne
 GYRO,"Gyrodyne, LLC",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 GZT,"Gazit Globe Ltd",USD,"New York Stock Exchange",NYSE,EDT
 H,"Hyatt Hotels Corporation",USD,"New York Stock Exchange",NYSE,EST
+H02.SI,"Haw Par Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
+H07.SI,"Stamford Land Corporation Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+H12.SI,"Hotel Royal Limited",SGD,"Singapore Stock Exchange",SGX,+08
+H13.SI,"Ho Bee Land Limited",SGD,"Singapore Stock Exchange",SGX,+08
+H15.SI,"Hotel Properties Limited",SGD,"Singapore Stock Exchange",SGX,+08
+H17.SI,"Hi-P International Limited",SGD,"Singapore Stock Exchange",SGX,+08
+H18.SI,"Hotel Grand Central Limited",SGD,"Singapore Stock Exchange",SGX,+08
+H19.SI,"Hwa Hong Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
+H1N.SI,"Lyxor MSCI Emerging Markets UCITS ETF Acc USD",USD,"Singapore Stock Exchange",SGX,+08
+H20.SI,"Hoe Leong Corporation Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+H22.SI,"Hong Leong Asia Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 H30.SI,"Hong Fok Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
+H78.SI,"Hongkong Land Holdings Limited",USD,"Singapore Stock Exchange",SGX,+08
 HA,"Hawaiian Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 HABT,"The Habit Restaurants, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 HAE,"Haemonetics Corporation",USD,"New York Stock Exchange",NYSE,EST
@@ -6279,12 +6476,17 @@ HCSG,"Healthcare Services Group, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 HCXY,"Hercules Capital, Inc.",USD,"New York Stock Exchange",NYSE,EST
 HCXZ,"Hercules Capital, Inc.",USD,"New York Stock Exchange",NYSE,EST
 HD,"The Home Depot, Inc.",USD,"New York Stock Exchange",NYSE,EST
+HD6.SI,"Xtrackers S&amp;P 500 Inverse Daily Swap UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
+HD7.SI,"Xtrackers MSCI Taiwan UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
+HD8.SI,"Xtrackers FTSE China 50 UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
+HD9.SI,"Xtrackers FTSE Vietnam Swap UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
 HDB,"HDFC Bank Limited",USD,"New York Stock Exchange",NYSE,EST
 HDP,N/A,,"NASDAQ Stock Exchange",NASDAQ,EST
 HDS,"HD Supply Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 HDSN,"Hudson Technologies Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 HE,"Hawaiian Electric Industries, Inc.",USD,"New York Stock Exchange",NYSE,EST
 HE-U,N/A,,"New York Stock Exchange",NYSE,EST
+HE0.SI,"Xtrackers Nifty 50 Swap UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
 HEAR,"Turtle Beach Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 HEBT,"Hebron Technology Co., Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 HEES,"H&E Equipment Services, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -6357,6 +6559,7 @@ HMI,"Huami Corporation",USD,"New York Stock Exchange",NYSE,EST
 HMLP,"Hoegh LNG Partners LP",USD,"New York Stock Exchange",NYSE,EST
 HMLP-A,"HOEGH LNG PARTNERS CUM SRS A PRF",USD,"New York Stock Exchange",NYSE,EST
 HMN,"Horace Mann Educators Corporation",USD,"New York Stock Exchange",NYSE,EST
+HMN.SI,"Ascott Real Estate Investment Trust",SGD,"Singapore Stock Exchange",SGX,+08
 HMNF,"HMN Financial, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 HMST,"HomeStreet, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 HMSY,"HMS Holdings Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -6474,10 +6677,19 @@ HYRE,"HyreCar Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 HYT,"BlackRock Corporate High Yield Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
 HYXE,"iShares iBoxx $ High Yield ex Oil & Gas Corporate Bond ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 HYZD,"WisdomTree Interest Rate Hedged High Yield Bond Fund",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+HYZR.SI,"$ Trendlines R",SGD,"Singapore Stock Exchange",SGX,+08
 HZN,"Horizon Global Corporation",USD,"New York Stock Exchange",NYSE,EST
 HZNP,"Horizon Therapeutics Public Limited Company",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 HZO,"MarineMax, Inc.",USD,"New York Stock Exchange",NYSE,EST
 I,"Intelsat S.A.",USD,"New York Stock Exchange",NYSE,EST
+I06.SI,"Intraco Limited",SGD,"Singapore Stock Exchange",SGX,+08
+I07.SI,"ISDN Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
+I11.SI,"Renaissance United Limited",SGD,"Singapore Stock Exchange",SGX,+08
+I15.SI,"Isetan (Singapore) Limited",SGD,"Singapore Stock Exchange",SGX,+08
+I49.SI,"IFS Capital Limited",SGD,"Singapore Stock Exchange",SGX,+08
+I5H.SI,"Forise International Limited",SGD,"Singapore Stock Exchange",SGX,+08
+I98.SI,"iShares MSCI India Index ETF",USD,"Singapore Stock Exchange",SGX,+08
+I9T.SI,"BM Mobility Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 IAA,"IAA, Inc.",USD,"New York Stock Exchange",NYSE,EST
 IAC,IAC/InterActiveCorp,USD,"NASDAQ Stock Exchange",NASDAQ,EST
 IAE,"Voya Asia Pacific High Dividend Equity Income Fund",USD,"New York Stock Exchange",NYSE,EST
@@ -6557,11 +6769,15 @@ IGOV,"iShares International Treasury Bond ETF",USD,"NASDAQ Stock Exchange",NASDA
 IGR,"CBRE Clarion Global Real Estate Income Fund",USD,"New York Stock Exchange",NYSE,EST
 IGSB,"iShares Short-Term Corporate Bond ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 IGT,"International Game Technology PLC",USD,"New York Stock Exchange",NYSE,EST
+IH0.SI,"Xtrackers Euro Stoxx 50 UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
+IH1.SI,"Xtrackers MSCI AC Asia ex Japan Swap UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
+IH2.SI,"Xtrackers MSCI Korea UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
+IH3.SI,"Xtrackers MSCI Europe UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
 IHC,"Independence Holding Company",USD,"New York Stock Exchange",NYSE,EST
 IHD,"Voya Emerging Markets High Dividend Equity Fund",USD,"New York Stock Exchange",NYSE,EST
 IHG,"InterContinental Hotels Group PLC",USD,"New York Stock Exchange",NYSE,EST
 IHIT,"Invesco High Income 2023 Target Term Fund",USD,"New York Stock Exchange",NYSE,EST
-IHRT,"iHeartMedia Inc",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+IHRT,"iHeartMedia, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 IHTA,"Invesco High Income 2024 Target Term Fund",USD,"New York Stock Exchange",NYSE,EST
 IID,"Voya International High Dividend Equity Income Fund",USD,"New York Stock Exchange",NYSE,EST
 IIF,"Morgan Stanley India Investment Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -6674,7 +6890,7 @@ IPWR,"Ideal Power Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 IQ,"iQIYI, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 IQI,"Invesco Quality Municipal Income Trust",USD,"New York Stock Exchange",NYSE,EST
 IQV,"IQVIA Holdings Inc.",USD,"New York Stock Exchange",NYSE,EST
-IR,"Ingersoll-Rand Plc",USD,"New York Stock Exchange",NYSE,EST
+IR,"Gardner Denver Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
 IRBT,"iRobot Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 IRCP,"IRSA Propiedades Comerciales S.A.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 IRDM,"Iridium Communications Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -6697,7 +6913,7 @@ ISD,"PGIM High Yield Bond Fund, Inc",USD,"New York Stock Exchange",NYSE,EST
 ISDS,"Invesco RAFI Strategic Developed ex-US Small Company ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 ISDX,"Invesco RAFI Strategic Developed ex-US ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 ISEE,"IVERIC bio, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
-ISEM,"INVESCO EXCHANG/RAFI STRATEGIC EMER",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+ISEM,"Invesco RAFI Strategic Emerging Markets ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 ISF,"ING Groep N.V. PERP HYB6.375%",USD,"New York Stock Exchange",NYSE,EST
 ISG,"ING Groep N.V. PERP DBT 6.125",USD,"New York Stock Exchange",NYSE,EST
 ISHG,"iShares 1-3 Year International Treasury Bond ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -6740,10 +6956,17 @@ IVR-B,"Invesco Mortgage Capital Inc Preferred Shares Series B",USD,"New York Sto
 IVR-C,"Invesco Mortgage Capital Inc Preferred Shares Series C",USD,"New York Stock Exchange",NYSE,EST
 IVTY,"Invuity, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EDT
 IVZ,"Invesco Ltd.",USD,"New York Stock Exchange",NYSE,EST
+IW5.SI,"Seroja Investments Limited",SGD,"Singapore Stock Exchange",SGX,+08
 IX,"ORIX Corporation",USD,"New York Stock Exchange",NYSE,EST
+IX2.SI,"PEC Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 IXUS,"iShares Core MSCI Total International Stock ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 IZEA,"IZEA Worldwide, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 J,"Jacobs Engineering Group Inc.",USD,"New York Stock Exchange",NYSE,EST
+J03.SI,"Jadason Enterprises Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+J0O.SI,"Xtrackers MSCI Brazil UCITS ETF 2C",USD,"Singapore Stock Exchange",SGX,+08
+J0P.SI,"Xtrackers MSCI World Swap UCITS ETF 2C",USD,"Singapore Stock Exchange",SGX,+08
+J0Q.SI,"Xtrackers MSCI Pacific ex Japan UCITS ETF 2C",USD,"Singapore Stock Exchange",SGX,+08
+J0R.SI,"Xtrackers MSCI Russia Capped Swap UCITS ETF 2D",USD,"Singapore Stock Exchange",SGX,+08
 J17.SI,"Jackspeed Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
 J18.SI,"China Jishan Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 J2T.SI,"Hock Lian Seng Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
@@ -6813,6 +7036,7 @@ JK8.SI,"United SSE 50 China ETF",SGD,"Singapore Stock Exchange",SGX,+08
 JKHY,"Jack Henry & Associates, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 JKI,"iShares Morningstar Mid-Cap Value ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 JKS,"JinkoSolar Holding Co., Ltd.",USD,"New York Stock Exchange",NYSE,EST
+JLB.SI,"Grand Venture Technology Limited",SGD,"Singapore Stock Exchange",SGX,+08
 JLL,"Jones Lang LaSalle Incorporated",USD,"New York Stock Exchange",NYSE,EST
 JLS,"Nuveen Mortgage Opportunity Term Fund",USD,"New York Stock Exchange",NYSE,EST
 JMBA,N/A,,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -6871,6 +7095,8 @@ JVA,"Coffee Holding Co., Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 JW.A,"JOHN WILEY & SONS  -CL A Common Stock",USD,"New York Stock Exchange",NYSE,EST
 JW.B,"John Wiley & Sons Inc Class B",USD,"New York Stock Exchange",NYSE,EST
 JWN,"Nordstrom, Inc.",USD,"New York Stock Exchange",NYSE,EST
+JYEU.SI,"Lendlease Global Commercial REIT",SGD,"Singapore Stock Exchange",SGX,+08
+JYIW.SI,"DLC SG7xLongHSI210723",SGD,"Singapore Stock Exchange",SGX,+08
 JYNT,"The Joint Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 K,"Kellogg Company",USD,"New York Stock Exchange",NYSE,EST
 K03.SI,"Khong Guan Limited",SGD,"Singapore Stock Exchange",SGX,+08
@@ -6912,6 +7138,7 @@ KCAP,"Portman Ridge Finance Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EDT
 KCAPL,"KCAP Financial, Inc. 6.125% NT 2022",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 KDMN,"Kadmon Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
 KDP,"Keurig Dr Pepper Inc.",USD,"New York Stock Exchange",NYSE,EST
+KDVW.SI,"DLC SG7xLongHSI220225",SGD,"Singapore Stock Exchange",SGX,+08
 KE,"Kimball Electronics, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 KED,N/A,,"New York Stock Exchange",NYSE,EST
 KEG,"Key Energy Services, Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -7027,7 +7254,10 @@ KTOS,"Kratos Defense & Security Solutions, Inc.",USD,"NASDAQ Stock Exchange",NAS
 KTOV,"Kitov Pharma Ltd",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 KTP,"Corts Trust for J.C. Penney Debentures",USD,"New York Stock Exchange",NYSE,EST
 KTWO,"K2M Group Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EDT
+KUH.SI,"TSH Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
+KUO.SI,"International Cement Group Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 KURA,"Kura Oncology, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+KUX.SI,"DLF Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 KV4.SI,"Xtrackers II Singapore Government Bond UCITS ETF 1C",SGD,"Singapore Stock Exchange",SGX,+08
 KVHI,"KVH Industries, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 KW,"Kennedy-Wilson Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -7040,6 +7270,13 @@ KYN-F.CL,N/A,,"New York Stock Exchange",NYSE,EST
 KZIA,"Kazia Therapeutics Limited",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 KZR,"Kezar Life Sciences, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 L,"Loews Corporation",USD,"New York Stock Exchange",NYSE,EST
+L02.SI,"Manhattan Resources Limited",SGD,"Singapore Stock Exchange",SGX,+08
+L03.SI,"Lian Beng Group Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+L09.SI,"Lung Kee (Bermuda) Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
+L19.SI,"Lum Chang Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
+L23.SI,"Enviro-Hub Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+L38.SI,"AF Global Limited",SGD,"Singapore Stock Exchange",SGX,+08
+L46.SI,"Luzhou Bio-chem Technology Limited",SGD,"Singapore Stock Exchange",SGX,+08
 LABL,"Multi-Color Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EDT
 LAC,"Lithium Americas Corp.",USD,"New York Stock Exchange",NYSE,EST
 LACQ,"Leisure Acquisition Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -7100,11 +7337,17 @@ LEVI,"Levi Strauss & Co.",USD,"New York Stock Exchange",NYSE,EST
 LEVL,"Level One Bancorp, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 LEXEA,"Liberty Expedia Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EDT
 LEXEB,"Liberty Expedia Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EDT
+LF1.SI,"Xtrackers S&amp;P ASX 200 UCITS ETF 1D",USD,"Singapore Stock Exchange",SGX,+08
+LF2.SI,"Xtrackers MSCI Japan UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
 LFAC,"LF Capital Acquisition Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 LFC,"China Life Insurance Company Limited",USD,"New York Stock Exchange",NYSE,EST
 LFGR,"Leaf Group Ltd.",USD,"New York Stock Exchange",NYSE,EDT
 LFUS,"Littelfuse, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 LFVN,"LifeVantage Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+LG6.SI,"Xtrackers MSCI Malaysia UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
+LG7.SI,"Xtrackers MSCI Thailand UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
+LG8.SI,"Xtrackers MSCI India Swap UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
+LG9.SI,"Xtrackers MSCI China UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
 LGC,"Legacy Acquisition Corp.",USD,"New York Stock Exchange",NYSE,EST
 LGCY,N/A,,"NASDAQ Stock Exchange",NASDAQ,EST
 LGCYO,N/A,,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -7137,7 +7380,9 @@ LIVE,"Live Ventures Incorporated",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 LIVK,"LIV Capital Acquisition Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 LIVN,"LivaNova PLC",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 LIVX,"LiveXLive Media, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+LIW.SI,"Eagle Hospitality Trust",USD,"Singapore Stock Exchange",SGX,+08
 LIZI,"Lizhi Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+LJ3.SI,"OUE Limited",SGD,"Singapore Stock Exchange",SGX,+08
 LJPC,"La Jolla Pharmaceutical Company",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 LK,"Luckin Coffee Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 LKCO,"Luokung Technology Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -7207,6 +7452,7 @@ LRAD,"LRAD Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 LRCX,"Lam Research Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 LRGE,"ClearBridge Large Cap Growth ESG ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 LRN,"K12 Inc.",USD,"New York Stock Exchange",NYSE,EST
+LS9.SI,"Leader Environmental Technologies Limited",SGD,"Singapore Stock Exchange",SGX,+08
 LSBK,"Lake Shore Bancorp, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 LSCC,"Lattice Semiconductor Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 LSI,"Life Storage, Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -7227,7 +7473,9 @@ LUB,"Luby's, Inc.",USD,"New York Stock Exchange",NYSE,EST
 LULU,"Lululemon Athletica Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 LUNA,"Luna Innovations Incorporated",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 LUV,"Southwest Airlines Co.",USD,"New York Stock Exchange",NYSE,EST
+LUY.SI,"Raffles Infrastructure Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 LVGO,"Livongo Health, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+LVGR.SI,"VibroPower R^",SGD,"Singapore Stock Exchange",SGX,+08
 LVHD,"Legg Mason Low Volatility High Dividend ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 LVS,"Las Vegas Sands Corp.",USD,"New York Stock Exchange",NYSE,EST
 LW,"Lamb Weston Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -7247,6 +7495,18 @@ LYTS,"LSI Industries Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 LYV,"Live Nation Entertainment, Inc.",USD,"New York Stock Exchange",NYSE,EST
 LZB,"La-Z-Boy Incorporated",USD,"New York Stock Exchange",NYSE,EST
 M,"Macy's, Inc.",USD,"New York Stock Exchange",NYSE,EST
+M01.SI,"Metro Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
+M03.SI,"Miyoshi Limited",SGD,"Singapore Stock Exchange",SGX,+08
+M04.SI,"Mandarin Oriental International Limited",USD,"Singapore Stock Exchange",SGX,+08
+M05.SI,"MTQ Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
+M11.SI,"Manufacturing Integration Technology Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+M14.SI,"InnoTek Limited",SGD,"Singapore Stock Exchange",SGX,+08
+M15.SI,"Matex International Limited",SGD,"Singapore Stock Exchange",SGX,+08
+M1GU.SI,"Sabana Shari'ah Compliant Industrial Real Estate Investment Trust",SGD,"Singapore Stock Exchange",SGX,+08
+M1Z.SI,"TEE International Limited",SGD,"Singapore Stock Exchange",SGX,+08
+M30.SI,"Meghmani Organics Limited",SGD,"Singapore Stock Exchange",SGX,+08
+M44U.SI,"Mapletree Logistics Trust",SGD,"Singapore Stock Exchange",SGX,+08
+M62.SI,"Principal FTSE ASEAN 40",USD,"Singapore Stock Exchange",SGX,+08
 MA,"Mastercard Incorporated",USD,"New York Stock Exchange",NYSE,EST
 MAA,"Mid-America Apartment Communities, Inc.",USD,"New York Stock Exchange",NYSE,EST
 MAA-I,"MID-AMER APT CO/8.5% RED PFD SH S I",USD,"New York Stock Exchange",NYSE,EST
@@ -7276,6 +7536,7 @@ MBB,"iShares MBS ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 MBCN,"Middlefield Banc Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 MBFI,"MB Financial, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EDT
 MBFIO,"MB Financial, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EDT
+MBH.SI,"Nikko AM SGD Investment Grd Corp Bd ETF",SGD,"Singapore Stock Exchange",SGX,+08
 MBI,"MBIA Inc.",USD,"New York Stock Exchange",NYSE,EST
 MBII,"Marrone Bio Innovations, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 MBIN,"Merchants Bancorp",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -7340,6 +7601,7 @@ MDSO,"Medidata Solutions, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 MDT,"Medtronic plc",USD,"New York Stock Exchange",NYSE,EST
 MDU,"MDU Resources Group, Inc.",USD,"New York Stock Exchange",NYSE,EST
 MDWD,"MediWound Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+ME8U.SI,"Mapletree Industrial Trust",SGD,"Singapore Stock Exchange",SGX,+08
 MEC,"Mayville Engineering Company, Inc.",USD,"New York Stock Exchange",NYSE,EST
 MED,"Medifast, Inc.",USD,"New York Stock Exchange",NYSE,EST
 MEDP,"Medpace Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -7357,6 +7619,7 @@ MET,"MetLife, Inc.",USD,"New York Stock Exchange",NYSE,EST
 MET-A,"Metlife Inc Preferred Shares Series A",USD,"New York Stock Exchange",NYSE,EST
 MET-E,"METLIFE DS 1 1000 REP SRS E PRF",USD,"New York Stock Exchange",NYSE,EST
 METC,"Ramaco Resources, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+MF6.SI,"Mun Siong Engineering Limited",SGD,"Singapore Stock Exchange",SGX,+08
 MFA,"MFA Financial, Inc.",USD,"New York Stock Exchange",NYSE,EST
 MFA-B,"MFA FINANCIA 7.50% SRS B CUM RED PRF",USD,"New York Stock Exchange",NYSE,EST
 MFAC,"Megalith Financial Acquisition Corp.",USD,"New York Stock Exchange",NYSE,EST
@@ -7410,6 +7673,7 @@ MIC,"Macquarie Infrastructure Corporation",USD,"New York Stock Exchange",NYSE,ES
 MICT,"MICT, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 MIDD,"The Middleby Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 MIE,"Cohen & Steers MLP Income and Energy Opportunity Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
+MIJ.SI,"Alliance Healthcare Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
 MIK,"The Michaels Companies, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 MILN,"Global X Millennials Thematic ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 MIME,"Mimecast Limited",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -7517,6 +7781,7 @@ MPX,"Marine Products Corporation",USD,"New York Stock Exchange",NYSE,EST
 MQT,"BlackRock MuniYield Quality Fund II, Inc.",USD,"New York Stock Exchange",NYSE,EST
 MQY,"BlackRock MuniYield Quality Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
 MR,"Montage Resources Corporation",USD,"New York Stock Exchange",NYSE,EST
+MR7.SI,"Nordic Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
 MRAM,"Everspin Technologies, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 MRBK,"Meridian Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 MRC,"MRC Global Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -7599,6 +7864,7 @@ MTW,"The Manitowoc Company, Inc.",USD,"New York Stock Exchange",NYSE,EST
 MTX,"Minerals Technologies Inc.",USD,"New York Stock Exchange",NYSE,EST
 MTZ,"MasTec, Inc.",USD,"New York Stock Exchange",NYSE,EST
 MU,"Micron Technology, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+MU7.SI,"DBS Bank Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 MUA,"BlackRock MuniAssets Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
 MUC,"BlackRock MuniHoldings California Quality Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
 MUDS,"Mudrick Capital Acquisition Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -7611,6 +7877,7 @@ MUR,"Murphy Oil Corporation",USD,"New York Stock Exchange",NYSE,EST
 MUS,"BlackRock MuniHoldings Quality Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
 MUSA,"Murphy USA Inc.",USD,"New York Stock Exchange",NYSE,EST
 MUX,"McEwen Mining Inc.",USD,"New York Stock Exchange",NYSE,EST
+MV4.SI,"Mewah International Inc.",SGD,"Singapore Stock Exchange",SGX,+08
 MVBF,"MVB Financial Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 MVC,"MVC Capital, Inc.",USD,"New York Stock Exchange",NYSE,EST
 MVCD,"MVC Capital, Inc. 6.25% Senior ",USD,"New York Stock Exchange",NYSE,EST
@@ -7646,6 +7913,18 @@ MYT,"Urban Tea, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 MZA,"BlackRock MuniYield Arizona Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
 MZF,N/A,,"New York Stock Exchange",NYSE,EST
 MZOR,N/A,,"NASDAQ Stock Exchange",NASDAQ,EST
+N01.SI,"Nera Telecommunications Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+N02.SI,"NSL Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+N08.SI,"New Toyo International Holdings Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+N0Z.SI,"Combine Will International Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
+N2E.SI,"Xtrackers MSCI Philippines UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
+N2IU.SI,"Mapletree Commercial Trust",SGD,"Singapore Stock Exchange",SGX,+08
+N32.SI,"Nippecraft Limited",SGD,"Singapore Stock Exchange",SGX,+08
+N4E.SI,"Nam Cheong Limited",SGD,"Singapore Stock Exchange",SGX,+08
+N5YD.SI,N/A,USD,"Singapore Stock Exchange",SGX,+08
+N6DD.SI,N/A,USD,"Singapore Stock Exchange",SGX,+08
+N6FD.SI,N/A,USD,"Singapore Stock Exchange",SGX,+08
+N6M.SI,"iShares J.P. Morgan USD Asia Credit Bond Index ETF",USD,"Singapore Stock Exchange",SGX,+08
 NAC,"Nuveen California Quality Municipal Income Fund",USD,"New York Stock Exchange",NYSE,EST
 NAD,"Nuveen Quality Municipal Income Fund",USD,"New York Stock Exchange",NYSE,EST
 NAII,"Natural Alternatives International, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -7681,6 +7960,7 @@ NBSE,"NeuBase Therapeutics, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 NBTB,"NBT Bancorp Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 NBW,"Neuberger Berman California Municipal Fund Inc.",USD,"New York Stock Exchange",NYSE,EST
 NC,"NACCO Industries, Inc.",USD,"New York Stock Exchange",NYSE,EST
+NC2.SI,"Sri Trang Agro-Industry Public Company Limited",SGD,"Singapore Stock Exchange",SGX,+08
 NCA,"Nuveen California Municipal Value Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
 NCB,"Nuveen California Municipal Value Fund 2",USD,"New York Stock Exchange",NYSE,EST
 NCBS,"Nicolet Bankshares, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -7697,6 +7977,7 @@ NCV,"AllianzGI Convertible & Income Fund",USD,"New York Stock Exchange",NYSE,EST
 NCV-A,"ALLIANZGI CNV &/PFD SHS SER A",USD,"New York Stock Exchange",NYSE,EST
 NCZ,"AllianzGI Convertible & Income Fund II",USD,"New York Stock Exchange",NYSE,EST
 NCZ-A,"ALLIANZGI CN INC 5.50%CUM SRS A PRF",USD,"New York Stock Exchange",NYSE,EST
+ND8U.SI,"Frasers Commercial Trust",SGD,"Singapore Stock Exchange",SGX,+08
 NDAQ,"Nasdaq, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 NDLS,"Noodles & Company",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 NDP,"Tortoise Energy Independence Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -7737,6 +8018,7 @@ NEWT,"Newtek Business Services Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 NEWTL,"Newtek Business Services Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 NEWTZ,"Newtek Business Services Corp. NT 22",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 NEX,"NexTier Oilfield Solutions Inc.",USD,"New York Stock Exchange",NYSE,EST
+NEX.SI,"Reclaims Global Limited",SGD,"Singapore Stock Exchange",SGX,+08
 NEXA,"Nexa Resources S.A.",USD,"New York Stock Exchange",NYSE,EST
 NEXT,"NextDecade Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 NFBK,"Northfield Bancorp, Inc. (Staten Island, NY)",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -7766,6 +8048,7 @@ NGVC,"Natural Grocers by Vitamin Cottage, Inc.",USD,"New York Stock Exchange",NY
 NGVT,"Ingevity Corporation",USD,"New York Stock Exchange",NYSE,EST
 NH,"NantHealth, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 NHA,"Nuveen Municipal 2021 Target Term Fund",USD,"New York Stock Exchange",NYSE,EST
+NHD.SI,"Jubilee Industries Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 NHF,"NexPoint Strategic Opportunities Fund",USD,"New York Stock Exchange",NYSE,EST
 NHI,"National Health Investors, Inc.",USD,"New York Stock Exchange",NYSE,EST
 NHLD,"National Holdings Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -7835,6 +8118,7 @@ NNN,"National Retail Properties, Inc.",USD,"New York Stock Exchange",NYSE,EST
 NNN-E,N/A,,"New York Stock Exchange",NYSE,EST
 NNN-F,"NTIL RL DS REP 1 100 CM RD SRS F PRF",USD,"New York Stock Exchange",NYSE,EST
 NNY,"Nuveen New York Municipal Value Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
+NO4.SI,"Dyna-Mac Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 NOA,"North American Construction Group Ltd.",USD,"New York Stock Exchange",NYSE,EST
 NOAH,"Noah Holdings Limited",USD,"New York Stock Exchange",NYSE,EST
 NOC,"Northrop Grumman Corporation",USD,"New York Stock Exchange",NYSE,EST
@@ -7854,8 +8138,10 @@ NPN,"Nuveen Pennsylvania Municipal Value Fund",USD,"New York Stock Exchange",NYS
 NPO,"EnPro Industries, Inc.",USD,"New York Stock Exchange",NYSE,EST
 NPTN,"NeoPhotonics Corporation",USD,"New York Stock Exchange",NYSE,EST
 NPV,"Nuveen Virginia Quality Municipal Income Fund",USD,"New York Stock Exchange",NYSE,EST
+NPW.SI,"Malaysia Smelting Corporation Berhad",SGD,"Singapore Stock Exchange",SGX,+08
 NQP,"Nuveen Pennsylvania Quality Municipal Income Fund",USD,"New York Stock Exchange",NYSE,EST
 NR,"Newpark Resources, Inc.",USD,"New York Stock Exchange",NYSE,EST
+NR7.SI,"Raffles Education Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
 NRBO,"NeuroBo Pharmaceuticals, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 NRC,"National Research Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 NRE,"Northstar Realty Europe Corp.",USD,"New York Stock Exchange",NYSE,EST
@@ -7875,6 +8161,7 @@ NS,"NuStar Energy L.P.",USD,"New York Stock Exchange",NYSE,EST
 NS-A,"NUSTR ENRG 8 50 CM RD SRS A UNT PRF",USD,"New York Stock Exchange",NYSE,EST
 NS-B,"NUSTAR ENRG 7 625 SRS B CMRDPRP PRF",USD,"New York Stock Exchange",NYSE,EST
 NS-C,"NUSTAR ENERGY L/RED PFD SH S C",USD,"New York Stock Exchange",NYSE,EST
+NS8U.SI,"Hutchison Port Holdings Trust",USD,"Singapore Stock Exchange",SGX,+08
 NSA,"National Storage Affiliates Trust",USD,"New York Stock Exchange",NYSE,EST
 NSA-A,"National Storage Affiliates Trust Preferred Shares Series A",USD,"New York Stock Exchange",NYSE,EST
 NSC,"Norfolk Southern Corporation",USD,"New York Stock Exchange",NYSE,EST
@@ -7986,7 +8273,20 @@ NYT,"The New York Times Company",USD,"New York Stock Exchange",NYSE,EST
 NYV,"Nuveen New York Municipal Value Fund 2",USD,"New York Stock Exchange",NYSE,EST
 NZF,"Nuveen Municipal Credit Income Fund",USD,"New York Stock Exchange",NYSE,EST
 O,"Realty Income Corporation",USD,"New York Stock Exchange",NYSE,EST
+O08.SI,"Ossia International Limited",SGD,"Singapore Stock Exchange",SGX,+08
+O10.SI,"Far East Orchard Limited",SGD,"Singapore Stock Exchange",SGX,+08
+O2I.SI,"AVIC International Maritime Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
+O32.SI,"Olam International Limited",SGD,"Singapore Stock Exchange",SGX,+08
+O39.SI,"Oversea-Chinese Banking Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
+O5RU.SI,"AIMS APAC REIT",SGD,"Singapore Stock Exchange",SGX,+08
+O87.SI,"SPDR Gold Shares",USD,"Singapore Stock Exchange",SGX,+08
+O9A.SI,"Xtrackers MSCI Singapore UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
+O9C.SI,"Xtrackers MSCI Bangladesh Swap UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
+O9D.SI,"Xtrackers MSCI Pakistan Swap UCITS ETF 1C",USD,"Singapore Stock Exchange",SGX,+08
+O9E.SI,"Parkson Retail Asia Limited",SGD,"Singapore Stock Exchange",SGX,+08
+O9P.SI,"iShares Barclays Capital USD Asia High Yield Bond Index ETF",USD,"Singapore Stock Exchange",SGX,+08
 OAC,"Oaktree Acquisition Corp.",USD,"New York Stock Exchange",NYSE,EST
+OAJ.SI,"Fortress Minerals Limited",SGD,"Singapore Stock Exchange",SGX,+08
 OAK,"Oaktree Capital Group, LLC",USD,"New York Stock Exchange",NYSE,EST
 OAK-A,"OAKTREE CAP GRP/UT LTD PARTN INT S",USD,"New York Stock Exchange",NYSE,EST
 OAK-B,"OAKTREE CAP GRP/UT LTD PARTN INT S",USD,"New York Stock Exchange",NYSE,EST
@@ -8041,12 +8341,14 @@ OIS,"Oil States International, Inc.",USD,"New York Stock Exchange",NYSE,EST
 OKDCC,"Eaton Vance Oaktree Diversified Credit NextShares",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OKE,"ONEOK, Inc.",USD,"New York Stock Exchange",NYSE,EST
 OKTA,"Okta, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+OL9S.SI,"Singapore 2.875% BDS 01/09/2030 SGD1000",SGD,"Singapore Stock Exchange",SGX,+08
 OLBK,"Old Line Bancshares, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OLD,"The Long-Term Care ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OLED,"Universal Display Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OLLI,"Ollie's Bargain Outlet Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OLN,"Olin Corporation",USD,"New York Stock Exchange",NYSE,EST
 OLP,"One Liberty Properties, Inc.",USD,"New York Stock Exchange",NYSE,EST
+OM0S.SI,"Singapore 2.25% BDS 01/06/2021 SGD1000",SGD,"Singapore Stock Exchange",SGX,+08
 OMAB,"Grupo Aeroportuario del Centro Norte, S.A.B. de C.V.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OMC,"Omnicom Group Inc.",USD,"New York Stock Exchange",NYSE,EST
 OMCL,"Omnicell, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -8055,6 +8357,7 @@ OMER,"Omeros Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OMEX,"Odyssey Marine Exploration, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OMF,"OneMain Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
 OMI,"Owens & Minor, Inc.",USD,"New York Stock Exchange",NYSE,EST
+OMK.SI,"Vividthree Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 OMN,"OMNOVA Solutions Inc.",USD,"New York Stock Exchange",NYSE,EST
 OMP,"Oasis Midstream Partners LP",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 ON,"ON Semiconductor Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -8135,30 +8438,50 @@ OTIV,"On Track Innovations Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OTLK,"Outlook Therapeutics, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OTTR,"Otter Tail Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OTTW,"Ottawa Bancorp, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+OTX.SI,"Medinex Limited",SGD,"Singapore Stock Exchange",SGX,+08
+OU8.SI,"Centurion Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
 OUT,"Outfront Media Inc.",USD,"New York Stock Exchange",NYSE,EST
+OV8.SI,"Sheng Siong Group Ltd",SGD,"Singapore Stock Exchange",SGX,+08
 OVAS,"OvaScience, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EDT
 OVBC,"Ohio Valley Banc Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OVID,"Ovid Therapeutics Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OVLY,"Oak Valley Bancorp",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+OVQ.SI,"Phillip Sing Income ETF",SGD,"Singapore Stock Exchange",SGX,+08
 OXBR,"Oxbridge Re Holdings Limited",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OXFD,"Oxford Immunotec Global PLC",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OXLC,"Oxford Lane Capital Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OXLCM,"Oxford Lane Capital Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OXLCO,"Oxford Lane Capital Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OXM,"Oxford Industries, Inc.",USD,"New York Stock Exchange",NYSE,EST
+OXMU.SI,"Prime US REIT",USD,"Singapore Stock Exchange",SGX,+08
 OXSQ,"Oxford Square Capital Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OXSQZ,"Oxford Square Capital Corp. - 6",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OXY,"Occidental Petroleum Corporation",USD,"New York Stock Exchange",NYSE,EST
 OYST,"Oyster Point Pharma, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+OYY.SI,"PropNex Limited",SGD,"Singapore Stock Exchange",SGX,+08
 OZK,"Bank OZK",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 OZM,"Sculptor Capital Management, Inc.",USD,"New York Stock Exchange",NYSE,EST
 P,N/A,,"New York Stock Exchange",NYSE,EST
+P15.SI,"Pacific Century Regional Developments Limited",SGD,"Singapore Stock Exchange",SGX,+08
+P34.SI,"Delfi Limited",SGD,"Singapore Stock Exchange",SGX,+08
+P36.SI,"Pan Hong Holdings Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
+P40U.SI,"Starhill Global Real Estate Investment Trust",SGD,"Singapore Stock Exchange",SGX,+08
+P52.SI,"Pan-United Corporation Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+P58.SI,"Lyxor China Enterprise (HSCEI) UCITS ETF - Dist-USD",USD,"Singapore Stock Exchange",SGX,+08
+P5P.SI,"Principal S&amp;P Ethical Asia Pacific Dividend ETF",USD,"Singapore Stock Exchange",SGX,+08
+P60.SI,"Lyxor MSCI AC Asia Pacific Ex Japan UCITS ETF - Dist-USD",USD,"Singapore Stock Exchange",SGX,+08
+P74.SI,"China Kangda Food Company Limited",SGD,"Singapore Stock Exchange",SGX,+08
+P7VU.SI,"Hutchison Port Holdings Trust",SGD,"Singapore Stock Exchange",SGX,+08
+P8A.SI,"Cordlife Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
+P8Z.SI,"Bumitama Agri Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+P9D.SI,"Civmec Limited",SGD,"Singapore Stock Exchange",SGX,+08
+PA3.SI,"TA Corporation Ltd",SGD,"Singapore Stock Exchange",SGX,+08
 PAA,"Plains All American Pipeline, L.P.",USD,"New York Stock Exchange",NYSE,EST
 PAAC,"PROFICIENT ALPH/SH",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 PAAS,"Pan American Silver Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 PAC,"Grupo Aeroportuario del Pacifico, S.A.B. de C.V.",USD,"New York Stock Exchange",NYSE,EST
 PACB,"Pacific Biosciences of California, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
-PACD,"Pacific Drilling SA",USD,"New York Stock Exchange",NYSE,EST
+PACD,"Pacific Drilling S.A.",USD,"New York Stock Exchange",NYSE,EST
 PACK,"Ranpak Holdings Corp.",USD,"New York Stock Exchange",NYSE,EST
 PACQ,"Pure Acquisition Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 PACW,"PacWest Bancorp",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -8174,7 +8497,7 @@ PANL,"Pangaea Logistics Solutions, Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 PANW,"Palo Alto Networks, Inc.",USD,"New York Stock Exchange",NYSE,EST
 PAR,"PAR Technology Corporation",USD,"New York Stock Exchange",NYSE,EST
 PARR,"Par Pacific Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
-PASG,"PASSAGE BIO, INC.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+PASG,"Passage Bio, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 PATI,"Patriot Transportation Holding, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 PATK,"Patrick Industries, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 PAVM,"PAVmed Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -8310,6 +8633,8 @@ PGRE,"Paramount Group, Inc.",USD,"New York Stock Exchange",NYSE,EST
 PGTI,"PGT Innovations, Inc.",USD,"New York Stock Exchange",NYSE,EST
 PGZ,"Principal Real Estate Income Fund",USD,"New York Stock Exchange",NYSE,EST
 PH,"Parker-Hannifin Corporation",USD,"New York Stock Exchange",NYSE,EST
+PH0.SI,"Hatten Land Limited",SGD,"Singapore Stock Exchange",SGX,+08
+PH1S.SI,"Singapore 2.75% SNR BDS 01/04/2042 SGD1000",SGD,"Singapore Stock Exchange",SGX,+08
 PHAS,"PhaseBio Pharmaceuticals, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 PHAT,"Phathom Pharmaceuticals, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 PHCF,"Puhui Wealth Investment Management Co., Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -8433,6 +8758,7 @@ PPC,"Pilgrim's Pride Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 PPD,"PPD, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 PPDF,"FinVolution Group",USD,"New York Stock Exchange",NYSE,EST
 PPG,"PPG Industries, Inc.",USD,"New York Stock Exchange",NYSE,EST
+PPH,"VanEck Vectors Pharmaceutical ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 PPHI,"Positive Physicians Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 PPIH,"Perma-Pipe International Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 PPL,"PPL Corporation",USD,"New York Stock Exchange",NYSE,EST
@@ -8466,7 +8792,7 @@ PRIF-E,"PRIORITY IN FD /SER E TERM PFD STK",USD,"New York Stock Exchange",NYSE,E
 PRIM,"Primoris Services Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 PRLB,"Proto Labs, Inc.",USD,"New York Stock Exchange",NYSE,EST
 PRMI,N/A,,"New York Stock Exchange",NYSE,EST
-PRMW,"Primo Water Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+PRMW,"Cott Corporation",USD,"New York Stock Exchange",NYSE,EST
 PRN,"Invesco DWA Industrials Momentum ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 PRNB,"Principia Biopharma Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 PRO,"PROS Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -8620,6 +8946,7 @@ QD,"Qudian Inc.",USD,"New York Stock Exchange",NYSE,EST
 QDEL,"Quidel Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 QEP,"QEP Resources, Inc.",USD,"New York Stock Exchange",NYSE,EST
 QES,"Quintana Energy Services Inc.",USD,"New York Stock Exchange",NYSE,EST
+QES.SI,"China Sunsine Chemical Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 QF6.SI,"Swee Hong Limited",SGD,"Singapore Stock Exchange",SGX,+08
 QFIN,"360 Finance, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 QGEN,"QIAGEN N.V.",USD,"New York Stock Exchange",NYSE,EST
@@ -8665,8 +8992,11 @@ QURE,"uniQure N.V.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 QVCC,"QVC, Inc. 6.250% Senior Secured",USD,"New York Stock Exchange",NYSE,EST
 QVCD,"QVC, Inc. 6.375% Senior Secured",USD,"New York Stock Exchange",NYSE,EST
 QYLD,"Global X NASDAQ 100 Covered Call ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+QZG.SI,"Accrelist Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 R,"Ryder System, Inc.",USD,"New York Stock Exchange",NYSE,EST
 R14.SI,"Eneco Energy Limited",SGD,"Singapore Stock Exchange",SGX,+08
+R1MS.SI,"Singapore 2.75% SNR BDS 01/07/2023 SGD1000",SGD,"Singapore Stock Exchange",SGX,+08
+R1NS.SI,"Singapore 3.375% SNR BDS 01/09/2033 SGD1000",SGD,"Singapore Stock Exchange",SGX,+08
 RA,"Brookfield Real Assets Income Fund Inc.",USD,"New York Stock Exchange",NYSE,EST
 RACE,"Ferrari N.V.",USD,"New York Stock Exchange",NYSE,EST
 RAD,"Rite Aid Corporation",USD,"New York Stock Exchange",NYSE,EST
@@ -8693,7 +9023,6 @@ RBZ,"Reebonz Holding Limited",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 RC,"Ready Capital Corporation",USD,"New York Stock Exchange",NYSE,EST
 RCA,"Ready Capital Corporation 7.00%",USD,"New York Stock Exchange",NYSE,EST
 RCEL,"Avita Medical Limited",USD,"NASDAQ Stock Exchange",NASDAQ,EST
-RCG,"RENN Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
 RCI,"Rogers Communications Inc.",USD,"New York Stock Exchange",NYSE,EST
 RCII,"Rent-A-Center, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 RCKT,"Rocket Pharmaceuticals, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -8704,6 +9033,7 @@ RCMT,"RCM Technologies, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 RCON,"Recon Technology, Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 RCP,"Ready Capital Corporation 6.50%",USD,"New York Stock Exchange",NYSE,EST
 RCS,"PIMCO Strategic Income Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
+RCU.SI,"Revez Corporation Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 RCUS,"Arcus Biosciences, Inc.",USD,"New York Stock Exchange",NYSE,EST
 RDC,"Rowan Companies plc",USD,"New York Stock Exchange",NYSE,EDT
 RDCM,"RADCOM Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -8713,6 +9043,7 @@ RDI,"Reading International, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 RDIB,"Reading International, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 RDN,"Radian Group Inc.",USD,"New York Stock Exchange",NYSE,EST
 RDNT,"RadNet, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+RDR.SI,"Incredible Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 RDS.A,"Royal Dutch Shell plc",USD,"New York Stock Exchange",NYSE,EST
 RDS.B,"Royal Dutch Shell plc",USD,"New York Stock Exchange",NYSE,EST
 RDUS,"Radius Health, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -8826,6 +9157,7 @@ RMM,"Rivernorth Managed Duration Municipal Income Fund Inc.",USD,"New York Stock
 RMNI,"Rimini Street, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 RMPL-,"RIVERNORTH MARK/TERM PFD SER A",USD,"New York Stock Exchange",NYSE,EST
 RMR,"The RMR Group Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+RMRB.SI,"Astrea IV4.35%B280614#",SGD,"Singapore Stock Exchange",SGX,+08
 RMT,"Royce Micro-Cap Trust, Inc.",USD,"New York Stock Exchange",NYSE,EST
 RMTI,"Rockwell Medical, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 RNDB,"Randolph Bancorp, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -8873,7 +9205,7 @@ RQ1.SI,"Overseas Education Limited",SGD,"Singapore Stock Exchange",SGX,+08
 RQI,"Cohen & Steers Quality Income Realty Fund, Inc.",USD,"New York Stock Exchange",NYSE,EST
 RRBI,"Red River Bancshares, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 RRC,"Range Resources Corporation",USD,"New York Stock Exchange",NYSE,EST
-RRD,"R.R. Donnelley & Sons Company",USD,"New York Stock Exchange",NYSE,EST
+RRD,"R. R. Donnelley & Sons Company",USD,"New York Stock Exchange",NYSE,EST
 RRGB,"Red Robin Gourmet Burgers, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 RRR,"Red Rock Resorts, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 RRTS,"Roadrunner Transportation Systems, Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -8924,6 +9256,34 @@ RYTM,"Rhythm Pharmaceuticals, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 RZA,"Reinsurance Group of America, Incorporated",USD,"New York Stock Exchange",NYSE,EST
 RZB,"Reinsurance Group of America, Incorporated",USD,"New York Stock Exchange",NYSE,EST
 S,"Sprint Corporation",USD,"New York Stock Exchange",NYSE,EST
+S07.SI,"Shangri-La Asia Limited",HKD,"Singapore Stock Exchange",SGX,+08
+S08.SI,"Singapore Post Limited",SGD,"Singapore Stock Exchange",SGX,+08
+S19.SI,"Singapore Shipping Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
+S20.SI,"The Straits Trading Company Limited",SGD,"Singapore Stock Exchange",SGX,+08
+S23.SI,"Singapura Finance Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+S27.SI,"SPDR S&amp;P 500 ETF Trust",USD,"Singapore Stock Exchange",SGX,+08
+S29.SI,"Stamford Tyres Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
+S35.SI,"Sing Investments & Finance Limited",SGD,"Singapore Stock Exchange",SGX,+08
+S3N.SI,"OKH Global Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+S41.SI,"Hong Leong Finance Limited",SGD,"Singapore Stock Exchange",SGX,+08
+S44.SI,"EnGro Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
+S45U.SI,"Singapore Index Fund",SGD,"Singapore Stock Exchange",SGX,+08
+S46.SI,"San Teh Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+S49.SI,"Singapore Reinsurance Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
+S51.SI,"Sembcorp Marine Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+S56.SI,"Samudera Shipping Line Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+S58.SI,"SATS Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+S59.SI,"SIA Engineering Company Limited",SGD,"Singapore Stock Exchange",SGX,+08
+S61.SI,"SBS Transit Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+S63.SI,"Singapore Technologies Engineering Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+S68.SI,"Singapore Exchange Limited",SGD,"Singapore Stock Exchange",SGX,+08
+S69.SI,"Serial System Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+S71.SI,"Sunright Limited",SGD,"Singapore Stock Exchange",SGX,+08
+S7OU.SI,"Asian Pay Television Trust",SGD,"Singapore Stock Exchange",SGX,+08
+S7P.SI,"Soilbuild Construction Group Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+S85.SI,"Straco Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
+S91.SI,"Alibaba Pictures Group Limited",HKD,"Singapore Stock Exchange",SGX,+08
+S9B.SI,"TEE Land Limited",SGD,"Singapore Stock Exchange",SGX,+08
 SA,"Seabridge Gold Inc.",USD,"New York Stock Exchange",NYSE,EST
 SAB,"Saratoga Investment Corp. NT 23",USD,"New York Stock Exchange",NYSE,EST
 SAB.CL,N/A,,"New York Stock Exchange",NYSE,EST
@@ -9102,6 +9462,7 @@ SHPG,"Shire plc",USD,"NASDAQ Stock Exchange",NASDAQ,EDT
 SHSP,"SharpSpring, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 SHV,"iShares Short Treasury Bond ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 SHW,"The Sherwin-Williams Company",USD,"New York Stock Exchange",NYSE,EST
+SHY,"iShares 1-3 Year Treasury Bond ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 SI,"Silvergate Capital Corporation",USD,"New York Stock Exchange",NYSE,EST
 SIBN,"SI-BONE, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 SIC,"Select Interior Concepts, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -9137,6 +9498,8 @@ SJM,"The J. M. Smucker Company",USD,"New York Stock Exchange",NYSE,EST
 SJR,"Shaw Communications Inc.",USD,"New York Stock Exchange",NYSE,EST
 SJT,"San Juan Basin Royalty Trust",USD,"New York Stock Exchange",NYSE,EST
 SJW,"SJW Group",USD,"New York Stock Exchange",NYSE,EST
+SJY.SI,"MeGroup Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+SK6U.SI,"SPH REIT",SGD,"Singapore Stock Exchange",SGX,+08
 SKIS,"Peak Resorts, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 SKM,"SK Telecom Co.,Ltd",USD,"New York Stock Exchange",NYSE,EST
 SKOR,"FlexShares Credit-Scored US Corporate Bond Index Fund",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -9167,7 +9530,7 @@ SLNO,"Soleno Therapeutics, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 SLP,"Simulations Plus, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 SLQD,"iShares 0-5 Year Investment Grade Corporate Bond ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 SLRC,"Solar Capital Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
-SLRX,"Salarius Pharmaceuticals Inc",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+SLRX,"Salarius Pharmaceuticals, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 SLS,"SELLAS Life Sciences Group, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 SLTB,"Scorpio Bulkers Inc. 7.5% SR NT 19",USD,"New York Stock Exchange",NYSE,EDT
 SLVO,"Credit Suisse X-Links Silver Shares Covered Call ETN",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -9299,6 +9662,7 @@ SQLV,"Legg Mason Small-Cap Quality Value ETF",USD,"NASDAQ Stock Exchange",NASDAQ
 SQM,"Sociedad Quimica y Minera de Chile S.A.",USD,"New York Stock Exchange",NYSE,EST
 SQNS,"Sequans Communications S.A.",USD,"New York Stock Exchange",NYSE,EST
 SQQQ,"ProShares UltraPro Short QQQ",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+SQSR.SI,"$ Synagie R1",SGD,"Singapore Stock Exchange",SGX,+08
 SR,"Spire Inc.",USD,"New York Stock Exchange",NYSE,EST
 SR-A,"SPIRE 1000 DR REP SRS A PRF",USD,"New York Stock Exchange",NYSE,EST
 SRAC,"Stable Road Acquisition Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -9345,10 +9709,10 @@ SSSS,"Sutter Rock Capital Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 SSTI,"ShotSpotter, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 SSTK,"Shutterstock, Inc.",USD,"New York Stock Exchange",NYSE,EST
 SSW,"Seaspan Corporation",USD,"New York Stock Exchange",NYSE,EST
-SSW-D,"SEASPAN CORP/PFD SH S D",USD,"New York Stock Exchange",NYSE,EST
+SSW-D,N/A,USD,"New York Stock Exchange",NYSE,EST
 SSW-E,"SEASPAN 8.25% SRS E CUM RED PERP PRF",USD,"New York Stock Exchange",NYSE,EST
-SSW-G,"Seaspan Corporation Preferred Shares Series G",USD,"New York Stock Exchange",NYSE,EST
-SSW-H,"Seaspan Corporation Preferred Shares Series H",USD,"New York Stock Exchange",NYSE,EST
+SSW-G,N/A,USD,"New York Stock Exchange",NYSE,EST
+SSW-H,N/A,USD,"New York Stock Exchange",NYSE,EST
 SSW-I,"SEASPAN CORP/PERP PFD SH S I",USD,"New York Stock Exchange",NYSE,EST
 SSWA,"Seaspan Corporation 7.125% NT DUE 27",USD,"New York Stock Exchange",NYSE,EST
 SSWN,"Seaspan Corporation",USD,"New York Stock Exchange",NYSE,EDT
@@ -9392,6 +9756,7 @@ STNL,"Sentinel Energy Services Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 STOK,"Stoke Therapeutics, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 STON,"StoneMor Inc.",USD,"New York Stock Exchange",NYSE,EST
 STOR,"STORE Capital Corporation",USD,"New York Stock Exchange",NYSE,EST
+STP.SI,"Silkroad Nickel Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 STRA,"Strategic Education, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 STRL,"Sterling Construction Company, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 STRM,"Streamline Health Solutions, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -9424,6 +9789,7 @@ SUSB,"iShares ESG 1-5 Year USD Corporate Bond ETF",USD,"NASDAQ Stock Exchange",N
 SUSC,"iShares ESG USD Corporate Bond ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 SUSL,"iShares ESG MSCI USA Leaders ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 SUZ,"Suzano S.A.",USD,"New York Stock Exchange",NYSE,EST
+SV3U.SI,"Soilbuild Business Space REIT",SGD,"Singapore Stock Exchange",SGX,+08
 SVA,"Sinovac Biotech Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 SVBI,"Severn Bancorp, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 SVC,"Service Properties Trust",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -9473,6 +9839,20 @@ SYY,"Sysco Corporation",USD,"New York Stock Exchange",NYSE,EST
 SZC,"The Cushing Renaissance Fund",USD,"New York Stock Exchange",NYSE,EST
 T,"AT&T Inc.",USD,"New York Stock Exchange",NYSE,EST
 T-A,"AT&T INC/DEPOSITARY SH S A",USD,"New York Stock Exchange",NYSE,EST
+T12.SI,"Tat Seng Packaging Group Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+T13.SI,"RH PetroGas Limited",SGD,"Singapore Stock Exchange",SGX,+08
+T14.SI,"Tianjin Zhong Xin Pharmaceutical Group Corporation Limited",USD,"Singapore Stock Exchange",SGX,+08
+T15.SI,"Tan Chong International Limited",HKD,"Singapore Stock Exchange",SGX,+08
+T19.SI,"Transcorp Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
+T24.SI,"Tuan Sing Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
+T39.SI,"Singapore Press Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
+T41.SI,"Telechoice International Limited",SGD,"Singapore Stock Exchange",SGX,+08
+T43.SI,"Yunnan Energy International Co. Limited",SGD,"Singapore Stock Exchange",SGX,+08
+T4B.SI,"Sino Grandness Food Industry Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
+T55.SI,"TIH Limited",SGD,"Singapore Stock Exchange",SGX,+08
+T6I.SI,"ValueMax Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
+T82U.SI,"Suntec Real Estate Investment Trust",SGD,"Singapore Stock Exchange",SGX,+08
+T8FS.SI,"s NY14100E 290701",SGD,"Singapore Stock Exchange",SGX,+08
 TA,"TravelCenters of America Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 TAC,"TransAlta Corporation",USD,"New York Stock Exchange",NYSE,EST
 TACO,"Del Taco Restaurants, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -9557,6 +9937,7 @@ TECTP,"Tectonic Financial, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 TEDU,"Tarena International, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 TEF,"Telefonica, S.A.",USD,"New York Stock Exchange",NYSE,EST
 TEI,"Templeton Emerging Markets Income Fund",USD,"New York Stock Exchange",NYSE,EST
+TEKB.SI,"Temasek 2.7% 231025XB#",SGD,"Singapore Stock Exchange",SGX,+08
 TEL,"TE Connectivity Ltd.",USD,"New York Stock Exchange",NYSE,EST
 TELA,"TELA Bio, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 TELL,"Tellurian Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -9612,10 +9993,11 @@ THW,"Tekla World Healthcare Fund",USD,"New York Stock Exchange",NYSE,EST
 TI,"Telecom Italia S.p.A.",USD,"New York Stock Exchange",NYSE,EDT
 TI.A,N/A,,"New York Stock Exchange",NYSE,EST
 TIBR,"Tiberius Acquisition Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+TID.SI,"Xtrackers MSCI China UCITS ETF 1C",SGD,"Singapore Stock Exchange",SGX,+08
 TIER,"TIER REIT, Inc.",USD,"New York Stock Exchange",NYSE,EST
 TIF,"Tiffany & Co.",USD,"New York Stock Exchange",NYSE,EST
 TIGO,"Millicom International Cellular S.A.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
-TIGR,"Up Fintech Holding Ltd",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+TIGR,"UP Fintech Holding Limited",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 TILE,"Interface, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 TIPT,"Tiptree Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 TISA,"Top Image Systems Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EDT
@@ -9720,7 +10102,7 @@ TRNC,N/A,,"NASDAQ Stock Exchange",NASDAQ,EST
 TRNE,"Trine Acquisition Corp.",USD,"New York Stock Exchange",NYSE,EST
 TRNO,"Terreno Realty Corporation",USD,"New York Stock Exchange",NYSE,EST
 TRNS,"Transcat, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
-TRNX,"Taronis Technologies Inc",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+TRNX,"Taronis Technologies, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 TROV,"TrovaGene, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 TROW,"T. Rowe Price Group, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 TROX,"Tronox Holdings plc",USD,"New York Stock Exchange",NYSE,EST
@@ -9818,6 +10200,7 @@ TXRH,"Texas Roadhouse, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 TXT,"Textron Inc.",USD,"New York Stock Exchange",NYSE,EST
 TY,"Tri-Continental Corporation",USD,"New York Stock Exchange",NYSE,EST
 TY-,"TRI CONTL CORP/$2.50 PFD SH",USD,"New York Stock Exchange",NYSE,EST
+TY6Z.SI,"CapitaLand Mall Trust 3.08% SNR BDS 20/02/21 SGD1000'002''REGS",SGD,"Singapore Stock Exchange",SGX,+08
 TYG,"Tortoise Energy Infrastructure Corporation",USD,"New York Stock Exchange",NYSE,EST
 TYHT,"Shineco, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 TYL,"Tyler Technologies, Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -9825,6 +10208,17 @@ TYME,"Tyme Technologies, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 TYPE,"Monotype Imaging Holdings Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 TZAC,"Tenzing Acquisition Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 TZOO,Travelzoo,USD,"NASDAQ Stock Exchange",NASDAQ,EST
+U04.SI,"United Engineers Limited",SGD,"Singapore Stock Exchange",SGX,+08
+U06.SI,"United Industrial Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
+U09.SI,"Avarga Limited",SGD,"Singapore Stock Exchange",SGX,+08
+U10.SI,"UOB-Kay Hian Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
+U11.SI,"United Overseas Bank Limited",SGD,"Singapore Stock Exchange",SGX,+08
+U13.SI,"United Overseas Insurance Limited",SGD,"Singapore Stock Exchange",SGX,+08
+U14.SI,"UOL Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
+U6C.SI,"PACC Offshore Services Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+U77.SI,"Sarine Technologies Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+U96.SI,"Sembcorp Industries Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+U9E.SI,"China Everbright Water Limited",SGD,"Singapore Stock Exchange",SGX,+08
 UA,"Under Armour, Inc.",USD,"New York Stock Exchange",NYSE,EST
 UAA,"Under Armour, Inc.",USD,"New York Stock Exchange",NYSE,EST
 UAE,"iShares MSCI UAE ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -9850,6 +10244,8 @@ UCBA,N/A,,"NASDAQ Stock Exchange",NASDAQ,EST
 UCBI,"United Community Banks, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 UCFC,"United Community Financial Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 UCTT,"Ultra Clean Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+UD1U.SI,"IREIT Global",SGD,"Singapore Stock Exchange",SGX,+08
+UD2.SI,"Japfa Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 UDBI,"Legg Mason US Diversified Core ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 UDR,"UDR, Inc.",USD,"New York Stock Exchange",NYSE,EST
 UE,"Urban Edge Properties",USD,"New York Stock Exchange",NYSE,EST
@@ -9860,7 +10256,7 @@ UFI,"Unifi, Inc.",USD,"New York Stock Exchange",NYSE,EST
 UFO,"Procure Space ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 UFPI,"Universal Forest Products, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 UFPT,"UFP Technologies, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
-UFS,"Domtar Corp.",USD,"New York Stock Exchange",NYSE,EST
+UFS,"Domtar Corporation",USD,"New York Stock Exchange",NYSE,EST
 UG,"United-Guardian, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 UGI,"UGI Corporation",USD,"New York Stock Exchange",NYSE,EST
 UGLD,"VelocityShares 3x Long Gold ETN Linked to the S&P GSCI Gold Index ER",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -9907,6 +10303,7 @@ URBN,"Urban Outfitters, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 URGN,"UroGen Pharma Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 URI,"United Rentals, Inc.",USD,"New York Stock Exchange",NYSE,EST
 UROV,"Urovant Sciences Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+URR.SI,"Sim Leisure Group Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 USA,"Liberty All-Star Equity Fund",USD,"New York Stock Exchange",NYSE,EST
 USAC,"USA Compression Partners, LP",USD,"New York Stock Exchange",NYSE,EST
 USAK,"USA Truck, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -9943,6 +10340,7 @@ UTL,"Unitil Corporation",USD,"New York Stock Exchange",NYSE,EST
 UTMD,"Utah Medical Products, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 UTSI,"UTStarcom Holdings Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 UTX,"United Technologies Corporation",USD,"New York Stock Exchange",NYSE,EST
+UV1.SI,"Regal International Group Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 UVE,"Universal Insurance Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
 UVSP,"Univest Financial Corporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 UVV,"Universal Corporation",USD,"New York Stock Exchange",NYSE,EST
@@ -9951,6 +10349,10 @@ UZA,"United States Cellular Corporation CALL SR NT 60",USD,"New York Stock Excha
 UZB,"United States Cellular Corporation SR NT 120163",USD,"New York Stock Exchange",NYSE,EST
 UZC,"United States Cellular Corporation SR NT 64",USD,"New York Stock Exchange",NYSE,EST
 V,"Visa Inc.",USD,"New York Stock Exchange",NYSE,EST
+V01.SI,"VICOM Ltd",SGD,"Singapore Stock Exchange",SGX,+08
+V03.SI,"Venture Corporation Limited",SGD,"Singapore Stock Exchange",SGX,+08
+V2Y.SI,"Synagie Corporation Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+V3M.SI,"Metech International Limited",SGD,"Singapore Stock Exchange",SGX,+08
 VAC,"Marriott Vacations Worldwide Corporation",USD,"New York Stock Exchange",NYSE,EST
 VAL,"Valaris plc",USD,"New York Stock Exchange",NYSE,EST
 VALE,"Vale S.A.",USD,"New York Stock Exchange",NYSE,EST
@@ -9995,6 +10397,7 @@ VETS,"Pacer Military Times Best Employers ETF",USD,"NASDAQ Stock Exchange",NASDA
 VFC,"V.F. Corporation",USD,"New York Stock Exchange",NYSE,EST
 VFF,"Village Farms International, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 VFL,"Delaware Investments National Municipal Income Fund",USD,"New York Stock Exchange",NYSE,EST
+VFP.SI,"JCG Investment Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
 VG,"Vonage Holdings Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 VGI,"Virtus Global Multi-Sector Income Fund",USD,"New York Stock Exchange",NYSE,EST
 VGIT,"Vanguard Intermediate-Term Treasury Index Fund ETF Shares",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -10029,6 +10432,7 @@ VJET,"voxeljet AG",USD,"New York Stock Exchange",NYSE,EST
 VKI,"Invesco Advantage Municipal Income Trust II",USD,"New York Stock Exchange",NYSE,EST
 VKQ,"Invesco Municipal Trust",USD,"New York Stock Exchange",NYSE,EST
 VKTX,"Viking Therapeutics, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+VL6.SI,"Koufu Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
 VLGEA,"Village Super Market, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 VLO,"Valero Energy Corporation",USD,"New York Stock Exchange",NYSE,EST
 VLP,"Valero Energy Partners LP",USD,"New York Stock Exchange",NYSE,EDT
@@ -10132,6 +10536,7 @@ VYMI,"Vanguard International High Dividend Yield Index Fund ETF Shares",USD,"NAS
 VZ,"Verizon Communications Inc.",USD,"New York Stock Exchange",NYSE,EST
 VZA,"Verizon Communications, 5.9% 15 Feb 2054",USD,"New York Stock Exchange",NYSE,EST
 W,"Wayfair Inc.",USD,"New York Stock Exchange",NYSE,EST
+W05.SI,"Wing Tai Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 WAAS,"AquaVenture Holdings Limited",USD,"New York Stock Exchange",NYSE,EST
 WAB,"Wabtec Corporation",USD,"New York Stock Exchange",NYSE,EST
 WABC,"Westamerica Bancorporation",USD,"NASDAQ Stock Exchange",NASDAQ,EST
@@ -10245,6 +10650,7 @@ WORX,"SCWorx Corp.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 WOW,"WideOpenWest, Inc.",USD,"New York Stock Exchange",NYSE,EST
 WP,"Worldpay, Inc.",USD,"New York Stock Exchange",NYSE,EDT
 WPC,"W. P. Carey Inc.",USD,"New York Stock Exchange",NYSE,EST
+WPC.SI,"Vallianz Holdings Limited",SGD,"Singapore Stock Exchange",SGX,+08
 WPG,"Washington Prime Group Inc.",USD,"New York Stock Exchange",NYSE,EST
 WPG-H,"Washington Prime Group Inc Preferred Shares Series H",USD,"New York Stock Exchange",NYSE,EST
 WPG-I,"Washington Prime Group Inc Preferred Shares",USD,"New York Stock Exchange",NYSE,EST
@@ -10313,6 +10719,7 @@ XAN,"Exantas Capital Corp.",USD,"New York Stock Exchange",NYSE,EST
 XAN-C,"EXANTA 8.625 FX FL SRS C CUM RED PRF",USD,"New York Stock Exchange",NYSE,EST
 XBIO,"Xenetic Biosciences, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 XBIT,"XBiotech Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+XCF.SI,"KTMG Limited",SGD,"Singapore Stock Exchange",SGX,+08
 XCRA,N/A,,"NASDAQ Stock Exchange",NASDAQ,EST
 XCUR,"Exicure, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 XEC,"Cimarex Energy Co.",USD,"New York Stock Exchange",NYSE,EST
@@ -10354,8 +10761,14 @@ XTLB,"XTL Biopharmaceuticals Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 XYF,"X Financial",USD,"New York Stock Exchange",NYSE,EST
 XYL,"Xylem Inc.",USD,"New York Stock Exchange",NYSE,EST
 XYN,"Xynomic Pharmaceuticals Holdings, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EDT
+XZL.SI,"ARA US Hospitality Trust",USD,"Singapore Stock Exchange",SGX,+08
 Y,"Alleghany Corporation",USD,"New York Stock Exchange",NYSE,EST
-YAYO,"YayYo, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+Y03.SI,"Yeo Hiap Seng Limited",SGD,"Singapore Stock Exchange",SGX,+08
+Y06.SI,"Green Build Technology Limited",SGD,"Singapore Stock Exchange",SGX,+08
+Y35.SI,"AnAn International Limited",SGD,"Singapore Stock Exchange",SGX,+08
+Y45.SI,"Singapore Myanmar Investco Limited",SGD,"Singapore Stock Exchange",SGX,+08
+Y92.SI,"Thai Beverage Public Company Limited",SGD,"Singapore Stock Exchange",SGX,+08
+YDHR.SI,"$ Synagie R",SGD,"Singapore Stock Exchange",SGX,+08
 YDIV,"First Trust S&amp;P Int Div Aristocrats ETF",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 YECO,"Yulong Eco-Materials Limited",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 YELP,"Yelp Inc.",USD,"New York Stock Exchange",NYSE,EST
@@ -10381,7 +10794,12 @@ YUMC,"Yum China Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
 YVR,"Liquid Media Group Ltd.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 YXR,N/A,,"New York Stock Exchange",NYSE,EST
 YY,"JOYY Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+YYB.SI,"Arion Entertainment Singapore Limited",SGD,"Singapore Stock Exchange",SGX,+08
 Z,"Zillow Group, Inc.",USD,"NASDAQ Stock Exchange",NASDAQ,EST
+Z25.SI,"Yanlord Land Group Limited",SGD,"Singapore Stock Exchange",SGX,+08
+Z59.SI,"Yoma Strategic Holdings Ltd.",SGD,"Singapore Stock Exchange",SGX,+08
+Z74.SI,"Singapore Telecommunications Limited",SGD,"Singapore Stock Exchange",SGX,+08
+Z77.SI,Singtel,SGD,"Singapore Stock Exchange",SGX,+08
 ZAGG,"ZAGG Inc",USD,"NASDAQ Stock Exchange",NASDAQ,EST
 ZAYO,"Zayo Group Holdings, Inc.",USD,"New York Stock Exchange",NYSE,EST
 ZB-A,N/A,,"New York Stock Exchange",NYSE,EST
