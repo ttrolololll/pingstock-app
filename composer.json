@@ -13,6 +13,7 @@
         "doctrine/dbal": "^2.10",
         "fideloper/proxy": "^4.0",
         "guzzlehttp/guzzle": "~6.0",
+        "laravel-notification-channels/telegram": "^0.2.0",
         "laravel/cashier": "^10.5",
         "laravel/framework": "^6.2",
         "laravel/scout": "^7.2",

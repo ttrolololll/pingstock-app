@@ -40,4 +40,8 @@ return [
         'api_rate_per_minute' => env('AV_API_RATE_PER_MINUTE', 5)
     ],
 
+    'telegram-bot-api' => [
+        'token' => env('TELEGRAM_BOT_TOKEN', 'YOUR BOT TOKEN HERE')
+    ],
+
 ];
