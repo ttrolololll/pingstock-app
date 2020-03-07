@@ -20,6 +20,11 @@ class User extends Authenticatable implements JWTSubject
         'password', 'remember_token', 'email_verification_code'
     ];
 
+    public function serviceVerifications()
+    {
+        return $this->hasMany(ServiceVerification::class, 'user_id', 'id');
+    }
+
     /**
      * Get the identifier that will be stored in the subject claim of the JWT.
      *
@@ -71,6 +76,18 @@ class User extends Authenticatable implements JWTSubject
             return true;
         }
 
+        return false;
+    }
+
+    public static function isUserServiceLinked(User $user, $service)
+    {
+        switch ($service) {
+            case 'telegram':
+                if ($user->telegram_id) {
+                    return true;
+                }
+                break;
+        }
         return false;
     }
 
