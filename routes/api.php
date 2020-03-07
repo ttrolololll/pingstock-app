@@ -34,8 +34,8 @@ Route::group(['prefix' => 'v1'], function () {
             // Users - Profile
             Route::get('/profile', 'User\ProfileController@me');
             Route::patch('/profile', 'User\ProfileController@update');
-            // Users - Settings - Services
-//            Route::get('/settings/services', 'User\SettingController@getStockAlertSettings');
+            // Users - Settings
+            Route::get('/settings', 'User\Setting\SettingController@getSettings');
 //            Route::patch('/settings/services', 'User\SettingController@updateStockAlertSettings');
             Route::middleware('throttle:2,1')
                 ->post('/settings/services/tokens', 'User\Setting\ServiceVerificationController@generateToken');

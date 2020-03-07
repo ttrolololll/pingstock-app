@@ -41,7 +41,10 @@ class ServiceVerificationController extends Controller
             ]
         );
 
-        return JsonResponseHelper::ok();
+        return JsonResponseHelper::ok('', [], [
+            'token' => $sv->token,
+            'expires_at' => $sv->expires_at->unix()
+        ]);
     }
 
 //    public function verifyToken(Request $request)

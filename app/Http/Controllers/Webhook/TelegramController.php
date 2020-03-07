@@ -5,9 +5,11 @@ namespace App\Http\Controllers\Webhook;
 use App\Helpers\JsonResponseHelper;
 use App\Http\Controllers\Controller;
 use App\Models\ServiceVerification;
+use App\Models\StockAlertRule;
 use App\Models\User;
 use App\Notifications\StockPriceAlert;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Notification;
 use NotificationChannels\Telegram\TelegramChannel;
@@ -139,6 +141,10 @@ class TelegramController extends Controller {
         $user->save();
         $sv->delete();
 
+        StockAlertRule::where('user_id', $user->id)
+            ->whereNull('triggered_at')
+            ->update(['alert_telegram' => $chatID]);
+
         Notification::route(TelegramChannel::class, $chatID)
             ->notify(new StockPriceAlert(null, $msg));
     }
@@ -177,6 +183,10 @@ class TelegramController extends Controller {
 
         $user->telegram_id = null;
         $user->save();
+
+        StockAlertRule::where('user_id', $user->id)
+            ->whereNull('triggered_at')
+            ->update(['alert_telegram' => null]);
 
         Notification::route(TelegramChannel::class, $chatID)
             ->notify(new StockPriceAlert(null, 'Unlink successful, sorry to see you go :('));

@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Log;
 use NotificationChannels\Telegram\TelegramChannel;
 use NotificationChannels\Telegram\TelegramMessage;
 
-class StockPriceAlert extends Notification
+class StockPriceAlert extends Notification implements ShouldQueue
 {
     use Queueable;
 
