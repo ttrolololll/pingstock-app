@@ -54,7 +54,7 @@ class TelegramCmd extends Command
     protected function setWebhook()
     {
         $telegram = new TelegramService(config('services.telegram-bot-api.token'));
-        $resp = $telegram->setWebhook(config('app.url') . '/webhooks/telegram/' . config('services.telegram-bot-api.token') . '/message');
+        $resp = $telegram->setWebhook(config('app.url') . '/v1/webhooks/telegram/' . config('services.telegram-bot-api.token') . '/message');
         $this->info($resp->getBody());
     }
 }
