@@ -88,6 +88,10 @@ class StockAlertController extends Controller
         $alertRule->operator = $data['operator'];
         $alertRule->source = $stock->source;
 
+        if ($user->telegram_id) {
+            $alertRule->alert_telegram = $user->telegram_id;
+        }
+
         $alertRule->save();
 
         return JsonResponseHelper::ok('Alert rule created successfully');

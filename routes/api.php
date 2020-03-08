@@ -34,6 +34,12 @@ Route::group(['prefix' => 'v1'], function () {
             // Users - Profile
             Route::get('/profile', 'User\ProfileController@me');
             Route::patch('/profile', 'User\ProfileController@update');
+            // Users - Settings
+            Route::get('/settings', 'User\Setting\SettingController@getSettings');
+//            Route::patch('/settings/services', 'User\SettingController@updateStockAlertSettings');
+            Route::post('/settings/services/tokens', 'User\Setting\ServiceVerificationController@generateToken');
+            Route::post('/settings/services/unlink', 'User\Setting\ServiceVerificationController@unlink');
+//            Route::post('/settings/services/tokens/verify', 'User\Setting\ServiceVerificationController@verifyToken');
             // Users - Payment
             Route::post('/payment/setup-intent', 'User\Payment\PaymentController@newSetupIntent');
             Route::get('/payment/cards', 'User\Payment\PaymentController@paymentMethods');
@@ -46,9 +52,8 @@ Route::group(['prefix' => 'v1'], function () {
             Route::post('/subscriptions/resume', 'User\Subscription\SubscriptionController@resumeSubscription');
 //            Route::post('/subscriptions/upgrade', 'User\Subscription\SubscriptionController@upgradeSubscription');
             // Users - Stock Alerts
-            // [TODO] stock endpoint should not be under stock alerts
+            // [TODO] stock search endpoint should not be under stock alerts
             Route::get('/stocks/search', 'User\StockAlert\StockAlertController@searchStock');
-            Route::get('/stock-alerts', 'User\StockAlert\StockAlertController@getList');
             Route::get('/stock-alerts', 'User\StockAlert\StockAlertController@getList');
             Route::post('/stock-alerts', 'User\StockAlert\StockAlertController@newStockAlert');
             Route::patch('/stock-alerts/{stockAlertID}', 'User\StockAlert\StockAlertController@update');
@@ -59,5 +64,10 @@ Route::group(['prefix' => 'v1'], function () {
     // Stripe - Products
     Route::group(['prefix' => 'products'], function () {
         Route::get('/', 'Stripe\ProductController@products');
+    });
+
+    // Webhooks
+    Route::group(['prefix' => 'webhooks'], function () {
+        Route::post('/telegram/' . config('services.telegram-bot-api.token') . '/message', 'Webhook\TelegramController@handleMessage');
     });
 });
