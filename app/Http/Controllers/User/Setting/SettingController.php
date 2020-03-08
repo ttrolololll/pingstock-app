@@ -24,10 +24,8 @@ class SettingController extends Controller
         $sv = ServiceVerification::where('user_id', $user->id)->get();
 
         foreach ($sv as $row) {
-            $settings['notifications'][$row->service] = [
-                'verification_token' => $row->token,
-                'verification_token_expiry' => $row->expires_at->unix(),
-            ];
+            $settings['notifications'][$row->service]['token'] = $row->token;
+            $settings['notifications'][$row->service]['token_expiry'] = $row->expires_at->unix();
         }
 
         return JsonResponseHelper::ok('', [], $settings);

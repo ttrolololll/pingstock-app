@@ -37,8 +37,8 @@ Route::group(['prefix' => 'v1'], function () {
             // Users - Settings
             Route::get('/settings', 'User\Setting\SettingController@getSettings');
 //            Route::patch('/settings/services', 'User\SettingController@updateStockAlertSettings');
-            Route::middleware('throttle:2,1')
-                ->post('/settings/services/tokens', 'User\Setting\ServiceVerificationController@generateToken');
+            Route::post('/settings/services/tokens', 'User\Setting\ServiceVerificationController@generateToken');
+            Route::post('/settings/services/unlink', 'User\Setting\ServiceVerificationController@unlink');
 //            Route::post('/settings/services/tokens/verify', 'User\Setting\ServiceVerificationController@verifyToken');
             // Users - Payment
             Route::post('/payment/setup-intent', 'User\Payment\PaymentController@newSetupIntent');

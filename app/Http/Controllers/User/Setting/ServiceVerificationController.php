@@ -47,6 +47,28 @@ class ServiceVerificationController extends Controller
         ]);
     }
 
+    public function unlink(Request $request)
+    {
+        $service = $request->post('service');
+
+        if (!$service) {
+            return JsonResponseHelper::badRequest('Field service must not be empty');
+        }
+        if (!ServiceVerification::isValidService($service)) {
+            return JsonResponseHelper::badRequest('Unsupported service');
+        }
+
+        /** @var User $user */
+        $user = auth()->user();
+
+        if ($user->{$service . '_id'}) {
+            $user->{$service . '_id'} = null;
+            $user->save();
+        }
+
+        return JsonResponseHelper::ok(ucfirst($service) . ' unlinked from account successfully');
+    }
+
 //    public function verifyToken(Request $request)
 //    {
 //        $service = $request->post('service');
