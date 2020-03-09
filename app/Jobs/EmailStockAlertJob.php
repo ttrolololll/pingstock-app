@@ -2,6 +2,7 @@
 
 namespace App\Jobs;
 
+use App\Models\StockAlertRule;
 use App\Notifications\StockPriceAlert;
 use App\Services\MailgunService;
 use Carbon\Carbon;
@@ -69,14 +70,17 @@ class EmailStockAlertJob implements ShouldQueue
         $now = Carbon::now();
 
         foreach ($ruleChunks as $key => $chunk) {
-            $conds = [];
+            $ids = [];
 
             foreach ($chunk as $rule) {
-                $conds[] = ['id', '=', $rule['id']];
+                $conds[] = $rule['id'];
+                Log::info("Update Rule " . $rule['id'], $conds);
             }
 
             if (count($conds) > 0) {
-                DB::table('stock_alert_rules')->where($conds)->update(['triggered_at' => $now, 'updated_at' => $now]);
+                StockAlertRule::whereIn('id', $conds)->update([
+                    'triggered_at' => $now
+                ]);
             }
         }
     }
