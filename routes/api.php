@@ -25,13 +25,13 @@ Route::group(['prefix' => 'v1'], function () {
         Route::post('/auth/pwresetreq', 'User\Auth\ForgotPasswordController@forgotPasswordRequest');
         Route::post('/auth/pwreset', 'User\Auth\ForgotPasswordController@forgotPasswordReset');
         Route::post('/auth/login', 'User\Auth\AuthController@login');
+        Route::post('/auth/facebook', 'User\Auth\FacebookAuthController@authWithFacebook');
 
         Route::group(['middleware' => ['auth:jwt']], function () {
             // Users - Auth
             Route::post('/auth/logout', 'User\Auth\AuthController@logout');
             Route::post('/auth/tokens/refresh', 'User\Auth\AuthController@refresh');
             Route::post('/auth/pw', 'User\Auth\AuthController@resetPassword');
-            Route::post('/auth/facebook', 'User\Auth\FacebookAuthController@authWithFacebook');
             Route::post('/auth/facebook/link', 'User\Auth\FacebookAuthController@linkWithFacebook');
             Route::post('/auth/facebook/unlink', 'User\Auth\FacebookAuthController@unlinkWithFacebook');
             // Users - Profile
