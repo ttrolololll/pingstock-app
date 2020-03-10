@@ -31,6 +31,9 @@ Route::group(['prefix' => 'v1'], function () {
             Route::post('/auth/logout', 'User\Auth\AuthController@logout');
             Route::post('/auth/tokens/refresh', 'User\Auth\AuthController@refresh');
             Route::post('/auth/pw', 'User\Auth\AuthController@resetPassword');
+            Route::post('/auth/facebook', 'User\Auth\FacebookAuthController@authWithFacebook');
+            Route::post('/auth/facebook/link', 'User\Auth\FacebookAuthController@linkWithFacebook');
+            Route::post('/auth/facebook/unlink', 'User\Auth\FacebookAuthController@unlinkWithFacebook');
             // Users - Profile
             Route::get('/profile', 'User\ProfileController@me');
             Route::patch('/profile', 'User\ProfileController@update');
