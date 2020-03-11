@@ -10,6 +10,7 @@
     "require": {
         "php": "^7.2",
         "aws/aws-sdk-php": "^3.132",
+        "bugsnag/bugsnag-laravel": "^2.0",
         "doctrine/dbal": "^2.10",
         "facebook/graph-sdk": "^5.7",
         "fideloper/proxy": "^4.0",
