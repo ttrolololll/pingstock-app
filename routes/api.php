@@ -61,6 +61,12 @@ Route::group(['prefix' => 'v1'], function () {
             Route::post('/stock-alerts', 'User\StockAlert\StockAlertController@newStockAlert');
             Route::patch('/stock-alerts/{stockAlertID}', 'User\StockAlert\StockAlertController@update');
             Route::delete('/stock-alerts/{stockAlertID}', 'User\StockAlert\StockAlertController@delete');
+            // Users - Watchlist
+            Route::get('/watchlists/items', 'User\Watchlist\WatchlistController@listItems');
+            Route::post('/watchlists/items', 'User\Watchlist\WatchlistController@addItem');
+            Route::delete('/watchlists/items', 'User\Watchlist\WatchlistController@removeItem');
+            Route::patch('/watchlists/items/{itemID}/circuitbreakers', 'User\Watchlist\WatchlistController@updateCircuitBreakers');
+            Route::patch('/watchlists/items/{itemID}/circuitbreakers/{cbKey}/mute', 'User\Watchlist\WatchlistController@muteCircuitBreaker');
         });
     });
 

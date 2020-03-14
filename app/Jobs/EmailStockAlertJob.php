@@ -12,7 +12,6 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Notification;
 use NotificationChannels\Telegram\TelegramChannel;
@@ -74,7 +73,6 @@ class EmailStockAlertJob implements ShouldQueue
 
             foreach ($chunk as $rule) {
                 $conds[] = $rule['id'];
-                Log::info("Update Rule " . $rule['id'], $conds);
             }
 
             if (count($conds) > 0) {

@@ -25,6 +25,11 @@ class User extends Authenticatable implements JWTSubject
         return $this->hasMany(ServiceVerification::class, 'user_id', 'id');
     }
 
+    public function watchlist()
+    {
+        return $this->hasOne(Watchlist::class, 'user_id', 'id');
+    }
+
     /**
      * Get the identifier that will be stored in the subject claim of the JWT.
      *

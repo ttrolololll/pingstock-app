@@ -3,6 +3,7 @@
 namespace App\Jobs;
 
 use App\Models\StockAlertRule;
+use App\Models\WatchlistItem;
 use App\Services\AlphaVantageService;
 use App\Services\WTDService;
 use Illuminate\Support\Collection;
@@ -109,7 +110,7 @@ class GetStockUpdateJob implements ShouldQueue
         for ($i = 0; $i < count($asyncResponses); $i++) {
             // skip if promise cannot be fulfilled
             if ($asyncResponses[$i]['state'] != 'fulfilled') {
-                Log::warning("[$this->logTag.handle] HTTP call to AlphaVantage failed for symbol " . $this->stockSymbols[$i]);
+                Log::warning("[$this->logTag.handle] HTTP call to AlphaVantage failed in one of the async calls", $asyncResponses[$i]);
                 continue;
             }
 
@@ -117,14 +118,14 @@ class GetStockUpdateJob implements ShouldQueue
 
             // skip if response status is not 200
             if ($response->getStatusCode() != 200) {
-                Log::warning("[$this->logTag.handle] response code " . $response->getStatusCode() . " from AlphaVantage for symbol " . $this->stockSymbols[$i]);
+                Log::warning("[$this->logTag.handle] response code " . $response->getStatusCode() . " from AlphaVantage in one of the async calls", $asyncResponses[$i]);
                 continue;
             }
 
             $data = $this->resolveResponse($response);
 
             if (! $data) {
-                Log::warning("[$this->logTag.handle] unable to resolve AlphaVantage response for " . $this->stockSymbols[$i]);
+                Log::warning("[$this->logTag.handle] unable to resolve AlphaVantage response in one of the async calls ", $asyncResponses[$i]);
                 continue;
             }
 
@@ -138,9 +139,21 @@ class GetStockUpdateJob implements ShouldQueue
                 })
                 ->chunk(1000);
 
-            // push each chunk as notification job
+            // push each chunk as notification jobs
             foreach ($ruleChunks as $chunk) {
                 EmailStockAlertJob::dispatch($chunk->collect(), $data['price'])->onQueue('stock_alerts');
+            }
+
+            // get all activated circuit breakers into chunks
+            $itemChunks = WatchlistItem::cursor()
+                ->filter(function ($item) use ($data) {
+                    return $item->stock_symbol == $data['symbol'];
+                })
+                ->chunk(1000);
+
+            // push each chunk as circuit breaker triggered jobs
+            foreach ($itemChunks as $chunk) {
+                CircuitBreakerTriggeredJob::dispatch($chunk->collect(), $data['price'])->onQueue('stock_alerts');
             }
         }
     }

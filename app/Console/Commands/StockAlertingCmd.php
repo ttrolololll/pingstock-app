@@ -5,6 +5,7 @@ namespace App\Console\Commands;
 use App\Jobs\GetStockUpdateJob;
 use App\Models\StockAlertRule;
 use App\Models\StockExchange;
+use App\Models\WatchlistItem;
 use App\Services\AlphaVantageService;
 use App\Services\WTDService;
 use Carbon\Carbon;
@@ -95,18 +96,31 @@ class StockAlertingCmd extends Command
             return $item->source == WTDService::$sourceName;
         }));
 
+        // get all unique symbols from watchlist items
+        $watchlistItemSymbols = WatchlistItem::select('stock_symbol')
+            ->groupBy('stock_symbol')
+            ->get()
+            ->pluck('stock_symbol');
+
+        $avSymbolSets = $avSymbolSets
+            ->pluck('stock_symbol')
+            ->merge($watchlistItemSymbols->all())
+            ->unique();
+
         $wtdSymbolSets = $wtdSymbolSets->pluck('stock_symbol')->chunk(config('services.wtd.symbols_per_request'));
-        $avSymbolSets = $avSymbolSets->pluck('stock_symbol')->chunk(config('services.alphavantage.api_rate_per_minute'));
+        $avSymbolSets = $avSymbolSets->chunk(config('services.alphavantage.api_rate_per_minute'));
 
         // send chunks of symbols into queue
         foreach ($wtdSymbolSets as $set) {
             GetStockUpdateJob::dispatch($set, WTDService::$sourceName)->onQueue('get_stock_update');
         }
-        // av has api rate limit of 5 calls / min under free plan
+        // av has api rate limit of
+        // 5 calls / min under free plan
+        // 30 calls / min under tier 1 paid plan
         $avDelay = now();
         foreach ($avSymbolSets as $set) {
             GetStockUpdateJob::dispatch($set, AlphaVantageService::$sourceName)->onQueue('get_stock_update')->delay($avDelay);
-            $avDelay = $avDelay->addSeconds(65);
+            $avDelay = $avDelay->addSeconds(60);
         }
 
         Log::info(self::$cmdNameTag . ' Stock info. update jobs dispatched');
