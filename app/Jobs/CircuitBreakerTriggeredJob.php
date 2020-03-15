@@ -33,57 +33,65 @@ class CircuitBreakerTriggeredJob implements ShouldQueue
     {
         $to = [];
         $recipientVar = [];
-        $triggeredItems = [];
         $triggered = [];
 
         foreach ($this->watchlist_items as $row => $item) {
+            $triggeredCbs = [];
             $cbs = json_decode($item->circuit_breakers, true);
             $cbs = collect($cbs)
                 ->filter(function ($value, $key) {
+                    // filter to get circuit breakers that are active, non-muted, and not triggered within the day
                     return $value['is_active'] &&
                         ( !$value['mute_till'] ||
                             ( $value['mute_till'] && Carbon::parse($value['mute_till'])->lte(now()->utc()) )
+                        ) &&
+                        ( !$value['last_triggered'] ||
+                            ( $value['last_triggered'] && ! Carbon::parse($value['last_triggered'])->isCurrentDay() )
                         );
                 })
-                ->sortByDesc('threshold');
+                ->sortByDesc('threshold') // largest threshold first
+                ->toArray();
 
+            // loop to find the triggered circuit breakers
             foreach ($cbs as $key => $cb) {
                 $lesserTriggerVal = $item->reference_target - ( $item->reference_target * ( $cb['threshold'] / 100 ) );
                 $greaterTriggerVal = $item->reference_target + ( $item->reference_target * ( $cb['threshold'] / 100 ) );
 
                 if ($this->price <= $lesserTriggerVal) {
-                    $triggered = [
-                        'key' => $key,
-                        'symbol' => $item->stock_symbol,
-                        'type' => 'lower',
-                        'threshold' => $cb['threshold'],
-                        'reference_price' => $item->reference_target,
-                        'trigger_val' => $lesserTriggerVal,
-                        'price' => $this->price,
-                    ];
-                    break;
+                    if (empty($triggered)) {
+                        $triggered = [
+                            'key' => $key,
+                            'symbol' => $item->stock_symbol,
+                            'type' => 'lower',
+                            'threshold' => $cb['threshold'],
+                            'reference_price' => $item->reference_target,
+                            'trigger_val' => $lesserTriggerVal,
+                            'price' => $this->price,
+                        ];
+                    }
+                    $triggeredCbs[] = $key;
+                    continue;
                 }
                 if ($this->price >= $greaterTriggerVal) {
-                    $triggered = [
-                        'key' => $key,
-                        'symbol' => $item->stock_symbol,
-                        'type' => 'upper',
-                        'threshold' => $cb['threshold'],
-                        'reference_price' => $item->reference_target,
-                        'trigger_val' => $lesserTriggerVal,
-                        'price' => $this->price,
-                    ];
+                    if (empty($triggered)) {
+                        $triggered = [
+                            'key' => $key,
+                            'symbol' => $item->stock_symbol,
+                            'type' => 'upper',
+                            'threshold' => $cb['threshold'],
+                            'reference_price' => $item->reference_target,
+                            'trigger_val' => $lesserTriggerVal,
+                            'price' => $this->price,
+                        ];
+                    }
+                    $triggeredCbs[] = $key;
                 }
             }
 
+            // if none triggered, continue to next watchlist item
             if (empty($triggered)) {
                 continue;
             }
-
-            $triggeredItems[] = [
-                'item_id' => $item->id,
-                'cb_key' => $triggered['key'],
-            ];
 
             $msg = 'Circuit Breaker Triggered: Stock ' . $triggered['symbol'] . ' has breached ' . $triggered['type'] . ' bound of reference price at ' . $triggered['reference_price'] . ' by at least ' . $triggered['threshold'] . '% at ' . $triggered['price'];
 
@@ -104,23 +112,23 @@ class CircuitBreakerTriggeredJob implements ShouldQueue
                 'reference_price' => $triggered['reference_price'],
                 'price' => $triggered['price'],
             ];
-        }
 
-        $mailgunService = new MailgunService();
-        $resp = $mailgunService->batchSendUseTemplate(null, $to, '%recipient.symbol% Circuit Breaker Triggered', $recipientVar, 'circuitbreakeralert');
-
-        // save watchlist item
-        $now = Carbon::now();
-
-        foreach ($triggeredItems as $key => $item) {
-            $cbKey = $item['cb_key'];
+            // update watchlist item
+            $updates = [];
+            $now = now();
+            foreach ($triggeredCbs as $cb) {
+                $updates["circuit_breakers->{$cb}->last_triggered"] = $now;
+            }
             try {
-                WatchlistItem::where('id', $item['item_id'])->update([
-                    "circuit_breakers->{$cbKey}->last_triggered" => $now
-                ]);
+                WatchlistItem::where('id', $item->id)->update($updates);
             } catch (\Exception $e) {
                 Log::error('Unable to update watchlist item circuit breaker: ' .$e->getMessage(), $e->getTrace());
             }
+        }
+
+        if (!empty($triggered)) {
+            $mailgunService = new MailgunService();
+            $resp = $mailgunService->batchSendUseTemplate(null, $to, '%recipient.symbol% Circuit Breaker Triggered', $recipientVar, 'circuitbreakeralert');
         }
     }
 }

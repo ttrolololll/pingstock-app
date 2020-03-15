@@ -117,7 +117,7 @@ class WatchlistController extends Controller {
         }
 
         if (!is_array($cbs)) {
-            return JsonResponseHelper::badRequest('Field cbs is not an array');
+            return JsonResponseHelper::badRequest('Field cbs is not an array        ');
         }
 
         $validCbs = $this->validateCircuitBreaker($cbs);
@@ -149,25 +149,47 @@ class WatchlistController extends Controller {
         return JsonResponseHelper::ok('Watchlist item circuit breakers updated');
     }
 
-    public function muteCircuitBreaker(Request $request, $itemID, $cbKey)
+    public function changeCircuitBreakerState(Request $request, $itemID)
     {
-        $muteTill = $request->post('mute_till');
-
-        if (empty($muteTill)) {
-            return JsonResponseHelper::badRequest('Please specify mute till when');
+        $data = $request->post();
+        $validator = Validator::make($data, [
+            'active' => 'required|bool',
+        ]);
+        if ($validator->fails()) {
+            return JsonResponseHelper::badRequest('', $validator->errors()->toArray());
         }
 
-        $muteTill = Carbon::parse($muteTill);
+        $item = WatchlistItem::where([
+            ['id', $itemID],
+            ['user_id', auth()->user()->id],
+        ])->first();
 
-        if (!$muteTill) {
-            return JsonResponseHelper::badRequest('Mute till must be a valid UTC string format: Y-m-d H:i:s');
+        if (!$item) {
+            return JsonResponseHelper::notFound('Watchlist item not found');
         }
-        if ($muteTill->lte(now()->utc())) {
-            return JsonResponseHelper::badRequest('Mute till must be later than now');
+
+        $cbs = json_decode($item->circuit_breakers, true);
+
+        foreach ($cbs as $key => $cb) {
+            $cbs[$key]['is_active'] = $data['active'];
+        }
+
+        $item->circuit_breakers = json_encode($cbs);
+        $item->save();
+
+        return JsonResponseHelper::ok();
+    }
+
+    public function muteCircuitBreaker(Request $request, $itemID)
+    {
+        $duration = $request->post('duration');
+
+        if (empty($duration)) {
+            return JsonResponseHelper::badRequest('Please specify duration');
         }
 
         $user = auth()->user();
-        $item = WatchlistItem::where([
+        $item = WatchlistItem::with('stock')->where([
             ['id', $itemID],
             ['user_id', $user->id],
         ])->first();
@@ -176,14 +198,27 @@ class WatchlistController extends Controller {
             return JsonResponseHelper::notFound('Watchlist item not found');
         }
 
-        $itemCbs = json_decode($item->circuit_breakers, true);
+        $muteTill = now($item->stock->timezone);
 
-        if (!isset($itemCbs[$cbKey])) {
-            return JsonResponseHelper::notFound('Circuit breaker not found');
+        switch ($duration) {
+            case 'week':
+                $muteTill = $muteTill->nextWeekday()->startOfWeek();
+                break;
+            default:
+                $duration = intval($duration);
+                if (!$duration) {
+                    return JsonResponseHelper::badRequest('Duration field is neither a valid word nor a number');
+                }
+                $muteTill = $muteTill->addMinutes($duration);
         }
 
-        $itemCbs[$cbKey]['mute_till'] = $muteTill;
-        $item->circuit_breakers = json_encode($itemCbs);
+        $cbs = json_decode($item->circuit_breakers, true);
+
+        foreach ($cbs as $key => $cb) {
+            $cbs[$key]['mute_till'] = $muteTill;
+        }
+
+        $item->circuit_breakers = json_encode($cbs);
         $item->save();
 
         return JsonResponseHelper::ok('Circuit breaker muted');

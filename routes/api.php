@@ -66,7 +66,8 @@ Route::group(['prefix' => 'v1'], function () {
             Route::post('/watchlists/items', 'User\Watchlist\WatchlistController@addItem');
             Route::delete('/watchlists/items', 'User\Watchlist\WatchlistController@removeItem');
             Route::patch('/watchlists/items/{itemID}/circuitbreakers', 'User\Watchlist\WatchlistController@updateCircuitBreakers');
-            Route::patch('/watchlists/items/{itemID}/circuitbreakers/{cbKey}/mute', 'User\Watchlist\WatchlistController@muteCircuitBreaker');
+            Route::patch('/watchlists/items/{itemID}/circuitbreakers/state', 'User\Watchlist\WatchlistController@changeCircuitBreakerState');
+            Route::patch('/watchlists/items/{itemID}/circuitbreakers/mute', 'User\Watchlist\WatchlistController@muteCircuitBreaker');
         });
     });
 
