@@ -72,6 +72,54 @@ class WatchlistController extends Controller {
         return JsonResponseHelper::ok('Saved to watchlist');
     }
 
+    public function updateItem(Request $request)
+    {
+        $data = $request->post();
+        $validator = Validator::make($data, [
+            'item_id' => 'required|numeric',
+            'reference_target' => 'required|numeric',
+            'cb_json_str' => 'required'
+        ]);
+
+        if ($validator->fails()) {
+            return JsonResponseHelper::badRequest('', $validator->errors()->toArray());
+        }
+
+        try {
+            $cbs = json_decode($data['cb_json_str'], true);
+        } catch (\Exception $e) {
+            return JsonResponseHelper::badRequest('Unable to parse to valid JSON');
+        }
+
+        $cbs = $this->validateCircuitBreaker($cbs);
+
+        if (!$cbs) {
+            return JsonResponseHelper::badRequest('Invalid circuit breakers');
+        }
+
+        $item = WatchlistItem::where([
+            ['id', $data['item_id']],
+            ['user_id', auth()->user()->id],
+        ])->first();
+
+        if (!$item) {
+            return JsonResponseHelper::notFound();
+        }
+
+        $itemCbs = json_decode($item->circuit_breakers, true);
+
+        foreach ($cbs as $key => $cb) {
+            $cbs[$key]['mute_till'] = $itemCbs[$key]['mute_till'];
+            $cbs[$key]['last_triggered'] = $itemCbs[$key]['last_triggered'];
+        }
+
+        $item->reference_target = $data['reference_target'];
+        $item->circuit_breakers = json_encode($cbs);
+        $item->save();
+
+        return JsonResponseHelper::ok();
+    }
+
     public function removeItem(Request $request)
     {
         $itemID = $request->post('item');
@@ -171,7 +219,7 @@ class WatchlistController extends Controller {
         $cbs = json_decode($item->circuit_breakers, true);
 
         foreach ($cbs as $key => $cb) {
-            $cbs[$key]['is_active'] = $data['active'];
+            $cbs[$key]['is_active'] = $data['active'] ? true : false;
         }
 
         $item->circuit_breakers = json_encode($cbs);
@@ -202,7 +250,7 @@ class WatchlistController extends Controller {
 
         switch ($duration) {
             case 'week':
-                $muteTill = $muteTill->nextWeekday()->startOfWeek();
+                $muteTill = $muteTill->addWeek()->startOfWeek()->subDay()->endOfDay();
                 break;
             default:
                 $duration = intval($duration);
