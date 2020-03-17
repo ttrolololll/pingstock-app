@@ -98,6 +98,7 @@ class StockAlertingCmd extends Command
 
         // get all unique symbols from watchlist items
         $watchlistItemSymbols = WatchlistItem::select('stock_symbol')
+            ->whereIn('exchange_symbol', $exchangeSymbols)
             ->groupBy('stock_symbol')
             ->get()
             ->pluck('stock_symbol');
